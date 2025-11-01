@@ -16,9 +16,9 @@ Each Minecraft version has two modpacks: `_safe` and `_full`.
 This modpack does not include any preset configuration files.
 That means you can safely update your Minecraft instance without overwriting your current settings.
 
-## Contributions
+## Contributions & Suggestions
 
-Issues, suggestions for mod changes, additions, removals, alternatives or improvements can be submitted on the [GitHub Issues page](https://github.com/0byte-coding/mc_sodium_vanilla/issues).
+Issues, suggestions for mod additions, removals, or improvements — as well as alternative mod recommendations — can be submitted on the [GitHub Issues page](https://github.com/0byte-coding/mc_sodium_vanilla/issues).
 
 ## Mod List
 
