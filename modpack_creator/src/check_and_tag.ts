@@ -2,7 +2,7 @@ import { $ } from "bun"
 import { config } from "./config"
 import { export_modpack } from "./export_modpack"
 import { fetch_with_retry } from "./fetch_with_retry"
-import { create_tag_at_commit, find_latest_tag, get_tag_commit_hash, increment_version, parse_tag } from "./git_tag_manager"
+import { create_tag_at_commit, find_highest_global_version, find_latest_tag, get_tag_commit_hash, increment_version, parse_tag } from "./git_tag_manager"
 import { install_packwiz_content } from "./install_mods"
 import { get_safe_mod_list, mod_list } from "./mod_list"
 import { resource_pack_list } from "./resource_pack_list"
@@ -64,8 +64,17 @@ async function check_version(mc_version: string, index: number, total: number): 
 
     let new_modpack_version: string
     if (first_time) {
-      new_modpack_version = "0.1.0"
-      console.log("  ! No tag found - this is a new version")
+      // This is a new Minecraft version - find the highest version across all MC versions
+      const highest_global = await find_highest_global_version()
+      if (highest_global === "0.0.0") {
+        // Very first tag across all versions - start with 0.1.0
+        new_modpack_version = "0.1.0"
+        console.log("  ! No tags exist yet - starting with version 0.1.0")
+      } else {
+        // New MC version but other versions exist - increment from global highest
+        new_modpack_version = increment_version(highest_global)
+        console.log(`  ! No tag found for this MC version - using global highest version ${highest_global}, incrementing to ${new_modpack_version}`)
+      }
     } else {
       const parsed = parse_tag(latest_tag)
       const old_version = parsed?.modpack_version ?? "0.1.0"
