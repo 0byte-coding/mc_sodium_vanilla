@@ -111,11 +111,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "continuity",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "dynamic-fps",
       "category": "optimization",
       "method": "modrinth"
@@ -156,11 +151,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "krypton",
       "category": "optimization",
       "method": "modrinth"
@@ -171,18 +161,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "debugify",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "clumps",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "presence-footsteps",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -251,18 +231,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "better-mount-hud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "lmd",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "better-third-person",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -302,26 +272,6 @@
     },
     {
       "identifier": "sound",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cave-dust",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -375,10 +325,16 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-tracker-port",
+          "identifier": "chest-search-bar",
           "method": "modrinth"
         }
       ]
+    },
+    {
+      "identifier": "continuity",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
     },
     {
       "identifier": "memoryleakfix",
@@ -404,14 +360,32 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "emi",
+          "identifier": "rei",
           "method": "modrinth"
         },
         {
-          "identifier": "eiv",
+          "identifier": "emi",
           "method": "modrinth"
         }
       ]
+    },
+    {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "debugify",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "presence-footsteps",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
     },
     {
       "identifier": "ebe",
@@ -426,6 +400,18 @@
       "alternatives": []
     },
     {
+      "identifier": "better-mount-hud",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "what-are-they-up-to",
       "category": "cheating",
       "method": "modrinth",
@@ -434,6 +420,30 @@
     {
       "identifier": "tooltipfix",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -451,7 +461,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-search-bar",
+          "identifier": "chest-tracker-port",
           "method": "modrinth"
         }
       ]
@@ -462,7 +472,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "rei",
+          "identifier": "eiv",
           "method": "modrinth"
         }
       ]
