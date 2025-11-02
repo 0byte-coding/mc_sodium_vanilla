@@ -36,7 +36,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Lithium](https://modrinth.com/mod/lithium)
 - [ ] [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
 - [x] [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-- [ ] [ModernFix](https://modrinth.com/mod/modernfix)
+- [x] [ModernFix](https://modrinth.com/mod/modernfix)
 - [x] [Dynamic FPS](https://modrinth.com/mod/dynamic-fps)
 - [ ] [More Culling](https://modrinth.com/mod/moreculling)
 - [x] [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
@@ -52,8 +52,8 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 ### Visual
 
 - [ ] [Iris Shaders](https://modrinth.com/mod/iris)
-- [ ] [Mod Menu](https://modrinth.com/mod/modmenu)
-- [ ] [AppleSkin](https://modrinth.com/mod/appleskin)
+- [x] [Mod Menu](https://modrinth.com/mod/modmenu)
+- [x] [AppleSkin](https://modrinth.com/mod/appleskin)
 - [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [ ] [Zoomify](https://modrinth.com/mod/zoomify)
 - [x] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
@@ -63,7 +63,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [LambDynamicLights - Dynamic Lights](https://modrinth.com/mod/lambdynamiclights)
 - [x] [Chat Heads](https://modrinth.com/mod/chat-heads)
 - [ ] [Model Gap Fix](https://modrinth.com/mod/modelfix)
-- [ ] [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions)
+- [x] [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions)
 - [x] [BetterF3](https://modrinth.com/mod/betterf3)
 - [ ] [Visuality](https://modrinth.com/mod/visuality)
 - [x] [Falling Leaves](https://modrinth.com/mod/fallingleaves)
@@ -71,7 +71,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [Visual Workbench](https://modrinth.com/mod/visual-workbench)
 - [ ] [Dynamic Crosshair](https://modrinth.com/mod/dynamiccrosshair)
 - [ ] [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
-- [ ] [Better Third Person](https://modrinth.com/mod/better-third-person)
+- [x] [Better Third Person](https://modrinth.com/mod/better-third-person)
 - [ ] [Make Bubbles Pop](https://modrinth.com/mod/make_bubbles_pop)
 - [ ] [Durability Tooltip](https://modrinth.com/mod/durability-tooltip)
 - [ ] [ToolTipFix](https://modrinth.com/mod/tooltipfix)
@@ -84,7 +84,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
   - **Alternatives:**
     - [ ] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
 - [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
-- [ ] [Female Gender Mod](https://modrinth.com/mod/female-gender)
+- [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 
 ### Useful
 
@@ -103,8 +103,8 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [ ] [Sounds](https://modrinth.com/mod/sound)
 - [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
-- [ ] [Pistorder](https://modrinth.com/mod/pistorder)
-- [ ] [Respackopts](https://modrinth.com/mod/respackopts)
+- [x] [Pistorder](https://modrinth.com/mod/pistorder)
+- [x] [Respackopts](https://modrinth.com/mod/respackopts)
 
 ### Cheating
 
