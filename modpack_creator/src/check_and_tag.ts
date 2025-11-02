@@ -45,65 +45,12 @@ async function check_mojang_service_availability(): Promise<void> {
 }
 
 /**
- * Checks if a Minecraft version has changes WITHOUT creating commits or tags.
- * This is used in the first pass to detect if ANY version has changes.
+ * Checks a single Minecraft version: builds modpack, checks for changes, creates commits and tags.
  *
  * @param mc_version - The Minecraft version to check
  * @param index - The index of this version in the list (for progress display)
  * @param total - Total number of versions being checked
- * @returns Whether changes were detected
- */
-async function detect_changes_for_version(mc_version: string, index: number, total: number): Promise<boolean> {
-  console.log(`\n${"=".repeat(80)}`)
-  console.log(`[${index}/${total}] Checking Minecraft ${mc_version} for changes`)
-  console.log("=".repeat(80))
-
-  try {
-    // Set MC_VERSION environment variable for config
-    process.env.MC_VERSION = mc_version
-    config.app.mc_version = mc_version
-
-    // Build full version to check for changes
-    console.log("\n  Building modpack...")
-    const installation_result_full = await install_packwiz_content(mod_list, resource_pack_list)
-
-    if (installation_result_full.failed.length > 0) {
-      console.log(`  ⚠  ${installation_result_full.failed.length} mod(s) failed`)
-    } else {
-      console.log("  ✓ All mods installed successfully")
-    }
-
-    // Save installation state (this updates the state file)
-    await save_installation_state(installation_result_full)
-
-    // Update README
-    await update_readme(installation_result_full)
-
-    // Check if update is needed
-    console.log("\n  Checking for changes...")
-    const update_needed = await needs_update(mc_version, installation_result_full)
-
-    if (!update_needed) {
-      console.log("  ✓ No changes detected")
-      return false
-    }
-
-    console.log("  ✓ Changes detected!")
-    return true
-  } catch (error) {
-    console.error(`  ❌ Error checking ${mc_version}:`, error)
-    return false
-  }
-}
-
-/**
- * Processes a single Minecraft version: builds modpack, creates commits and tags.
- * Should only be called after determining the global modpack version.
- *
- * @param mc_version - The Minecraft version to check
- * @param index - The index of this version in the list (for progress display)
- * @param total - Total number of versions being checked
- * @param global_modpack_version - The modpack version to use for this build (determined globally)
+ * @param global_modpack_version - The modpack version to use for this build
  */
 async function check_version(mc_version: string, index: number, total: number, global_modpack_version: string): Promise<VersionCheckResult> {
   console.log(`\n${"=".repeat(80)}`)
@@ -280,53 +227,38 @@ export async function check_and_tag(): Promise<boolean> {
   const versions = await get_current_minecraft_versions()
   console.log(`✓ Found ${versions.length} valid Minecraft versions (>= 1.14)`)
 
-  // First pass: Detect if ANY version has changes
-  console.log(`\n${"=".repeat(80)}`)
-  console.log("FIRST PASS: DETECTING CHANGES")
-  console.log("=".repeat(80))
-
-  const change_detection_results: boolean[] = []
-  for (let i = 0; i < versions.length; i++) {
-    const version = versions[i]
+  // Check which versions are new (don't have existing tags)
+  console.log("\nChecking for new Minecraft versions...")
+  const new_versions: string[] = []
+  for (const version of versions) {
     if (!version) continue
-    const has_changes = await detect_changes_for_version(version, i + 1, versions.length)
-    change_detection_results.push(has_changes)
+    const latest_tag = await find_latest_tag(version)
+    if (!latest_tag) {
+      new_versions.push(version)
+    }
   }
 
-  const any_changes = change_detection_results.some((changed) => changed)
-
-  // Determine the global modpack version to use for this run
+  // Determine the global modpack version
   const highest_global = await find_highest_global_version()
   let global_modpack_version: string
 
   if (highest_global === "0.0.0") {
     // Very first run - start with 0.1.0
     global_modpack_version = "0.1.0"
-    console.log(`\nNo existing tags - starting with version ${global_modpack_version}`)
-  } else if (any_changes) {
-    // Changes detected - increment version
+    console.log(`No existing tags - starting with version ${global_modpack_version}`)
+  } else if (new_versions.length > 0) {
+    // New Minecraft versions detected - increment version
     global_modpack_version = increment_version(highest_global)
-    console.log(`\nChanges detected - incrementing version from ${highest_global} to ${global_modpack_version}`)
+    console.log(`✓ Found ${new_versions.length} new Minecraft version(s): ${new_versions.join(", ")}`)
+    console.log(`Incrementing modpack version from ${highest_global} to ${global_modpack_version}`)
   } else {
-    // No changes - keep same version
+    // No new versions - keep same version
     global_modpack_version = highest_global
-    console.log(`\nNo changes detected - keeping version ${global_modpack_version}`)
+    console.log(`No new Minecraft versions - keeping version ${global_modpack_version}`)
   }
 
-  if (!any_changes) {
-    console.log(`\n${"=".repeat(80)}`)
-    console.log("SUMMARY: NO CHANGES DETECTED")
-    console.log("=".repeat(80))
-    console.log("\nNo modpack changes found across any version.")
-    console.log("No git tags will be created.")
-    return false
-  }
-
-  // Second pass: Process each version with the determined global version
-  console.log(`\n${"=".repeat(80)}`)
-  console.log("SECOND PASS: CREATING COMMITS AND TAGS")
-  console.log("=".repeat(80))
-
+  // Check each version
+  console.log(`\nProcessing all ${versions.length} Minecraft versions with modpack version ${global_modpack_version}...`)
   const results: VersionCheckResult[] = []
   for (let i = 0; i < versions.length; i++) {
     const version = versions[i]
