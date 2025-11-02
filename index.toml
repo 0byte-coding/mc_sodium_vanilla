@@ -12,7 +12,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "829ca896439416c218b13b7044c7697126f2b2ddad0e6216b9d9d7f65be66a52"
+hash = "2be150a4dcdf580fa0defbd7ad950661e8e93daf308cb661aca9171912fc88ae"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "b03ed3030f06ae6b544e5abc92df3be91d1f617d2302e578b2b55fcba01ef4b1"
 metafile = true
 
 [[files]]
@@ -21,18 +31,8 @@ hash = "da1b3ee71d9ed1f17da4c85ca3da39af3e49fcc5bb032689613c4e00fc587a40"
 metafile = true
 
 [[files]]
-file = "mods/litematica.pw.toml"
-hash = "768d436000ebf9f0de1bfa42571dc26fe786ae66509b1949c2d7d7bdc233fbaa"
-metafile = true
-
-[[files]]
-file = "mods/malilib.pw.toml"
-hash = "2e9e3ad8c27bcccf8beb6cb96c19ff409549d1b603d5edbe9a6fb51ef82b8763"
-metafile = true
-
-[[files]]
-file = "mods/minihud.pw.toml"
-hash = "c26e234b5fc5e1400a09b24a72590e681f18bfe12cf553cfa7a92a0b92f80666"
+file = "mods/libipn.pw.toml"
+hash = "2201f39c79e876eec8c42484542bd654891b65bfff7b04f85252a4594d824633"
 metafile = true
 
 [[files]]
@@ -43,11 +43,6 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "04d04ca1f3d714fbb84a9255f974c9eee8ebdc991900977fa63a6cd528c0946f"
-metafile = true
-
-[[files]]
-file = "mods/tweakeroo.pw.toml"
-hash = "bce0331452b65b12b87d5e906309458f6a53260d7323d55eace4f3922657c8d7"
 metafile = true
 
 [[files]]
