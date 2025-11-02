@@ -1,0 +1,13 @@
+name = "Sodium Vanilla"
+author = "0_byte"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b5b25854a362dd4e6a72a23d36699f70070930ac95bf10d87527ab48ed476bc6"
+
+[versions]
+fabric = "0.17.3"
+minecraft = "1.21.10"

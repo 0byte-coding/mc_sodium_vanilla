@@ -1,0 +1,56 @@
+name: Manual Check and Tag
+
+on:
+  workflow_dispatch:
+    # Allow manual trigger
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  check_and_tag:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          # Fetch all history for tags
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add Go bin to PATH
+        run: echo "$HOME/go/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run: cd modpack_creator && bun install
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run check_and_tag
+        env:
+          MC_VERSION: "1.21"
+          MODRINTH_PAT_TOKEN: ${{ secrets.MODRINTH_PAT_TOKEN }}
+          MODRINTH_PROJECT_ID: ${{ secrets.MODRINTH_PROJECT_ID }}
+          MODRINTH_CLIENT_ID: ${{ secrets.MODRINTH_CLIENT_ID }}
+          MODRINTH_CLIENT_SECRET: ${{ secrets.MODRINTH_CLIENT_SECRET }}
+          NODE_ENV: production
+        run: cd modpack_creator && bun run check_and_tag

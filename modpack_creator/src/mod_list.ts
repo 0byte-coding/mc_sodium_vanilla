@@ -1,0 +1,484 @@
+import type { ModDefinitionWithAlternatives } from "./types"
+
+const mod_list_raw: ModDefinitionWithAlternatives[] = [
+  {
+    identifier: "fabric-api",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "sodium",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "cloth-config",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "iris",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "entityculling",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "ferrite-core",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "modmenu",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "lithium",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "immediatelyfast",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "sodium-extra",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "appleskin",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "modernfix",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "simple-voice-chat",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "tweakeroo",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "minihud",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "litematica",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "zoomify",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "xaeros-world-map",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "xaeros-minimap",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "freecam",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "distanthorizons",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "calcmod",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "chest-tracker",
+    category: "cheating",
+    method: "modrinth",
+    alternatives: [
+      {
+        identifier: "chest-tracker-port",
+        method: "modrinth"
+      },
+      {
+        identifier: "chest-search-bar",
+        method: "modrinth"
+      }
+    ]
+  },
+  {
+    identifier: "not-enough-animations",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "continuity",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "dynamic-fps",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "jade",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "no-chat-reports",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "moreculling",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "memoryleakfix",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "carpet",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "carpet-fixes",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "jei", // just enough items
+    category: "cheating",
+    method: "modrinth",
+    alternatives: [
+      {
+        identifier: "rei",
+        method: "modrinth"
+      },
+      {
+        identifier: "emi",
+        method: "modrinth"
+      },
+      {
+        identifier: "eiv",
+        method: "modrinth"
+      }
+    ]
+  },
+  {
+    identifier: "sound-physics-remastered",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "lambdynamiclights",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "mouse-tweaks",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "chat-heads",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "modelfix",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "krypton",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "enchantment-descriptions",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "debugify",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "clumps",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "presence-footsteps",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "betterf3",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "ebe",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "inventory-profiles-next",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "shulkerboxtooltip",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "visuality",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "fallingleaves",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "c2me-fabric", // basically only for server
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "ambientsounds",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "badoptimizations",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "yosbr", // Your Options Shall Be Respected (YOSBR), copies over settings but does not overwrite them if they exist
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "capes",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "visual-workbench",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "dynamiccrosshair",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "lazydfu",
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "rrls",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "better-mount-hud",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "lmd", // only server
+    category: "optimization",
+    method: "modrinth"
+  },
+  {
+    identifier: "better-third-person",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "replaymod",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "invmove",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "make_bubbles_pop",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "durability-tooltip",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "cut-through",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "what-are-they-up-to",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "tooltipfix",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "blur-plus",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "particle-rain",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "sound",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "show-me-your-skin",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "highlight",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "cave-dust",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "notenoughcrashes",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "rightclickharvest",
+    category: "cheating",
+    method: "modrinth",
+    alternatives: [
+      {
+        identifier: "simple-harvesting",
+        method: "modrinth"
+      }
+    ]
+  },
+  {
+    identifier: "particular",
+    category: "visual",
+    method: "modrinth",
+    alternatives: [
+      {
+        identifier: "particular-reforged",
+        method: "modrinth"
+      }
+    ]
+  },
+  {
+    identifier: "dripsounds",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "gamma-utils",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "female-gender",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "pistorder",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "respackopts",
+    category: "useful",
+    method: "modrinth"
+  }
+]
+
+export function get_mod_list(): ModDefinitionWithAlternatives[] {
+  const identifiers = new Set<string>()
+  const duplicates: string[] = []
+
+  for (const mod of mod_list_raw) {
+    if (identifiers.has(mod.identifier)) {
+      duplicates.push(mod.identifier)
+    }
+    identifiers.add(mod.identifier)
+
+    if (mod.alternatives) {
+      for (const alt of mod.alternatives) {
+        if (identifiers.has(alt.identifier)) {
+          duplicates.push(alt.identifier)
+        }
+        identifiers.add(alt.identifier)
+      }
+    }
+  }
+
+  if (duplicates.length > 0) {
+    console.error(`Duplicate identifiers found in mod_list: ${duplicates.join(", ")}`)
+    process.exit(1)
+  }
+
+  return mod_list_raw
+}
+
+export const mod_list = get_mod_list()
+
+export function get_safe_mod_list(): ModDefinitionWithAlternatives[] {
+  return mod_list.filter((mod) => mod.category !== "cheating")
+}

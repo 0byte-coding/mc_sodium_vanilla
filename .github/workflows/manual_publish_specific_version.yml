@@ -1,0 +1,60 @@
+name: Manual Publish Specific MC Version
+
+on:
+  workflow_dispatch:
+    branches:
+      - main
+    inputs:
+      mc_version:
+        description: 'Minecraft version to publish (e.g., 1.21.10)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  publish_specific_version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          # Fetch all history for tags
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add Go bin to PATH
+        run: echo "$HOME/go/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run: cd modpack_creator && bun install
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run publish_single_version for MC version ${{ inputs.mc_version }}
+        env:
+          MC_VERSION: ${{ inputs.mc_version }}
+          MODRINTH_PAT_TOKEN: ${{ secrets.MODRINTH_PAT_TOKEN }}
+          MODRINTH_PROJECT_ID: ${{ secrets.MODRINTH_PROJECT_ID }}
+          MODRINTH_CLIENT_ID: ${{ secrets.MODRINTH_CLIENT_ID }}
+          MODRINTH_CLIENT_SECRET: ${{ secrets.MODRINTH_CLIENT_SECRET }}
+          NODE_ENV: production
+        run: cd modpack_creator && bun run publish_single_version

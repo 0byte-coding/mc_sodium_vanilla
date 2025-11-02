@@ -1,0 +1,13 @@
+name = "Cut Through"
+filename = "CutThrough-v21.10.0+mc1.21.10-Fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Dk6su9JN/versions/HZ1B81ON/CutThrough-v21.10.0%2Bmc1.21.10-Fabric.jar"
+hash-format = "sha512"
+hash = "ba3cd01504e91d23aa9e7f55d8c20a7238dcf70f5571e75536ae6880b59c913080f760ddcbc710c565170cb183483836fbdf721e3f10b55823be54b6347622a8"
+
+[update]
+[update.modrinth]
+mod-id = "Dk6su9JN"
+version = "HZ1B81ON"

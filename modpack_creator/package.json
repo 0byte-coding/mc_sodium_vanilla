@@ -1,0 +1,36 @@
+{
+  "name": "modpack_creator",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "auto_update": "bun src/auto_update.ts",
+    "check_and_tag": "bun src/check_and_tag.ts",
+    "publish_to_modrinth": "bun src/publish_to_modrinth.ts",
+    "publish_single_version": "bun src/publish_single_version.ts",
+    "manual_build": "bun src/manual_build.ts",
+    "manual_build_safe": "bun src/manual_build.ts --safe",
+    "manual_build_full": "bun src/manual_build.ts --full",
+    "clean": "rimraf node_modules ./dist",
+    "build": "bun build --target=bun --production --outdir ./dist ./src/index.ts",
+    "test": "bun test",
+    "test_coverage": "bun run test --coverage",
+    "format": "biome format . --write",
+    "lint": "biome lint .",
+    "check": "biome check .",
+    "check_fix": "biome check . --write --unsafe",
+    "check_all": "bun run check_fix && bun run typecheck",
+    "check_and_test": "bun run check_all && bun run test_coverage",
+    "typecheck": "tsc --noEmit",
+    "changeset": "changeset",
+    "changeset_version": "changeset version"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.1",
+    "@changesets/cli": "^2.29.7",
+    "@types/bun": "latest",
+    "rimraf": "^6.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

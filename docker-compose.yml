@@ -1,0 +1,22 @@
+services:
+  dev:
+    build: .
+    profiles:
+      - dev
+    user: "1000:1000"
+    volumes:
+      - .:/app
+      - ~/.ssh:/home/ubuntu/.ssh:ro
+    command: sh -c "git config --global --add safe.directory /app && tail -f /dev/null"
+    working_dir: /app
+
+# Usage:
+
+#  Build and start the container with the dev profile
+#    docker compose --profile dev up -d
+#
+#  Attach to the running container
+#    docker compose exec dev bash
+#
+#  When done, stop the container
+#    docker compose --profile dev down
