@@ -84,7 +84,7 @@ async function check_version(mc_version: string, index: number, total: number): 
       console.log("  ✓ All mods installed successfully for safe version")
     }
 
-    const safe_export = await export_modpack("safe")
+    const safe_export = await export_modpack("safe", new_modpack_version)
     if (!safe_export) {
       throw new Error("Failed to export safe version")
     }
@@ -100,7 +100,7 @@ async function check_version(mc_version: string, index: number, total: number): 
       console.log("  ✓ All mods installed successfully for full version")
     }
 
-    const full_export = await export_modpack("full")
+    const full_export = await export_modpack("full", new_modpack_version)
     if (!full_export) {
       throw new Error("Failed to export full version")
     }
