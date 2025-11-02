@@ -52,7 +52,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 ### Visual
 
 - [ ] [Iris Shaders](https://modrinth.com/mod/iris)
-- [ ] [Mod Menu](https://modrinth.com/mod/modmenu)
+- [x] [Mod Menu](https://modrinth.com/mod/modmenu)
 - [ ] [AppleSkin](https://modrinth.com/mod/appleskin)
 - [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [ ] [Zoomify](https://modrinth.com/mod/zoomify)
@@ -66,7 +66,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions)
 - [x] [BetterF3](https://modrinth.com/mod/betterf3)
 - [ ] [Visuality](https://modrinth.com/mod/visuality)
-- [x] [Falling Leaves](https://modrinth.com/mod/fallingleaves)
+- [ ] [Falling Leaves](https://modrinth.com/mod/fallingleaves)
 - [ ] [Capes](https://modrinth.com/mod/capes)
 - [ ] [Visual Workbench](https://modrinth.com/mod/visual-workbench)
 - [ ] [Dynamic Crosshair](https://modrinth.com/mod/dynamiccrosshair)
@@ -83,7 +83,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [Particular ✨](https://modrinth.com/mod/particular)
   - **Alternatives:**
     - [ ] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
-- [ ] [Drip Sounds](https://modrinth.com/mod/dripsounds)
+- [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
 - [ ] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 
 ### Useful
@@ -96,11 +96,11 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [Carpet-Fixes](https://modrinth.com/mod/carpet-fixes)
 - [ ] [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)
 - [ ] [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks)
-- [ ] [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
+- [x] [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
 - [ ] [AmbientSounds](https://modrinth.com/mod/ambientsounds)
 - [x] [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
 - [ ] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
-- [ ] [ReplayMod](https://modrinth.com/mod/replaymod)
+- [x] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [ ] [Sounds](https://modrinth.com/mod/sound)
 - [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
 - [ ] [Pistorder](https://modrinth.com/mod/pistorder)
