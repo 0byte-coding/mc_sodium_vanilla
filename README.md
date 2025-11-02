@@ -29,7 +29,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 ### Optimization
 
 - [x] [Fabric API](https://modrinth.com/mod/fabric-api)
-- [ ] [Sodium](https://modrinth.com/mod/sodium)
+- [x] [Sodium](https://modrinth.com/mod/sodium)
 - [x] [Cloth Config API](https://modrinth.com/mod/cloth-config)
 - [x] [Entity Culling](https://modrinth.com/mod/entityculling)
 - [ ] [FerriteCore](https://modrinth.com/mod/ferrite-core)
@@ -56,7 +56,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [AppleSkin](https://modrinth.com/mod/appleskin)
 - [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [ ] [Zoomify](https://modrinth.com/mod/zoomify)
-- [ ] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
+- [x] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
 - [ ] [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
 - [ ] [Continuity](https://modrinth.com/mod/continuity)
 - [ ] [Jade 🔍](https://modrinth.com/mod/jade)
