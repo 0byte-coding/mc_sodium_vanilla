@@ -1,8 +1,7 @@
-import { $ } from "bun"
 import { config } from "./config"
 import { export_modpack } from "./export_modpack"
 import { fetch_with_retry } from "./fetch_with_retry"
-import { create_tag_at_commit, find_highest_global_version, find_latest_tag, get_tag_commit_hash, increment_version, parse_tag } from "./git_tag_manager"
+import { check_and_commit, create_tag_at_commit, find_highest_global_version, find_latest_tag, get_tag_commit_hash, increment_version, parse_tag, push_local_git_tags, push_tag, sync_local_head_to_remote } from "./git_tag_manager"
 import { install_packwiz_content } from "./install_mods"
 import { get_safe_mod_list, mod_list } from "./mod_list"
 import { resource_pack_list } from "./resource_pack_list"
@@ -25,7 +24,7 @@ interface VersionCheckResult {
  *
  * @throws Error if Mojang services are not reachable
  */
-async function check_mojang_service_availability(): Promise<void> {
+export async function check_mojang_service_availability(): Promise<void> {
   const MOJANG_VERSION_MANIFEST_URL = "https://launchermeta.mojang.com/mc/game/version_manifest.json"
 
   try {
@@ -148,41 +147,13 @@ async function check_version(mc_version: string, index: number, total: number, g
     const new_modpack_version = increment_version(version_to_use)
     console.log(`  ✓ Changes detected - incrementing version from ${version_to_use} to ${new_modpack_version}`)
 
-    // Check if there are actually uncommitted changes
-    const status_output = await $`git status --porcelain`.text()
-    const has_uncommitted_changes = status_output.trim().length > 0
-
+    const commit_status = await check_and_commit(`Update modpack for Minecraft ${mc_version}`)
     let commit_hash: string
-
-    if (has_uncommitted_changes) {
-      // Stage and commit changes
-      await $`git add -A`.quiet()
-      const commit_message = `Update modpack for Minecraft ${mc_version}`
-      await $`git commit -m ${commit_message}`.quiet()
-      console.log("  ✓ Committed changes")
-
-      // Get the commit hash we just created
-      const new_commit_hash = await $`git rev-parse HEAD`.text()
-      commit_hash = new_commit_hash.trim()
-
-      // Push the commit to the remote branch BEFORE creating tag
-      await $`git push`
-      console.log("  ✓ Pushed commit to remote")
-    } else {
+    if (commit_status.had_changes) commit_hash = commit_status.commit_hash ?? ""
+    else {
       // No uncommitted changes - check if current HEAD is pushed
       console.log("  ℹ  No uncommitted changes detected")
-
-      // Check if HEAD is already on remote
-      const local_head = (await $`git rev-parse HEAD`.text()).trim()
-      const remote_head = (await $`git rev-parse origin/main`.text()).trim()
-
-      if (local_head !== remote_head) {
-        console.log("  ⚠  Current HEAD not on remote, pushing...")
-        await $`git push`
-        console.log("  ✓ Pushed HEAD to remote")
-      }
-
-      commit_hash = local_head
+      commit_hash = await sync_local_head_to_remote() // use old hash
     }
 
     // Create the tag pointing to the now-pushed commit
@@ -191,7 +162,7 @@ async function check_version(mc_version: string, index: number, total: number, g
     console.log(`  ✓ Created tag ${new_tag}`)
 
     // Push the tag
-    await $`git push origin ${new_tag}`.quiet()
+    await push_tag(new_tag)
     console.log(`  ✓ Pushed tag ${new_tag}`)
 
     return {
@@ -331,7 +302,7 @@ export async function check_and_tag(): Promise<boolean> {
 
     // Push all unchanged tags at once
     console.log("\nPushing unchanged tags to remote...")
-    await $`git push --tags`.quiet()
+    await push_local_git_tags()
     console.log("✓ Pushed all unchanged tags")
   }
 

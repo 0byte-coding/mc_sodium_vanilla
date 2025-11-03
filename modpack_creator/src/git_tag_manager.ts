@@ -164,6 +164,47 @@ export function increment_version(version: string): string {
   return `${major}.${minor}.${patch + 1}`
 }
 
+export async function check_and_commit(commit_message: string) {
+  // Check if there are actually uncommitted changes
+  const status_output = await $`git status --porcelain`.text()
+  const has_uncommitted_changes = status_output.trim().length > 0
+
+  if (has_uncommitted_changes) {
+    // Stage and commit changes
+    await $`git add -A`.quiet()
+    await $`git commit -m ${commit_message}`.quiet()
+    console.log("  ✓ Committed changes")
+
+    // Get the commit hash we just created
+    const new_commit_hash = await $`git rev-parse HEAD`.text()
+    const commit_hash = new_commit_hash.trim()
+
+    // Push the commit to the remote branch
+    await $`git push`
+    console.log("  ✓ Pushed commit to remote")
+    return { had_changes: true, commit_hash: commit_hash }
+  }
+  return { had_changes: false, commit_hash: undefined }
+}
+
+export async function sync_local_head_to_remote() {
+  // Check if HEAD is already on remote
+  const local_head = (await $`git rev-parse HEAD`.text()).trim()
+  const remote_head = (await $`git rev-parse origin/main`.text()).trim()
+
+  if (local_head !== remote_head) {
+    console.log("  ⚠  Current HEAD not on remote, pushing...")
+    await $`git push`
+    console.log("  ✓ Pushed HEAD to remote")
+  }
+
+  return local_head
+}
+
+export async function push_local_git_tags() {
+  await $`git push --tags`.quiet()
+}
+
 /**
  * Creates an annotated git tag.
  *
