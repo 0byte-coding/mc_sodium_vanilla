@@ -8,7 +8,7 @@ import { get_safe_mod_list, mod_list } from "./mod_list"
 import { resource_pack_list } from "./resource_pack_list"
 import { needs_update } from "./update_detector"
 import { update_readme } from "./update_readme"
-import { get_current_minecraft_versions } from "./version_discovery"
+import { compare_versions, get_current_minecraft_versions } from "./version_discovery"
 import { save_installation_state } from "./write_mod_list"
 
 interface VersionCheckResult {
@@ -292,25 +292,38 @@ export async function check_and_tag(): Promise<boolean> {
     return false
   }
 
+  // Determine the actual new global version by finding the highest version among changed versions
+  const changed_results = results.filter((r) => r.status === "changed" || r.status === "new")
+  let actual_new_version = global_modpack_version
+  for (const result of changed_results) {
+    if (result.new_tag) {
+      const parsed = parse_tag(result.new_tag)
+      if (parsed && compare_versions(parsed.modpack_version, actual_new_version) > 0) {
+        actual_new_version = parsed.modpack_version
+      }
+    }
+  }
+
   // Changed versions already have their tags created and pushed
-  // Now create tags for unchanged versions (pointing to old commits)
+  // Now create tags for unchanged versions (pointing to old commits with new version number)
   const unchanged_results = results.filter((r) => r.status === "unchanged")
 
   if (unchanged_results.length > 0) {
     console.log(`\n${"=".repeat(80)}`)
     console.log("CREATING TAGS FOR UNCHANGED VERSIONS")
     console.log("=".repeat(80))
-    console.log("\nCreating tags for unchanged versions...")
+    console.log(`\nCreating tags for unchanged versions using version ${actual_new_version}...`)
 
     for (const result of unchanged_results) {
-      if (result.status === "error" || !result.new_tag) {
+      if (result.status === "error") {
         continue
       }
 
-      // Create tag pointing to old commit
+      // Create tag with the actual new version number, pointing to old commit
+      const new_tag_name = `${result.mc_version}_${actual_new_version}`
       if (result.commit_hash) {
-        await create_tag_at_commit(result.new_tag, `Release modpack v${parse_tag(result.new_tag)?.modpack_version} for Minecraft ${result.mc_version} (no changes from previous version)`, result.commit_hash)
-        console.log(`  ✓ Created tag ${result.new_tag} (pointing to same commit as ${result.old_tag})`)
+        await create_tag_at_commit(new_tag_name, `Release modpack v${actual_new_version} for Minecraft ${result.mc_version} (no changes from previous version)`, result.commit_hash)
+        console.log(`  ✓ Created tag ${new_tag_name} (pointing to same commit as ${result.old_tag})`)
       } else {
         console.log(`  ⚠  Cannot create tag for ${result.mc_version} - no commit hash available`)
       }
