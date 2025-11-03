@@ -1,0 +1,13 @@
+name = "Carpet"
+filename = "fabric-carpet-1.15.2-1.4.8+v200811.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/TQTTVgYE/versions/AL0o28FC/fabric-carpet-1.15.2-1.4.8%2Bv200811.jar"
+hash-format = "sha512"
+hash = "6778ddb9f1f146155ca45986b82b2f448cbc8ccc919cf1a52f892425a4d32ff7de651c9b43b7860114c6c15eae6bd926fdc79a4f37a06c4f0a8dfb174e8d4baf"
+
+[update]
+[update.modrinth]
+mod-id = "TQTTVgYE"
+version = "AL0o28FC"
