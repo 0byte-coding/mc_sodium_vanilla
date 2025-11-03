@@ -54,9 +54,12 @@ describe("list_tags_for_version", () => {
   it("should list tags for version 1.14", async () => {
     const tags = await list_tags_for_version("1.14")
     expect(tags).toBeInstanceOf(Array)
-    // Should find at least the 1.14_0.1.0 tag that exists
+    // Should find at least one tag for version 1.14
     expect(tags.length).toBeGreaterThan(0)
-    expect(tags).toContain("1.14_0.1.0")
+    // Check that all returned tags match the expected format
+    for (const tag of tags) {
+      expect(tag).toMatch(/^1\.14_\d+\.\d+\.\d+$/)
+    }
   })
 
   it("should return empty array for non-existent version", async () => {

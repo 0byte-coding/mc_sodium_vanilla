@@ -179,8 +179,14 @@ export function increment_version(version: string): string {
 export async function create_tag(tag_name: string, message: string): Promise<void> {
   try {
     await $`git tag -a ${tag_name} -m ${message}`.quiet()
-  } catch (error) {
-    throw new Error(`Failed to create tag ${tag_name}: ${error}`)
+  } catch (error: unknown) {
+    const error_details = error instanceof Error ? error.message : String(error)
+    // Check if tag already exists
+    const existing_tags = await $`git tag -l ${tag_name}`.text()
+    if (existing_tags.trim() === tag_name) {
+      throw new Error(`Failed to create tag ${tag_name}: Tag already exists. Use a different version number or delete the existing tag first.`)
+    }
+    throw new Error(`Failed to create git tag ${tag_name}: ${error_details}`)
   }
 }
 
@@ -198,8 +204,9 @@ export async function create_tag(tag_name: string, message: string): Promise<voi
 export async function push_tag(tag_name: string): Promise<void> {
   try {
     await $`git push origin ${tag_name}`.quiet()
-  } catch (error) {
-    throw new Error(`Failed to push tag ${tag_name}: ${error}`)
+  } catch (error: unknown) {
+    const error_details = error instanceof Error ? error.message : String(error)
+    throw new Error(`Failed to push tag ${tag_name} to remote: ${error_details}. Check network connection and remote permissions.`)
   }
 }
 
@@ -285,8 +292,16 @@ export async function create_tag_at_commit(tag_name: string, message: string, co
     } else {
       await $`git tag -a ${tag_name} -m ${message}`.quiet()
     }
-  } catch (error) {
-    throw new Error(`Failed to create tag ${tag_name}: ${error}`)
+  } catch (error: unknown) {
+    const error_details = error instanceof Error ? error.message : String(error)
+    // Check if tag already exists
+    const existing_tags = await $`git tag -l ${tag_name}`.text()
+    if (existing_tags.trim() === tag_name) {
+      const commit_info = commit_hash ? ` at commit ${commit_hash.substring(0, 7)}` : " at HEAD"
+      throw new Error(`Failed to create tag ${tag_name}${commit_info}: Tag already exists. Use a different version number or delete the existing tag first.`)
+    }
+    const commit_info = commit_hash ? ` at commit ${commit_hash.substring(0, 7)}` : " at HEAD"
+    throw new Error(`Failed to create git tag ${tag_name}${commit_info}: ${error_details}`)
   }
 }
 

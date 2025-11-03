@@ -50,7 +50,7 @@ async function check_mojang_service_availability(): Promise<void> {
  * @param mc_version - The Minecraft version to check
  * @param index - The index of this version in the list (for progress display)
  * @param total - Total number of versions being checked
- * @param global_modpack_version - The modpack version to use for this build
+ * @param global_modpack_version - The modpack version to use for new versions without existing tags
  */
 async function check_version(mc_version: string, index: number, total: number, global_modpack_version: string): Promise<VersionCheckResult> {
   console.log(`\n${"=".repeat(80)}`)
@@ -66,9 +66,20 @@ async function check_version(mc_version: string, index: number, total: number, g
     const latest_tag = await find_latest_tag(mc_version)
     const first_time = !latest_tag
 
+    // Determine version to use:
+    // - For new MC versions (no tag): use global_modpack_version
+    // - For existing versions with changes: increment from their latest tag
+    let version_to_use: string
     if (first_time) {
-      console.log(`  ! No tag found for this MC version - will use version ${global_modpack_version}`)
+      version_to_use = global_modpack_version
+      console.log(`  ! No tag found for this MC version - will use version ${version_to_use}`)
     } else {
+      const parsed_latest = parse_tag(latest_tag)
+      if (!parsed_latest) {
+        throw new Error(`Failed to parse latest tag: ${latest_tag}`)
+      }
+      // We'll increment later if changes are detected
+      version_to_use = parsed_latest.modpack_version
       console.log(`  ✓ Found latest tag: ${latest_tag}`)
     }
 
@@ -83,7 +94,7 @@ async function check_version(mc_version: string, index: number, total: number, g
       console.log("  ✓ All mods installed successfully for safe version")
     }
 
-    const safe_export = await export_modpack("safe", global_modpack_version)
+    const safe_export = await export_modpack("safe", version_to_use)
     if (!safe_export) {
       throw new Error("Failed to export safe version")
     }
@@ -99,7 +110,7 @@ async function check_version(mc_version: string, index: number, total: number, g
       console.log("  ✓ All mods installed successfully for full version")
     }
 
-    const full_export = await export_modpack("full", global_modpack_version)
+    const full_export = await export_modpack("full", version_to_use)
     if (!full_export) {
       throw new Error("Failed to export full version")
     }
@@ -128,12 +139,14 @@ async function check_version(mc_version: string, index: number, total: number, g
         mc_version,
         status: "unchanged",
         old_tag: latest_tag ?? undefined,
-        new_tag: `${mc_version}_${global_modpack_version}`,
+        new_tag: `${mc_version}_${version_to_use}`,
         commit_hash: old_commit_hash
       }
     }
 
-    console.log("  ✓ Changes detected - preparing to commit and tag...")
+    // Changes detected! Increment version from this version's latest tag
+    const new_modpack_version = increment_version(version_to_use)
+    console.log(`  ✓ Changes detected - incrementing version from ${version_to_use} to ${new_modpack_version}`)
 
     // Check if there are actually uncommitted changes
     const status_output = await $`git status --porcelain`.text()
@@ -173,8 +186,8 @@ async function check_version(mc_version: string, index: number, total: number, g
     }
 
     // Create the tag pointing to the now-pushed commit
-    const new_tag = `${mc_version}_${global_modpack_version}`
-    await create_tag_at_commit(new_tag, `Release modpack v${global_modpack_version} for Minecraft ${mc_version}`, commit_hash)
+    const new_tag = `${mc_version}_${new_modpack_version}`
+    await create_tag_at_commit(new_tag, `Release modpack v${new_modpack_version} for Minecraft ${mc_version}`, commit_hash)
     console.log(`  ✓ Created tag ${new_tag}`)
 
     // Push the tag
