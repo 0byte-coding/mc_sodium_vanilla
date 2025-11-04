@@ -1,13 +1,13 @@
 name = "MiniHUD"
-filename = "minihud-fabric-1.18.0-0.19.0-dev.20211204.230657.jar"
+filename = "minihud-fabric-1.18.2-0.22.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/UMxybHE8/versions/hf0kOG77/minihud-fabric-1.18.0-0.19.0-dev.20211204.230657.jar"
+url = "https://cdn.modrinth.com/data/UMxybHE8/versions/KrxnIkCA/minihud-fabric-1.18.2-0.22.1.jar"
 hash-format = "sha512"
-hash = "cea8d20cc331388d3014f8a44b656e3e5e28c8b0a16d6d727ae8f2620849bd13dd32a8994cfd45cc79f658a5317b9c1eba06c7458d93375e4e902337a0ecb22b"
+hash = "d09055940c76900776c32330a7bab89a53d092705519d97099fd900124c596e5ffb8a51f0bc89cc32fc77223c8f59cd9882e8ac0c3bf215444414f1ec4e08f6f"
 
 [update]
 [update.modrinth]
 mod-id = "UMxybHE8"
-version = "hf0kOG77"
+version = "KrxnIkCA"
