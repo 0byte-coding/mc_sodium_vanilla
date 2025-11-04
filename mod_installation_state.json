@@ -56,6 +56,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -345,6 +350,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "tooltipfix",
       "category": "visual",
       "method": "modrinth"
@@ -418,19 +428,7 @@
   ],
   "failed": [
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "cut-through",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "what-are-they-up-to",
       "category": "cheating",
       "method": "modrinth",
       "alternatives": []
