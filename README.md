@@ -76,7 +76,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Durability Tooltip](https://modrinth.com/mod/durability-tooltip)
 - [x] [ToolTipFix](https://modrinth.com/mod/tooltipfix)
 - [x] [Blur+](https://modrinth.com/mod/blur-plus)
-- [ ] [Particle Rain](https://modrinth.com/mod/particle-rain)
+- [x] [Particle Rain](https://modrinth.com/mod/particle-rain)
 - [x] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
 - [x] [Highlight](https://modrinth.com/mod/highlight)
 - [x] [Cave Dust](https://modrinth.com/mod/cave-dust)
