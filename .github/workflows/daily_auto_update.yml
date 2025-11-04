@@ -35,7 +35,7 @@ jobs:
           go-version: 'stable'
 
       - name: Install packwiz
-        run: go install github.com/packwiz/packwiz@adfe66935c410cdeebabbce702abe65fb1b90ddb
+        run: go install github.com/0byte-coding/packwiz@6c82404e86cffa5fcef7dd259a93fcf5080ddfb3
 
       - name: Add Go bin to PATH
         run: echo "$HOME/go/bin" >> $GITHUB_PATH
