@@ -1,0 +1,13 @@
+name = "Forge Config API Port"
+filename = "ForgeConfigAPIPort-v21.3.4-1.21.3-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ohNO6lps/versions/oOGtBSNs/ForgeConfigAPIPort-v21.3.4-1.21.3-Fabric.jar"
+hash-format = "sha512"
+hash = "7ecc698c93d82a39809f5088c535fae4f7b5b2c70e1191f6369d5a1d7079b70dafc77335e86bc69bb198423998e2661449a5ac94acf3dae2ce07391dc682dc7b"
+
+[update]
+[update.modrinth]
+mod-id = "ohNO6lps"
+version = "oOGtBSNs"
