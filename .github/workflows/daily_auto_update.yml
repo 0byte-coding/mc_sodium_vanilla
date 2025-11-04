@@ -1,9 +1,9 @@
 name: Daily Auto Update
 
 on:
-  # schedule:
-  #   # Run every day at 1:00 AM UTC
-  #   - cron: '0 1 * * *'
+  schedule:
+    # Run every day at 1:00 AM UTC
+    - cron: '0 1 * * *'
   workflow_dispatch:
     # Allow manual trigger
     branches:
