@@ -11,6 +11,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "entityculling",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "tweakeroo",
       "category": "cheating",
       "method": "modrinth"
@@ -31,11 +36,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "dynamic-fps",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth"
@@ -46,8 +46,23 @@
       "method": "modrinth"
     },
     {
+      "identifier": "chat-heads",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "betterf3",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "inventory-profiles-next",
       "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "fallingleaves",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -61,9 +76,25 @@
       "method": "modrinth"
     },
     {
+      "identifier": "invmove",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
+    },
+    {
+      "identifier": "rightclickharvest",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
     }
   ],
   "failed": [
@@ -76,12 +107,6 @@
     {
       "identifier": "iris",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "entityculling",
-      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
@@ -191,6 +216,12 @@
       "alternatives": []
     },
     {
+      "identifier": "dynamic-fps",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "jade",
       "category": "visual",
       "method": "modrinth",
@@ -248,12 +279,6 @@
       "alternatives": []
     },
     {
-      "identifier": "chat-heads",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "modelfix",
       "category": "visual",
       "method": "modrinth",
@@ -290,12 +315,6 @@
       "alternatives": []
     },
     {
-      "identifier": "betterf3",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
@@ -309,12 +328,6 @@
     },
     {
       "identifier": "visuality",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "fallingleaves",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -386,12 +399,6 @@
       "alternatives": []
     },
     {
-      "identifier": "invmove",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "make_bubbles_pop",
       "category": "visual",
       "method": "modrinth",
@@ -456,17 +463,6 @@
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
-    },
-    {
-      "identifier": "rightclickharvest",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
     },
     {
       "identifier": "particular",
