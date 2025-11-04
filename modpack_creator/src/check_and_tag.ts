@@ -143,9 +143,17 @@ async function check_version(mc_version: string, index: number, total: number, g
       }
     }
 
-    // Changes detected! Increment version from this version's latest tag
-    const new_modpack_version = increment_version(version_to_use)
-    console.log(`  ✓ Changes detected - incrementing version from ${version_to_use} to ${new_modpack_version}`)
+    // Changes detected!
+    let new_modpack_version: string
+    if (first_time) {
+      // For new MC versions, use the global version directly (already incremented if needed)
+      new_modpack_version = version_to_use
+      console.log(`  ✓ Changes detected (new MC version) - using version ${new_modpack_version}`)
+    } else {
+      // For existing versions with changes, increment from their latest tag
+      new_modpack_version = increment_version(version_to_use)
+      console.log(`  ✓ Changes detected - incrementing version from ${version_to_use} to ${new_modpack_version}`)
+    }
 
     const commit_status = await check_and_commit(`Update modpack for Minecraft ${mc_version}`)
     let commit_hash: string
@@ -251,14 +259,14 @@ export async function check_and_tag(): Promise<boolean> {
     results.push(result)
   }
 
-  // Check if we have any changes at all
+  // Check if we have any changes at all or new versions
   const has_changes = results.some((r) => r.status === "changed" || r.status === "new")
 
-  if (!has_changes) {
+  if (!has_changes && new_versions.length === 0) {
     console.log(`\n${"=".repeat(80)}`)
     console.log("SUMMARY: NO CHANGES DETECTED")
     console.log("=".repeat(80))
-    console.log("\nNo modpack changes found across any version.")
+    console.log("\nNo modpack changes found across any version and no new Minecraft versions.")
     console.log("No git tags will be created.")
     return false
   }

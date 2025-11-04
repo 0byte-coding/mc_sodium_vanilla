@@ -103,11 +103,11 @@ describe("check_and_tag", () => {
     // Verify
     expect(result).toBe(true)
 
-    // Verify that no tags were created (create_tag_at_commit should not be called)
-    expect(create_tag_spy).toHaveBeenCalledTimes(0)
+    // Verify that tags were created for all 3 new MC versions
+    expect(create_tag_spy).toHaveBeenCalledTimes(3)
     expect(spy_get_tag_commit_hash).toHaveBeenCalledTimes(0)
 
-    // Check that all versions got 0.1.7 tags
+    // Check that all versions got 0.1.0 tags
     const expected_tags = ["1.14_0.1.0", "1.14.1_0.1.0", "1.14.2_0.1.0"]
 
     for (const expected_tag of expected_tags) {
