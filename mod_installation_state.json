@@ -170,8 +170,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "krypton",
-      "category": "optimization",
+      "identifier": "modelfix",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -182,6 +182,11 @@
     {
       "identifier": "clumps",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "presence-footsteps",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -250,6 +255,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "better-mount-hud",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "lmd",
       "category": "optimization",
       "method": "modrinth"
@@ -304,11 +314,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth"
     },
     {
       "identifier": "gamma-utils",
@@ -374,20 +379,14 @@
       "alternatives": []
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
+      "identifier": "krypton",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
       "identifier": "debugify",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "presence-footsteps",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -400,12 +399,6 @@
     {
       "identifier": "lazydfu",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "better-mount-hud",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -453,6 +446,12 @@
     },
     {
       "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "dripsounds",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
