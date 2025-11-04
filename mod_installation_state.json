@@ -81,6 +81,16 @@
       "method": "modrinth"
     },
     {
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "freecam",
       "category": "cheating",
       "method": "modrinth"
@@ -123,6 +133,11 @@
     {
       "identifier": "dynamic-fps",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "jade",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -182,6 +197,11 @@
     {
       "identifier": "mouse-tweaks",
       "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "chat-heads",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -255,6 +275,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "badoptimizations",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "yosbr",
       "category": "useful",
       "method": "modrinth"
@@ -320,11 +345,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "show-me-your-skin",
       "category": "visual",
       "method": "modrinth"
@@ -379,36 +399,6 @@
       "alternatives": []
     },
     {
-      "identifier": "xaeros-world-map",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "jade",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "chat-heads",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "badoptimizations",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "rrls",
       "category": "useful",
       "method": "modrinth",
@@ -429,6 +419,12 @@
     {
       "identifier": "what-are-they-up-to",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "particle-rain",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
