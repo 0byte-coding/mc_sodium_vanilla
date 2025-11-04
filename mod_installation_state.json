@@ -16,6 +16,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modmenu",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "tweakeroo",
       "category": "cheating",
       "method": "modrinth"
@@ -51,6 +56,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "presence-footsteps",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "betterf3",
       "category": "visual",
       "method": "modrinth"
@@ -61,11 +71,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "fallingleaves",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "yosbr",
       "category": "useful",
       "method": "modrinth"
@@ -73,6 +78,11 @@
     {
       "identifier": "lazydfu",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "replaymod",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -95,6 +105,11 @@
           "method": "modrinth"
         }
       ]
+    },
+    {
+      "identifier": "dripsounds",
+      "category": "visual",
+      "method": "modrinth"
     }
   ],
   "failed": [
@@ -113,12 +128,6 @@
     {
       "identifier": "ferrite-core",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "modmenu",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -309,12 +318,6 @@
       "alternatives": []
     },
     {
-      "identifier": "presence-footsteps",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
@@ -328,6 +331,12 @@
     },
     {
       "identifier": "visuality",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "fallingleaves",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -389,12 +398,6 @@
     {
       "identifier": "better-third-person",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "replaymod",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -474,12 +477,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
     },
     {
       "identifier": "gamma-utils",
