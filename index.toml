@@ -1,8 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "8661d8c2a6a20c231668b36be69d34d7e39afc499163454d5cfb2bc6378a9158"
+metafile = true
+
+[[files]]
 file = "mods/calcmod.pw.toml"
 hash = "23d5f6d399f07babeb4bed1f31756a0a0b70a78433362a30e2fbad67114952d9"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "f1f1dceb5e391eab973c95cd0233419118512bb4068228dbc98cec0e64639f02"
 metafile = true
 
 [[files]]
@@ -17,12 +27,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "193809c5ddb7edd3ff62539dcde50e4e8866e75247cdcd511b92761b8f3bf4fc"
+hash = "1b5c1cb51a6e9e7ff349e2c8e011e87580268cb760b15a15051f95355cb380f1"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
+metafile = true
+
+[[files]]
+file = "mods/gamma-utils.pw.toml"
+hash = "939b5edeed396525540f3f67bb1046efafcf795f0ec546927fa2d671729c5892"
 metafile = true
 
 [[files]]
@@ -42,22 +57,42 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "2d6762f5e12ca0feafe8c8978b3005e0428210108fa620c6c87955e4daa4e5cd"
+hash = "3dc06b68cedc2a877448163c08aed7ec8229bcf06c5ab1333fb76206ccf564ac"
 metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "43f1db342b0bcecd643db6963099473d44a85cefe6291800686d9c6bb48428f0"
+hash = "fd8c8e6075140bba1eb678706d77fed199e4f69fc129f896a177c1b3b4297b7b"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "29ab91e23d3b9045c0074fd3d15ae625ab054de8a911cd2f814a04fcc8b18f63"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "89c6258ef91cb3b61a6d20801ab420eead9b2dbfa960fad6dd2a428234afcf2b"
+hash = "408e6ceab4f0ea44b76dd66f51d5021997041c1475b0ee655862777aa47ac76f"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "0ebd99da7bad78d9cad03ab5457414ddf391a749c8952d8f23d21ff4c25b7d56"
+metafile = true
+
+[[files]]
+file = "mods/pistorder.pw.toml"
+hash = "183d8153c8b02ad0f755bbec860bdae23164e7459cd46061352a6d03a8e3b8ce"
 metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
 hash = "c92359c405808fd391e4f8ea93ebdae01911b98d2c5baec2c41bb897b748a6fc"
+metafile = true
+
+[[files]]
+file = "mods/replaymod.pw.toml"
+hash = "ef6905c6b62919b8d39573adf1e5cf196aa28690238005d73ddd213c0b7ee082"
 metafile = true
 
 [[files]]
@@ -67,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "c05b8b6405d9af8857cc2a8db94014c479417e1a461d3faea356cbdb527e4590"
+hash = "8b3635efbe6137e3e54bc4c531f0de44a6f7c7ef7f034501eafc209387d34e79"
 metafile = true
 
 [[files]]
