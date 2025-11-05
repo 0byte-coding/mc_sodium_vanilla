@@ -11,8 +11,13 @@ hash = "3d55a97429013c0384c818808c5b92bed4f7ecde300a2682d2471275b72c450d"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "8cc048340be8ac373b0a9b29afa1a4cd5e194698f37d7a45167f21497185a82b"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "94f02eeb29b1d09a820d38746f15dad2dda643337f6a8bad4a136d5b594e3754"
+hash = "193809c5ddb7edd3ff62539dcde50e4e8866e75247cdcd511b92761b8f3bf4fc"
 metafile = true
 
 [[files]]
@@ -37,17 +42,17 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "c0d430c0f526bd6d5fc0c16d1cc60d1cef17ba9e4ce91bb4679d00bdf8977633"
+hash = "2d6762f5e12ca0feafe8c8978b3005e0428210108fa620c6c87955e4daa4e5cd"
 metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "dd6cb06210cc7fe7025202090d977bd4f79b2b9d9082d53bd0abe66c7c982506"
+hash = "43f1db342b0bcecd643db6963099473d44a85cefe6291800686d9c6bb48428f0"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "92e20dfcc8539f6ad04175ab01813bf5e9dd6af73a484f2b3a6f0c76b117ce92"
+hash = "89c6258ef91cb3b61a6d20801ab420eead9b2dbfa960fad6dd2a428234afcf2b"
 metafile = true
 
 [[files]]
@@ -62,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "d3885cbe1d9b428e19a93d4d12501f437e432d9964bc7333a9220430344686bd"
+hash = "c05b8b6405d9af8857cc2a8db94014c479417e1a461d3faea356cbdb527e4590"
 metafile = true
 
 [[files]]
