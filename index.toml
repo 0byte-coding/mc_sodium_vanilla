@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "2be150a4dcdf580fa0defbd7ad950661e8e93daf308cb661aca9171912fc88ae"
+hash = "94f02eeb29b1d09a820d38746f15dad2dda643337f6a8bad4a136d5b594e3754"
 metafile = true
 
 [[files]]
@@ -36,6 +36,21 @@ hash = "2201f39c79e876eec8c42484542bd654891b65bfff7b04f85252a4594d824633"
 metafile = true
 
 [[files]]
+file = "mods/litematica.pw.toml"
+hash = "c0d430c0f526bd6d5fc0c16d1cc60d1cef17ba9e4ce91bb4679d00bdf8977633"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "dd6cb06210cc7fe7025202090d977bd4f79b2b9d9082d53bd0abe66c7c982506"
+metafile = true
+
+[[files]]
+file = "mods/minihud.pw.toml"
+hash = "92e20dfcc8539f6ad04175ab01813bf5e9dd6af73a484f2b3a6f0c76b117ce92"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 hash = "c92359c405808fd391e4f8ea93ebdae01911b98d2c5baec2c41bb897b748a6fc"
 metafile = true
@@ -43,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "04d04ca1f3d714fbb84a9255f974c9eee8ebdc991900977fa63a6cd528c0946f"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo.pw.toml"
+hash = "d3885cbe1d9b428e19a93d4d12501f437e432d9964bc7333a9220430344686bd"
 metafile = true
 
 [[files]]
