@@ -77,9 +77,9 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [ToolTipFix](https://modrinth.com/mod/tooltipfix)
 - [x] [Blur+](https://modrinth.com/mod/blur-plus)
 - [x] [Particle Rain](https://modrinth.com/mod/particle-rain)
-- [ ] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
+- [x] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
 - [x] [Highlight](https://modrinth.com/mod/highlight)
-- [x] [Cave Dust](https://modrinth.com/mod/cave-dust)
+- [ ] [Cave Dust](https://modrinth.com/mod/cave-dust)
 - [ ] [Particular ✨](https://modrinth.com/mod/particular)
   - **Alternatives:**
     - [x] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
@@ -114,8 +114,8 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Freecam](https://modrinth.com/mod/freecam)
 - [ ] [Chest Tracker](https://modrinth.com/mod/chest-tracker)
   - **Alternatives:**
-    - [ ] [Chest Tracker (Unofficial port)](https://modrinth.com/mod/chest-tracker-port)
-    - [x] [Chest Search Bar](https://modrinth.com/mod/chest-search-bar)
+    - [x] [Chest Tracker (Unofficial port)](https://modrinth.com/mod/chest-tracker-port)
+    - [ ] [Chest Search Bar](https://modrinth.com/mod/chest-search-bar)
 - [ ] [Just Enough Items](https://modrinth.com/mod/jei)
   - **Alternatives:**
     - [x] [Roughly Enough Items (REI)](https://modrinth.com/mod/rei)
