@@ -31,23 +31,23 @@ hash = "a26a0a294e686d0e557250ab6fbb9e9d82594d25f2064b5c9a29f0879babe308"
 metafile = true
 
 [[files]]
+file = "mods/dripsounds.pw.toml"
+hash = "e14b127c1b1b301f728605283e0202fdb3503b93fc9a03c64ea0e7baf20aa3ed"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "3d1a4ebd412895288db82d9ba70a82ffbdd4f811710c6590e90f8be46d674325"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "7549205820740909b6e9a8bf8bc2d1b13e0181432b78d65fc0ef878e1ebbc457"
+hash = "1dc5cd1b1181555ca4394ba1f46d333810b47794dd84be72c5688325e9ff4a28"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
-metafile = true
-
-[[files]]
-file = "mods/fallingleaves.pw.toml"
-hash = "d824964b146b2e2c6c2baa2145344b98c7e04941020824b61e1558e406bbd4f2"
 metafile = true
 
 [[files]]
@@ -72,12 +72,12 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "a34dbc66d99d1b70b424ca71abd5f280f302ff9895ed538ef3db8f9a148f924b"
+hash = "46afee77950f1fd9a8890d9bc1f54953d1fd760b147a8d2f6eeb83d5db11a121"
 metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "5a8a05b8a8eed4c1ec375f1ad3d619dac74516f16ab0c5374fc62236b7746698"
+hash = "937035f607a58a2028a09f600b550e64adc87b6219c0f7be2504122ecbfdb8f8"
 metafile = true
 
 [[files]]
@@ -87,12 +87,27 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "b275c235eb1bccca009af3f22c3a00425a03f8b43a1da4e34f5d3aeee9c9c4ae"
+hash = "0ce1e3bccd68935d33c7f10956ef872fe511513c35db32f5ec5f36a01f770c84"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "d4a459b51c020fc5ac208f5def78bc5271ee461e0e5ba6bfc2c3dcbf76908359"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "b145bdf997d0282f38103a1a797d0317e8d5827e5602333b109c0786488fbae9"
 metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
 hash = "3caef38a38f7619f5b02fe6c73a6187b42989cc42b576a53b3dcd5a955bd6113"
+metafile = true
+
+[[files]]
+file = "mods/replaymod.pw.toml"
+hash = "5fb97e1de79cd3cf2c50206f0e191f979a1a3e7e806935fafee62098a07e3477"
 metafile = true
 
 [[files]]
@@ -102,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "8cebb92de829f30139acf78923985da63aea1faf222d2c1688838e98322f2fd6"
+hash = "06f3b6199e2b359aec99703bb5eead4886fed2ad3ea6a04cfecbef74bb9fa5a7"
 metafile = true
 
 [[files]]
