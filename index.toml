@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "40c4e7301977a6ca2e32fbfedd899572cf69fc72565b1494c4cb5c7b17809a4c"
+metafile = true
+
+[[files]]
 file = "mods/blur-plus.pw.toml"
 hash = "6334807483214e21b0457dc485699a5b6ceadaa3d96500954d1b7704f874083e"
 metafile = true
@@ -27,12 +32,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "30ca5f7c8971474ff6802be03c2a7c2fbd63c012eaabef7d6844290ae8fd043a"
+hash = "f3b55f8524a5944355b627217c37eaa6de342c8f5fc9c4b7df860e79e54f0767"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
+metafile = true
+
+[[files]]
+file = "mods/gamma-utils.pw.toml"
+hash = "9abd1cefdb8c043482e57770bf9451c6e2e58d87711aeefcccbea060ac9d12ad"
 metafile = true
 
 [[files]]
@@ -52,12 +62,12 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "1a84e108eddcb54bad3762d12cd6f4afe5a140efff0279aebd675db5a12b0d7b"
+hash = "51d20b511a9baad51e77259af530f0ab36ea50b69cc47691fb7f99c0b114e634"
 metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "dac2eb2bcc43a91b865a79eb4656d38567a0d8d5ab220f5fdf65b6b64e2a317f"
+hash = "2ef8ffdba4eb43f09d12f08e33cddd14e2a882ef35f04a805633ea33265ada2c"
 metafile = true
 
 [[files]]
@@ -67,7 +77,17 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "8044bfc896d9510299b2faff105f64f64736e6116b4b42bbb86772b6ff9d53d0"
+hash = "8cd1809a40c44d596a509bd88db8ed3edc572977a400876531233f6ec4bb5c94"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "8c42708d1a5b99b6080d7919c072bbbc6d1254558d61bfb15397f1013a626f0a"
+metafile = true
+
+[[files]]
+file = "mods/pistorder.pw.toml"
+hash = "52339d35b3bafc58175540069b2dd66b563fdd2b707dc6bbaf935e7ed0224438"
 metafile = true
 
 [[files]]
@@ -76,8 +96,13 @@ hash = "0f1c0f343cc00f8025912bdad7b4efa50f7a05bc87f43a6f871e6d066c8656ce"
 metafile = true
 
 [[files]]
+file = "mods/replaymod.pw.toml"
+hash = "2751f21ea7a3d260b7558c01b5c4cd2d1f01c7a2ab703207b945b185013e3636"
+metafile = true
+
+[[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "1a8ea8650c8eb0a7ab6dad70a61167e70c643d079a98f6c00f64cc67dd78a47d"
+hash = "ff97c0826a786ef9d993b6a93e0b6bdaf734bc193eb19504d2ef60e089382174"
 metafile = true
 
 [[files]]
