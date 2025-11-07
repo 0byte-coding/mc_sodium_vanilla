@@ -146,17 +146,22 @@
       "method": "modrinth"
     },
     {
-      "identifier": "no-chat-reports",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "moreculling",
       "category": "optimization",
       "method": "modrinth"
     },
     {
+      "identifier": "memoryleakfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "carpet",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -178,11 +183,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "sound-physics-remastered",
-      "category": "useful",
-      "method": "modrinth"
     },
     {
       "identifier": "lambdynamiclights",
@@ -270,11 +270,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "badoptimizations",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "yosbr",
       "category": "useful",
       "method": "modrinth"
@@ -285,13 +280,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "visual-workbench",
+      "identifier": "dynamiccrosshair",
       "category": "visual",
       "method": "modrinth"
     },
     {
-      "identifier": "dynamiccrosshair",
-      "category": "visual",
+      "identifier": "lazydfu",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -307,11 +302,6 @@
     {
       "identifier": "lmd",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "better-third-person",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -340,11 +330,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "what-are-they-up-to",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "tooltipfix",
       "category": "visual",
       "method": "modrinth"
@@ -352,16 +337,6 @@
     {
       "identifier": "blur-plus",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "particle-rain",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "sound",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -386,17 +361,6 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -429,20 +393,50 @@
   ],
   "failed": [
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "carpet-fixes",
+      "identifier": "no-chat-reports",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "lazydfu",
+      "identifier": "sound-physics-remastered",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "badoptimizations",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "visual-workbench",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "particle-rain",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "sound",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -451,6 +445,17 @@
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
+          "method": "modrinth"
+        }
+      ]
     }
   ],
   "alternative_installed": []
