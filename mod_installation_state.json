@@ -136,11 +136,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "sound-physics-remastered",
       "category": "useful",
       "method": "modrinth"
@@ -311,6 +306,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "highlight",
       "category": "visual",
       "method": "modrinth"
@@ -375,7 +375,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-tracker-port",
+          "identifier": "chest-search-bar",
           "method": "modrinth"
         }
       ]
@@ -383,6 +383,12 @@
     {
       "identifier": "memoryleakfix",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "carpet",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -432,12 +438,6 @@
       "alternatives": []
     },
     {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -451,7 +451,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-search-bar",
+          "identifier": "chest-tracker-port",
           "method": "modrinth"
         }
       ]
