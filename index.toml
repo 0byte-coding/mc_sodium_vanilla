@@ -36,8 +36,13 @@ hash = "fcd08b3423d12c0ef955c2154861247d53e40f378bed0545a4cd852ab5aa7e5d"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "70e6edf93a5e3f88db6fc3d44d0f76fc41efdee58389d3b87eada29f57a53f84"
+metafile = true
+
+[[files]]
 file = "mods/dripsounds.pw.toml"
-hash = "e14b127c1b1b301f728605283e0202fdb3503b93fc9a03c64ea0e7baf20aa3ed"
+hash = "57c93725f45de98798fa31c31925fd10e673497e83136edeeffb7545b3139d2a"
 metafile = true
 
 [[files]]
@@ -57,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "753ea7aabc4ca5a8fecc63b7a4b3f338431e64d73434d93db2dbaad3639570f1"
+hash = "7f890341242d23013c395d26df87d3b36064db0dab35ff383dff7c35cc456b40"
 metafile = true
 
 [[files]]
@@ -107,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "e9bfae97a1d5a7c0f669669ebbb839926331723282eed294d45c65209935bbdc"
+hash = "ca627852cca38946410f6e03507900f0a141bb244d1df7b3fcbbfc7d2e1188a9"
 metafile = true
 
 [[files]]
@@ -117,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "b51df8ede8889be6d8e1d2bea090d2d1351cd91e7b1a1bcd937a08b6ca3c0091"
+hash = "c1a8eca2312a94f3674cd917d8abcb54e290417c5770aad509e50bf7449835f4"
 metafile = true
 
 [[files]]
@@ -127,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "be479c63411f12cb6be3e3fa9b7a478b26e058aa53e026fc4a8ecca32cdb65f7"
+hash = "fab6aeae99fe482b07023eaf2a71d6fe4bf54ea78cee57c929ed09edd69bf933"
 metafile = true
 
 [[files]]
@@ -156,8 +161,13 @@ hash = "5bff3f96f5f6fc259a38e72f7c89ced3538c67422051f4afd88fcbbc1922d4ff"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+hash = "c4e20c63f116b861de0d200f3d88f7e1f3980b76e421ec9412032cbcbbe3f390"
+metafile = true
+
+[[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "d93937894ae45e3b95bcdc12598f28f27482b1bfdfd3a0bf85586c1beb3fc74e"
+hash = "249f02bbc88866900297d4fa1c3f1283aedce94de3c2cd71c9daba57f5f51c48"
 metafile = true
 
 [[files]]
