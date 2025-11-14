@@ -45,7 +45,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Clumps](https://modrinth.com/mod/clumps)
 - [x] [Enhanced Block Entities](https://modrinth.com/mod/ebe)
 - [x] [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric)
-- [x] [BadOptimizations](https://modrinth.com/mod/badoptimizations)
+- [ ] [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - [x] [LazyDFU](https://modrinth.com/mod/lazydfu)
 - [x] [Let Me Despawn](https://modrinth.com/mod/lmd)
 
@@ -54,7 +54,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Iris Shaders](https://modrinth.com/mod/iris)
 - [x] [Mod Menu](https://modrinth.com/mod/modmenu)
 - [x] [AppleSkin](https://modrinth.com/mod/appleskin)
-- [x] [MiniHUD](https://modrinth.com/mod/minihud)
+- [ ] [MiniHUD](https://modrinth.com/mod/minihud)
 - [x] [Zoomify](https://modrinth.com/mod/zoomify)
 - [x] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
 - [x] [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
@@ -76,20 +76,18 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Durability Tooltip](https://modrinth.com/mod/durability-tooltip)
 - [x] [ToolTipFix](https://modrinth.com/mod/tooltipfix)
 - [x] [Blur+](https://modrinth.com/mod/blur-plus)
-- [ ] [Particle Rain](https://modrinth.com/mod/particle-rain)
+- [x] [Particle Rain](https://modrinth.com/mod/particle-rain)
 - [x] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
 - [x] [Highlight](https://modrinth.com/mod/highlight)
 - [x] [Cave Dust](https://modrinth.com/mod/cave-dust)
-- [ ] [Particular ✨](https://modrinth.com/mod/particular)
-  - **Alternatives:**
-    - [ ] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
+- [x] [Particular ✨](https://modrinth.com/mod/particular)
 - [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
 - [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 
 ### Useful
 
 - [x] [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat)
-- [x] [Litematica](https://modrinth.com/mod/litematica)
+- [ ] [Litematica](https://modrinth.com/mod/litematica)
 - [x] [CalcMod](https://modrinth.com/mod/calcmod)
 - [x] [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 - [x] [Carpet](https://modrinth.com/mod/carpet)
@@ -101,14 +99,14 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
 - [x] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
-- [ ] [Sounds](https://modrinth.com/mod/sound)
+- [x] [Sounds](https://modrinth.com/mod/sound)
 - [x] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
 - [x] [Pistorder](https://modrinth.com/mod/pistorder)
 - [x] [Respackopts](https://modrinth.com/mod/respackopts)
 
 ### Cheating
 
-- [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
+- [ ] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
 - [x] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
 - [x] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
 - [x] [Freecam](https://modrinth.com/mod/freecam)
@@ -118,7 +116,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip)
 - [x] [InvMove](https://modrinth.com/mod/invmove)
 - [ ] [Cut Through](https://modrinth.com/mod/cut-through)
-- [x] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
+- [ ] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
 - [x] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
 - [x] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
 
