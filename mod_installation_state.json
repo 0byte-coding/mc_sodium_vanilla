@@ -56,11 +56,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -111,21 +106,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "chest-tracker",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "chest-search-bar",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
       "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth"
@@ -154,30 +134,6 @@
       "identifier": "moreculling",
       "category": "optimization",
       "method": "modrinth"
-    },
-    {
-      "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "rei",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "emi",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "eiv",
-          "method": "modrinth"
-        }
-      ]
     },
     {
       "identifier": "sound-physics-remastered",
@@ -232,11 +188,6 @@
     {
       "identifier": "betterf3",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ebe",
-      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -340,16 +291,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "what-are-they-up-to",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "tooltipfix",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
@@ -370,6 +311,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth"
@@ -386,17 +332,6 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -429,8 +364,31 @@
   ],
   "failed": [
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "chest-tracker",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "chest-search-bar",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
       "identifier": "memoryleakfix",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "carpet",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -441,17 +399,84 @@
       "alternatives": []
     },
     {
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "emi",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "eiv",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "ebe",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "highlight",
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     }
   ],
-  "alternative_installed": []
+  "alternative_installed": [
+    {
+      "identifier": "chest-tracker",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "rei",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
+          "method": "modrinth"
+        }
+      ]
+    }
+  ]
 }
