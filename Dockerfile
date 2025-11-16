@@ -26,7 +26,7 @@ ENV GOPATH=/home/ubuntu/go
 USER ubuntu
 
 # Install packwiz
-RUN go install github.com/0byte-coding/packwiz@1d08a7ce1b74293c7b842413c8dd6c3a06afe285
+RUN go install github.com/0byte-coding/packwiz@d56237991d8a63212f8d1b343dbf01ef9ec89947
 
 # Install bun
 RUN curl -fsSL https://bun.sh/install | bash
