@@ -71,19 +71,19 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Visual Workbench](https://modrinth.com/mod/visual-workbench)
 - [x] [Dynamic Crosshair](https://modrinth.com/mod/dynamiccrosshair)
 - [x] [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
-- [x] [Better Third Person](https://modrinth.com/mod/better-third-person)
+- [ ] [Better Third Person](https://modrinth.com/mod/better-third-person)
 - [x] [Make Bubbles Pop](https://modrinth.com/mod/make_bubbles_pop)
 - [x] [Durability Tooltip](https://modrinth.com/mod/durability-tooltip)
 - [ ] [ToolTipFix](https://modrinth.com/mod/tooltipfix)
 - [x] [Blur+](https://modrinth.com/mod/blur-plus)
 - [x] [Particle Rain](https://modrinth.com/mod/particle-rain)
-- [x] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
-- [x] [Highlight](https://modrinth.com/mod/highlight)
-- [x] [Cave Dust](https://modrinth.com/mod/cave-dust)
+- [ ] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
+- [ ] [Highlight](https://modrinth.com/mod/highlight)
+- [ ] [Cave Dust](https://modrinth.com/mod/cave-dust)
 - [ ] [Particular ✨](https://modrinth.com/mod/particular)
   - **Alternatives:**
     - [x] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
-- [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
+- [ ] [Drip Sounds](https://modrinth.com/mod/dripsounds)
 - [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 
 ### Useful
@@ -102,7 +102,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [x] [Sounds](https://modrinth.com/mod/sound)
-- [x] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
+- [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
 - [x] [Pistorder](https://modrinth.com/mod/pistorder)
 - [x] [Respackopts](https://modrinth.com/mod/respackopts)
 
@@ -116,11 +116,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
   - **Alternatives:**
     - [x] [Chest Tracker (Unofficial port)](https://modrinth.com/mod/chest-tracker-port)
     - [ ] [Chest Search Bar](https://modrinth.com/mod/chest-search-bar)
-- [ ] [Just Enough Items (JEI)](https://modrinth.com/mod/jei)
-  - **Alternatives:**
-    - [x] [Roughly Enough Items (REI)](https://modrinth.com/mod/rei)
-    - [ ] [EMI](https://modrinth.com/mod/emi)
-    - [ ] [Extended ItemView (EIV)](https://modrinth.com/mod/eiv)
+- [x] [Just Enough Items (JEI)](https://modrinth.com/mod/jei)
 - [x] [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next)
 - [x] [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip)
 - [x] [InvMove](https://modrinth.com/mod/invmove)
