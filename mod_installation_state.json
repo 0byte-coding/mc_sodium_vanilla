@@ -56,6 +56,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -346,6 +351,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "rightclickharvest",
       "category": "cheating",
       "method": "modrinth",
@@ -395,12 +405,6 @@
   ],
   "failed": [
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth",
@@ -442,12 +446,6 @@
     {
       "identifier": "show-me-your-skin",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
