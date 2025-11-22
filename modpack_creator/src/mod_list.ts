@@ -446,6 +446,21 @@ const mod_list_raw: ModDefinitionWithAlternatives[] = [
     identifier: "respackopts",
     category: "useful",
     method: "modrinth"
+  },
+  {
+    identifier: "3dskinlayers",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "stylish-effects",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "simple-armor-hud",
+    category: "visual",
+    method: "modrinth"
   }
 ]
 
