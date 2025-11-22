@@ -91,7 +91,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
 - [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 - [x] [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
-- [ ] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
+- [x] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
 - [x] [Simple Armor Hud](https://modrinth.com/mod/simple-armor-hud)
 
 ### Useful
