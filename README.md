@@ -41,7 +41,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Lithium](https://modrinth.com/mod/lithium)
 - [x] [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
 - [x] [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-- [ ] [ModernFix](https://modrinth.com/mod/modernfix)
+- [x] [ModernFix](https://modrinth.com/mod/modernfix)
 - [x] [Dynamic FPS](https://modrinth.com/mod/dynamic-fps)
 - [x] [More Culling](https://modrinth.com/mod/moreculling)
 - [x] [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
@@ -92,7 +92,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 - [x] [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 - [x] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
-- [ ] [Simple Armor Hud](https://modrinth.com/mod/simple-armor-hud)
+- [x] [Simple Armor Hud](https://modrinth.com/mod/simple-armor-hud)
 
 ### Useful
 
@@ -126,7 +126,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip)
 - [x] [InvMove](https://modrinth.com/mod/invmove)
 - [ ] [Cut Through](https://modrinth.com/mod/cut-through)
-- [ ] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
+- [x] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
 - [x] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
 - [x] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
 
