@@ -2,7 +2,12 @@
 
 ## About
 
-Sodium Vanilla is a client-side modpack that, like "Sodium Plus," adds performance and quality-of-life improvements. Unlike Sodium Plus, it's automatically updated to the latest Minecraft version.
+Sodium Vanilla is a client-side modpack that, like **Sodium Plus**, adds performance and quality-of-life improvements.
+Unlike Sodium Plus, it is **automatically updated** to the latest Minecraft version.
+
+Because this modpack updates automatically, **occasional compatibility issues between modpack updates can occur**, though they should remain minimal.
+
+If you're looking for a similar modpack that is **manually curated and verified** for compatibility, check out **[https://modrinth.com/modpack/sodiumplus](https://modrinth.com/modpack/sodiumplus)**
 
 ## Versions
 
