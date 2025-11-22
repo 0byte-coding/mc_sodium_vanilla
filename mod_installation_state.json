@@ -156,17 +156,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -305,11 +295,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "lazydfu",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "rrls",
       "category": "useful",
       "method": "modrinth"
@@ -385,11 +370,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth"
@@ -447,6 +427,31 @@
       "method": "modrinth"
     }
   ],
-  "failed": [],
+  "failed": [
+    {
+      "identifier": "memoryleakfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "carpet-fixes",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "lazydfu",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    }
+  ],
   "alternative_installed": []
 }
