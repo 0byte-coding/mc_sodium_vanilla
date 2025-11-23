@@ -41,7 +41,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Lithium](https://modrinth.com/mod/lithium)
 - [x] [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
 - [x] [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-- [ ] [ModernFix](https://modrinth.com/mod/modernfix)
+- [x] [ModernFix](https://modrinth.com/mod/modernfix)
 - [x] [Dynamic FPS](https://modrinth.com/mod/dynamic-fps)
 - [x] [More Culling](https://modrinth.com/mod/moreculling)
 - [ ] [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
@@ -93,7 +93,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Simple Armor Hud](https://modrinth.com/mod/simple-armor-hud)
 - [x] [Inventory Particles](https://modrinth.com/mod/inventory-particles)
 - [x] [Real Arrow Tip](https://modrinth.com/mod/real-arrow-tip)
-- [ ] [Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)](https://modrinth.com/mod/ears)
+- [x] [Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)](https://modrinth.com/mod/ears)
 
 ### Useful
 
@@ -111,7 +111,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [x] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [x] [Sounds](https://modrinth.com/mod/sound)
-- [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
+- [x] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
 - [x] [Pistorder](https://modrinth.com/mod/pistorder)
 - [x] [Respackopts](https://modrinth.com/mod/respackopts)
 - [x] [Borderless Fullscreen](https://modrinth.com/mod/borderless-fullscreen)
