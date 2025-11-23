@@ -461,6 +461,36 @@ const mod_list_raw: ModDefinitionWithAlternatives[] = [
     identifier: "simple-armor-hud",
     category: "visual",
     method: "modrinth"
+  },
+  {
+    identifier: "inventory-particles",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "jjelytraswap",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "real-arrow-tip",
+    category: "visual",
+    method: "modrinth"
+  },
+  {
+    identifier: "borderless-fullscreen",
+    category: "useful",
+    method: "modrinth"
+  },
+  {
+    identifier: "clickthrough+",
+    category: "cheating",
+    method: "modrinth"
+  },
+  {
+    identifier: "ears",
+    category: "visual",
+    method: "modrinth"
   }
 ]
 
