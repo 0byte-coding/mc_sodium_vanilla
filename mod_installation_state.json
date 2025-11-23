@@ -185,12 +185,22 @@
       "method": "modrinth"
     },
     {
+      "identifier": "lambdynamiclights",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "mouse-tweaks",
       "category": "useful",
       "method": "modrinth"
     },
     {
       "identifier": "chat-heads",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "modelfix",
       "category": "visual",
       "method": "modrinth"
     },
@@ -270,13 +280,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "dynamiccrosshair",
+      "identifier": "visual-workbench",
       "category": "visual",
       "method": "modrinth"
     },
     {
-      "identifier": "lazydfu",
-      "category": "optimization",
+      "identifier": "dynamiccrosshair",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -292,6 +302,11 @@
     {
       "identifier": "lmd",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "better-third-person",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -312,6 +327,11 @@
     {
       "identifier": "durability-tooltip",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "cut-through",
+      "category": "cheating",
       "method": "modrinth"
     },
     {
@@ -345,6 +365,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth"
@@ -361,6 +386,17 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -401,6 +437,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "inventory-particles",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "jjelytraswap",
       "category": "cheating",
       "method": "modrinth"
@@ -408,6 +449,11 @@
     {
       "identifier": "real-arrow-tip",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -435,73 +481,20 @@
       "alternatives": []
     },
     {
-      "identifier": "lambdynamiclights",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "enchantment-descriptions",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "visual-workbench",
-      "category": "visual",
+      "identifier": "lazydfu",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
-    },
-    {
-      "identifier": "better-third-person",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "cut-through",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
-          "method": "modrinth"
-        }
-      ]
     },
     {
       "identifier": "stylish-effects",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "inventory-particles",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "borderless-fullscreen",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
