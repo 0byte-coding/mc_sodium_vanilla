@@ -57,8 +57,8 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 ### Visual
 
 - [ ] [Iris Shaders](https://modrinth.com/mod/iris)
-- [x] [Mod Menu](https://modrinth.com/mod/modmenu)
-- [x] [AppleSkin](https://modrinth.com/mod/appleskin)
+- [ ] [Mod Menu](https://modrinth.com/mod/modmenu)
+- [ ] [AppleSkin](https://modrinth.com/mod/appleskin)
 - [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [ ] [Zoomify](https://modrinth.com/mod/zoomify)
 - [ ] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
@@ -80,7 +80,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [Make Bubbles Pop](https://modrinth.com/mod/make_bubbles_pop)
 - [ ] [Durability Tooltip](https://modrinth.com/mod/durability-tooltip)
 - [ ] [ToolTipFix](https://modrinth.com/mod/tooltipfix)
-- [ ] [Blur+](https://modrinth.com/mod/blur-plus)
+- [x] [Blur+](https://modrinth.com/mod/blur-plus)
 - [ ] [Particle Rain](https://modrinth.com/mod/particle-rain)
 - [ ] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
 - [ ] [Highlight](https://modrinth.com/mod/highlight)
@@ -111,10 +111,10 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [AmbientSounds](https://modrinth.com/mod/ambientsounds)
 - [x] [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
 - [ ] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
-- [x] [ReplayMod](https://modrinth.com/mod/replaymod)
+- [ ] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [ ] [Sounds](https://modrinth.com/mod/sound)
 - [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
-- [x] [Pistorder](https://modrinth.com/mod/pistorder)
+- [ ] [Pistorder](https://modrinth.com/mod/pistorder)
 - [ ] [Respackopts](https://modrinth.com/mod/respackopts)
 - [ ] [Borderless Fullscreen](https://modrinth.com/mod/borderless-fullscreen)
 
@@ -138,8 +138,10 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [InvMove](https://modrinth.com/mod/invmove)
 - [ ] [Cut Through](https://modrinth.com/mod/cut-through)
 - [ ] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
-- [x] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
-- [x] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
+- [ ] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
+  - **Alternatives:**
+    - [ ] [Simple Harvesting](https://modrinth.com/mod/simple-harvesting)
+- [ ] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
 - [ ] [JJElytraSwap](https://modrinth.com/mod/jjelytraswap)
 - [ ] [ClickThrough Plus](https://modrinth.com/mod/clickthrough+)
 
