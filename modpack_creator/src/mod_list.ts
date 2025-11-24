@@ -491,6 +491,11 @@ const mod_list_raw: ModDefinitionWithAlternatives[] = [
     identifier: "ears",
     category: "visual",
     method: "modrinth"
+  },
+  {
+    identifier: "signed-paintings",
+    category: "visual",
+    method: "modrinth"
   }
 ]
 

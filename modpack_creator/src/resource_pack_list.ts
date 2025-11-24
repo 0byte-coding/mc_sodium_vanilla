@@ -40,6 +40,26 @@ const resource_pack_list_raw: ResourcePackDefinitionWithAlternatives[] = [
   {
     identifier: "redstone-tweaks",
     method: "modrinth"
+  },
+  {
+    identifier: "cozy-beds",
+    method: "modrinth"
+  },
+  {
+    identifier: "os-colorful-grasses",
+    method: "modrinth"
+  },
+  {
+    identifier: "fancy-beds",
+    method: "modrinth"
+  },
+  {
+    identifier: "fresh-flower-pots",
+    method: "modrinth"
+  },
+  {
+    identifier: "better-lanterns",
+    method: "modrinth"
   }
 ]
 
