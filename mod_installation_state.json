@@ -111,11 +111,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "continuity",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "dynamic-fps",
       "category": "optimization",
       "method": "modrinth"
@@ -156,11 +151,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "krypton",
       "category": "optimization",
       "method": "modrinth"
@@ -171,18 +161,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "debugify",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "clumps",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "presence-footsteps",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -251,18 +231,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "better-mount-hud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "lmd",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "better-third-person",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -303,21 +273,6 @@
     {
       "identifier": "sound",
       "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cave-dust",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -372,11 +327,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "simple-armor-hud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "inventory-particles",
       "category": "visual",
       "method": "modrinth"
@@ -399,11 +349,6 @@
     {
       "identifier": "clickthrough+",
       "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ears",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -431,6 +376,12 @@
       ]
     },
     {
+      "identifier": "continuity",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth",
@@ -454,14 +405,32 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "emi",
+          "identifier": "rei",
           "method": "modrinth"
         },
         {
-          "identifier": "eiv",
+          "identifier": "emi",
           "method": "modrinth"
         }
       ]
+    },
+    {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "debugify",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "presence-footsteps",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
     },
     {
       "identifier": "ebe",
@@ -472,6 +441,18 @@
     {
       "identifier": "lazydfu",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "better-mount-hud",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "better-third-person",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -488,7 +469,37 @@
       "alternatives": []
     },
     {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "simple-armor-hud",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ears",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -512,7 +523,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "rei",
+          "identifier": "eiv",
           "method": "modrinth"
         }
       ]
