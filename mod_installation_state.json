@@ -136,11 +136,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "sound-physics-remastered",
       "category": "useful",
       "method": "modrinth"
@@ -321,6 +316,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
@@ -437,6 +437,12 @@
       "alternatives": []
     },
     {
+      "identifier": "carpet",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth",
@@ -477,12 +483,6 @@
     },
     {
       "identifier": "tooltipfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
