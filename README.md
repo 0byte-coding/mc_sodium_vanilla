@@ -59,7 +59,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 - [ ] [Iris Shaders](https://modrinth.com/mod/iris)
 - [ ] [Mod Menu](https://modrinth.com/mod/modmenu)
 - [ ] [AppleSkin](https://modrinth.com/mod/appleskin)
-- [ ] [MiniHUD](https://modrinth.com/mod/minihud)
+- [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [ ] [Zoomify](https://modrinth.com/mod/zoomify)
 - [ ] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
 - [ ] [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
@@ -101,7 +101,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 ### Useful
 
 - [ ] [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat)
-- [ ] [Litematica](https://modrinth.com/mod/litematica)
+- [x] [Litematica](https://modrinth.com/mod/litematica)
 - [x] [CalcMod](https://modrinth.com/mod/calcmod)
 - [ ] [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 - [ ] [Carpet](https://modrinth.com/mod/carpet)
@@ -121,7 +121,7 @@ Issues, suggestions for mod additions, removals, or improvements — as well as 
 
 ### Cheating
 
-- [ ] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
+- [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
 - [ ] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
 - [ ] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
 - [ ] [Freecam](https://modrinth.com/mod/freecam)
