@@ -51,11 +51,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -121,8 +116,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "continuity",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "dynamic-fps",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "jade",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -132,6 +137,11 @@
     },
     {
       "identifier": "carpet",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -161,6 +171,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "clumps",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "presence-footsteps",
       "category": "useful",
       "method": "modrinth"
@@ -186,8 +201,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "visuality",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "fallingleaves",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "c2me-fabric",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -196,22 +221,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "capes",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth"
     },
     {
-      "identifier": "rrls",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "lmd",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "better-third-person",
+      "identifier": "better-mount-hud",
       "category": "visual",
       "method": "modrinth"
     },
@@ -226,8 +246,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "what-are-they-up-to",
-      "category": "cheating",
+      "identifier": "make_bubbles_pop",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "tooltipfix",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -262,11 +287,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "female-gender",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "pistorder",
       "category": "useful",
       "method": "modrinth"
@@ -295,19 +315,13 @@
       "alternatives": []
     },
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "zoomify",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "continuity",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "jade",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -321,12 +335,6 @@
     {
       "identifier": "moreculling",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "carpet-fixes",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -364,24 +372,6 @@
       "alternatives": []
     },
     {
-      "identifier": "clumps",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "visuality",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "c2me-fabric",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "ambientsounds",
       "category": "useful",
       "method": "modrinth",
@@ -390,12 +380,6 @@
     {
       "identifier": "badoptimizations",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "capes",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -412,13 +396,19 @@
       "alternatives": []
     },
     {
-      "identifier": "better-mount-hud",
-      "category": "visual",
+      "identifier": "rrls",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "make_bubbles_pop",
+      "identifier": "lmd",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "better-third-person",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -436,8 +426,8 @@
       "alternatives": []
     },
     {
-      "identifier": "tooltipfix",
-      "category": "visual",
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -481,6 +471,12 @@
           "method": "modrinth"
         }
       ]
+    },
+    {
+      "identifier": "female-gender",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
     },
     {
       "identifier": "stylish-effects",
