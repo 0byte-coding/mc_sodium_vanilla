@@ -1,13 +1,13 @@
 name = "Dynamic FPS"
-filename = "dynamic-fps-3.9.5+minecraft-1.20.0-fabric.jar"
+filename = "dynamic-fps-3.4.2+minecraft-1.14.4-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/LQ3K71Q1/versions/D9mrJwm0/dynamic-fps-3.9.5%2Bminecraft-1.20.0-fabric.jar"
+url = "https://cdn.modrinth.com/data/LQ3K71Q1/versions/O7a5N5VT/dynamic-fps-3.4.2%2Bminecraft-1.14.4-fabric.jar"
 hash-format = "sha512"
-hash = "8f6769b6ae3736e2481f0b4caea385ad6656b60b2493a1a746a3f0678e976494f7a0488ac4baa80531a38e8d64b1a61654ee97c238dc9b0e12347bdc6623520e"
+hash = "d78890a2b30c95029e4bb9b4436a7d25d04b6a543ad25f2187c3cf485ce24621a852034791ba867ce2ea60f5ef58cc90d40a30439069975f9947993a644eaa7f"
 
 [update]
 [update.modrinth]
 mod-id = "LQ3K71Q1"
-version = "D9mrJwm0"
+version = "O7a5N5VT"

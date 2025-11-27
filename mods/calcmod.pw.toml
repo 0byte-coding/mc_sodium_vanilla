@@ -1,13 +1,13 @@
 name = "CalcMod"
-filename = "calcmod-fabric-1.20-1.3.0.jar"
+filename = "calcmod-fabric-1.14.4-1.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/XoHTb2Ap/versions/Ma4inj0t/calcmod-fabric-1.20-1.3.0.jar"
+url = "https://cdn.modrinth.com/data/XoHTb2Ap/versions/nD8rQuRY/calcmod-fabric-1.14.4-1.3.0.jar"
 hash-format = "sha512"
-hash = "9dede017b69fbf0060e9cf4c0ac0d179ac09e1937be822b674eacc7e121b6660d82a3bca78ed6f1861d6eb380b16ea02e5b46d970c0a0bf9a9f8fac3b6afb87a"
+hash = "d63108a8378fc3bb493cafddb6850647b353bea556f7e225ef29db5d28b4e1c4cfa8fe6e380b4bc04f09ca40a0fa6ffb901eabcea194944654fa469cef3d46e2"
 
 [update]
 [update.modrinth]
 mod-id = "XoHTb2Ap"
-version = "Ma4inj0t"
+version = "nD8rQuRY"
