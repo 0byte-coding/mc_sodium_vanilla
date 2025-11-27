@@ -51,6 +51,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "simple-voice-chat",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "tweakeroo",
       "category": "cheating",
       "method": "modrinth"
@@ -146,6 +151,16 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "krypton",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "enchantment-descriptions",
       "category": "visual",
       "method": "modrinth"
@@ -163,11 +178,6 @@
     {
       "identifier": "betterf3",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ebe",
-      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -193,11 +203,6 @@
     {
       "identifier": "yosbr",
       "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "capes",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -247,6 +252,11 @@
     },
     {
       "identifier": "blur-plus",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "show-me-your-skin",
       "category": "visual",
       "method": "modrinth"
     },
@@ -311,12 +321,6 @@
       "alternatives": []
     },
     {
-      "identifier": "simple-voice-chat",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "xaeros-world-map",
       "category": "cheating",
       "method": "modrinth",
@@ -372,19 +376,13 @@
       "alternatives": []
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "krypton",
+      "identifier": "debugify",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "debugify",
+      "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
@@ -404,6 +402,12 @@
     {
       "identifier": "badoptimizations",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "capes",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -446,12 +450,6 @@
     {
       "identifier": "sound",
       "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
