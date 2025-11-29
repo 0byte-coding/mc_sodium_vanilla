@@ -23,7 +23,7 @@ Tweakeroo is a powerful mod with many useful client-side tweaks that many player
 
 ## Contributions & Suggestions
 
-Issues, suggestions for mod additions, removals, or improvements — as well as alternative mod recommendations — can be submitted on the [GitHub Issues page](https://github.com/0byte-coding/mc_sodium_vanilla/issues).
+Issues, suggestions for mod additions, removals, or improvements as well as alternative mod recommendations can be submitted on the [GitHub Issues page](https://github.com/0byte-coding/mc_sodium_vanilla/issues).
 
 ## Mod List
 
