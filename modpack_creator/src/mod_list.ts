@@ -496,6 +496,11 @@ const mod_list_raw: ModDefinitionWithAlternatives[] = [
     identifier: "signed-paintings",
     category: "visual",
     method: "modrinth"
+  },
+  {
+    identifier: "in-game-account-switcher",
+    category: "useful",
+    method: "modrinth"
   }
 ]
 
