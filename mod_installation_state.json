@@ -6,7 +6,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "sodium",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "cloth-config",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "entityculling",
       "category": "optimization",
       "method": "modrinth"
     },
@@ -16,8 +26,23 @@
       "method": "modrinth"
     },
     {
+      "identifier": "lithium",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "sodium-extra",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "appleskin",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "modernfix",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -36,9 +61,44 @@
       "method": "modrinth"
     },
     {
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "freecam",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "distanthorizons",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "calcmod",
       "category": "useful",
       "method": "modrinth"
+    },
+    {
+      "identifier": "chest-tracker",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "chest-search-bar",
+          "method": "modrinth"
+        }
+      ]
     },
     {
       "identifier": "dynamic-fps",
@@ -56,8 +116,48 @@
       "method": "modrinth"
     },
     {
+      "identifier": "lambdynamiclights",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "chat-heads",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "krypton",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "enchantment-descriptions",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "presence-footsteps",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "betterf3",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ebe",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "inventory-profiles-next",
       "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "fallingleaves",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -71,8 +171,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "replaymod",
       "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "invmove",
+      "category": "cheating",
       "method": "modrinth"
     },
     {
@@ -81,8 +191,24 @@
       "method": "modrinth"
     },
     {
-      "identifier": "gamma-utils",
+      "identifier": "rightclickharvest",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "dripsounds",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "female-gender",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -91,32 +217,20 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ears",
-      "category": "visual",
+      "identifier": "respackopts",
+      "category": "useful",
       "method": "modrinth"
     },
     {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
+      "identifier": "ears",
+      "category": "visual",
       "method": "modrinth"
     }
   ],
   "failed": [
     {
-      "identifier": "sodium",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "iris",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "entityculling",
-      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
@@ -127,25 +241,7 @@
       "alternatives": []
     },
     {
-      "identifier": "lithium",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "immediatelyfast",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "sodium-extra",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "modernfix",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
@@ -161,45 +257,6 @@
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
-    },
-    {
-      "identifier": "xaeros-world-map",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "freecam",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "distanthorizons",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "chest-tracker",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "chest-search-bar",
-          "method": "modrinth"
-        }
-      ]
     },
     {
       "identifier": "not-enough-animations",
@@ -259,37 +316,13 @@
       "alternatives": []
     },
     {
-      "identifier": "lambdynamiclights",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "mouse-tweaks",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "chat-heads",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "krypton",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "enchantment-descriptions",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -307,24 +340,6 @@
       "alternatives": []
     },
     {
-      "identifier": "presence-footsteps",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "betterf3",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ebe",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "shulkerboxtooltip",
       "category": "cheating",
       "method": "modrinth",
@@ -332,12 +347,6 @@
     },
     {
       "identifier": "visuality",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "fallingleaves",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -393,18 +402,6 @@
     {
       "identifier": "lmd",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "better-third-person",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "invmove",
-      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -475,17 +472,6 @@
       "alternatives": []
     },
     {
-      "identifier": "rightclickharvest",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -497,20 +483,8 @@
       ]
     },
     {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "female-gender",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "respackopts",
-      "category": "useful",
+      "identifier": "gamma-utils",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -565,6 +539,12 @@
     {
       "identifier": "signed-paintings",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
