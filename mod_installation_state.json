@@ -156,17 +156,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -217,11 +207,6 @@
     {
       "identifier": "krypton",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "enchantment-descriptions",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -302,11 +287,6 @@
     {
       "identifier": "dynamiccrosshair",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "lazydfu",
-      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -452,11 +432,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "stylish-effects",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "simple-armor-hud",
       "category": "visual",
       "method": "modrinth"
@@ -474,6 +449,11 @@
     {
       "identifier": "real-arrow-tip",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -499,8 +479,32 @@
   ],
   "failed": [
     {
-      "identifier": "borderless-fullscreen",
+      "identifier": "memoryleakfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "carpet-fixes",
       "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "enchantment-descriptions",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "lazydfu",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "stylish-effects",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     }
