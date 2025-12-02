@@ -66,21 +66,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "tweakeroo",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "minihud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "litematica",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "zoomify",
       "category": "visual",
       "method": "modrinth"
@@ -280,11 +265,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "badoptimizations",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "yosbr",
       "category": "useful",
       "method": "modrinth"
@@ -350,11 +330,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "what-are-they-up-to",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "tooltipfix",
       "category": "visual",
       "method": "modrinth"
@@ -367,6 +342,11 @@
     {
       "identifier": "particle-rain",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "sound",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -396,6 +376,17 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -456,6 +447,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "signed-paintings",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "in-game-account-switcher",
       "category": "useful",
       "method": "modrinth"
@@ -463,27 +459,40 @@
   ],
   "failed": [
     {
+      "identifier": "tweakeroo",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "minihud",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "litematica",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "badoptimizations",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "cut-through",
       "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "sound",
-      "category": "useful",
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
-          "method": "modrinth"
-        }
-      ]
     },
     {
       "identifier": "inventory-particles",
@@ -500,12 +509,6 @@
     {
       "identifier": "borderless-fullscreen",
       "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "signed-paintings",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     }
