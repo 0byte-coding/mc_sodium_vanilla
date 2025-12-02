@@ -56,6 +56,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -346,6 +351,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "rightclickharvest",
       "category": "cheating",
       "method": "modrinth",
@@ -433,6 +443,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "ears",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
@@ -444,12 +459,6 @@
     }
   ],
   "failed": [
-    {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
     {
       "identifier": "memoryleakfix",
       "category": "optimization",
@@ -491,18 +500,6 @@
     },
     {
       "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ears",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
