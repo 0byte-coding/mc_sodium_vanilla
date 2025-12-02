@@ -56,11 +56,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -83,16 +78,6 @@
     {
       "identifier": "zoomify",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "xaeros-world-map",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
       "method": "modrinth"
     },
     {
@@ -141,8 +126,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "jade",
-      "category": "visual",
+      "identifier": "no-chat-reports",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -185,6 +170,11 @@
       ]
     },
     {
+      "identifier": "sound-physics-remastered",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "lambdynamiclights",
       "category": "visual",
       "method": "modrinth"
@@ -192,11 +182,6 @@
     {
       "identifier": "mouse-tweaks",
       "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "chat-heads",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -280,6 +265,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "visual-workbench",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "dynamiccrosshair",
       "category": "visual",
       "method": "modrinth"
@@ -287,11 +277,6 @@
     {
       "identifier": "lazydfu",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "rrls",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -325,11 +310,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "cut-through",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "tooltipfix",
       "category": "visual",
       "method": "modrinth"
@@ -340,12 +320,12 @@
       "method": "modrinth"
     },
     {
-      "identifier": "show-me-your-skin",
+      "identifier": "particle-rain",
       "category": "visual",
       "method": "modrinth"
     },
     {
-      "identifier": "cave-dust",
+      "identifier": "show-me-your-skin",
       "category": "visual",
       "method": "modrinth"
     },
@@ -396,6 +376,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "stylish-effects",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "jjelytraswap",
       "category": "cheating",
       "method": "modrinth"
@@ -418,14 +403,32 @@
   ],
   "failed": [
     {
-      "identifier": "no-chat-reports",
-      "category": "useful",
+      "identifier": "modernfix",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "sound-physics-remastered",
-      "category": "useful",
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "jade",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "chat-heads",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -436,8 +439,8 @@
       "alternatives": []
     },
     {
-      "identifier": "visual-workbench",
-      "category": "visual",
+      "identifier": "rrls",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -448,14 +451,14 @@
       "alternatives": []
     },
     {
-      "identifier": "what-are-they-up-to",
+      "identifier": "cut-through",
       "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -472,6 +475,12 @@
       "alternatives": []
     },
     {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -481,12 +490,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "stylish-effects",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
     },
     {
       "identifier": "simple-armor-hud",
