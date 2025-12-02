@@ -1,13 +1,13 @@
 name = "Pistorder"
-filename = "pistorder-v1.6.12-mc1.17.1.jar"
+filename = "pistorder-v1.6.12-mc1.18.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/lpin1bEg/versions/3lA1Hzyp/pistorder-v1.6.12-mc1.17.1.jar"
+url = "https://cdn.modrinth.com/data/lpin1bEg/versions/mEPVwYhz/pistorder-v1.6.12-mc1.18.2.jar"
 hash-format = "sha512"
-hash = "1fe6cfc17ec177f02f7970c3221d971a7d1520fe5a0ee57d8cf9f0889825d3278b744c1ab132db7748dd55eda54ed91f25798f02b8d583271572fa1d37e10fba"
+hash = "51f5f075897814f9c73ff88d341d46a07ac3510f02756c5fd8b13040b2e0632bf15a31d22bc0340fea3748c61e2c8e998f7365ea37bd3d82e8efc13f8327a73c"
 
 [update]
 [update.modrinth]
 mod-id = "lpin1bEg"
-version = "3lA1Hzyp"
+version = "mEPVwYhz"
