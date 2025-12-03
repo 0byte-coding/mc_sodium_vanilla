@@ -53,8 +53,8 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 ### Visual
 
 - [ ] [Iris Shaders](https://modrinth.com/mod/iris)
-- [ ] [Mod Menu](https://modrinth.com/mod/modmenu)
-- [ ] [AppleSkin](https://modrinth.com/mod/appleskin)
+- [x] [Mod Menu](https://modrinth.com/mod/modmenu)
+- [x] [AppleSkin](https://modrinth.com/mod/appleskin)
 - [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [ ] [Zoomify](https://modrinth.com/mod/zoomify)
 - [ ] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
@@ -108,13 +108,13 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [ ] [AmbientSounds](https://modrinth.com/mod/ambientsounds)
 - [x] [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
 - [ ] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
-- [ ] [ReplayMod](https://modrinth.com/mod/replaymod)
+- [x] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [ ] [Sounds](https://modrinth.com/mod/sound)
 - [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
-- [ ] [Pistorder](https://modrinth.com/mod/pistorder)
+- [x] [Pistorder](https://modrinth.com/mod/pistorder)
 - [ ] [Respackopts](https://modrinth.com/mod/respackopts)
 - [ ] [Borderless Fullscreen](https://modrinth.com/mod/borderless-fullscreen)
-- [ ] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
+- [x] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
 
 ### Cheating
 
@@ -139,7 +139,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [ ] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
   - **Alternatives:**
     - [ ] [Simple Harvesting](https://modrinth.com/mod/simple-harvesting)
-- [ ] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
+- [x] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
 - [ ] [JJElytraSwap](https://modrinth.com/mod/jjelytraswap)
 - [ ] [ClickThrough Plus](https://modrinth.com/mod/clickthrough+)
 
