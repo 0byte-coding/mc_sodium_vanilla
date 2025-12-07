@@ -501,6 +501,11 @@ const mod_list_raw: ModDefinitionWithAlternatives[] = [
     identifier: "in-game-account-switcher",
     category: "useful",
     method: "modrinth"
+  },
+  {
+    identifier: "resourcify",
+    category: "useful",
+    method: "modrinth"
   }
 ]
 
