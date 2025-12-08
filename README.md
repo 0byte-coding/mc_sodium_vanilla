@@ -46,7 +46,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [x] [Clumps](https://modrinth.com/mod/clumps)
 - [x] [Enhanced Block Entities](https://modrinth.com/mod/ebe)
 - [x] [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric)
-- [ ] [BadOptimizations](https://modrinth.com/mod/badoptimizations)
+- [x] [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - [x] [LazyDFU](https://modrinth.com/mod/lazydfu)
 - [x] [Let Me Despawn](https://modrinth.com/mod/lmd)
 
@@ -55,7 +55,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [x] [Iris Shaders](https://modrinth.com/mod/iris)
 - [x] [Mod Menu](https://modrinth.com/mod/modmenu)
 - [x] [AppleSkin](https://modrinth.com/mod/appleskin)
-- [ ] [MiniHUD](https://modrinth.com/mod/minihud)
+- [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [x] [Zoomify](https://modrinth.com/mod/zoomify)
 - [x] [Distant Horizons](https://modrinth.com/mod/distanthorizons)
 - [x] [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
@@ -87,15 +87,15 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [x] [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 - [x] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
 - [x] [Simple Armor Hud](https://modrinth.com/mod/simple-armor-hud)
-- [ ] [Inventory Particles](https://modrinth.com/mod/inventory-particles)
-- [ ] [Real Arrow Tip](https://modrinth.com/mod/real-arrow-tip)
+- [x] [Inventory Particles](https://modrinth.com/mod/inventory-particles)
+- [x] [Real Arrow Tip](https://modrinth.com/mod/real-arrow-tip)
 - [x] [Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)](https://modrinth.com/mod/ears)
 - [x] [Signed Paintings](https://modrinth.com/mod/signed-paintings)
 
 ### Useful
 
 - [x] [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat)
-- [ ] [Litematica](https://modrinth.com/mod/litematica)
+- [x] [Litematica](https://modrinth.com/mod/litematica)
 - [x] [CalcMod](https://modrinth.com/mod/calcmod)
 - [x] [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 - [x] [Carpet](https://modrinth.com/mod/carpet)
@@ -117,7 +117,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 
 ### Cheating
 
-- [ ] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
+- [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
 - [x] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
 - [x] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
 - [x] [Freecam](https://modrinth.com/mod/freecam)
@@ -126,8 +126,8 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [x] [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next)
 - [x] [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip)
 - [x] [InvMove](https://modrinth.com/mod/invmove)
-- [ ] [Cut Through](https://modrinth.com/mod/cut-through)
-- [ ] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
+- [x] [Cut Through](https://modrinth.com/mod/cut-through)
+- [x] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
 - [x] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
 - [x] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
 - [x] [JJElytraSwap](https://modrinth.com/mod/jjelytraswap)
