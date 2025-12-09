@@ -66,21 +66,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "tweakeroo",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "minihud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "litematica",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "zoomify",
       "category": "visual",
       "method": "modrinth"
@@ -156,7 +141,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "memoryleakfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "carpet",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -270,11 +265,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "badoptimizations",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "yosbr",
       "category": "useful",
       "method": "modrinth"
@@ -292,6 +282,11 @@
     {
       "identifier": "dynamiccrosshair",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "lazydfu",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -335,16 +330,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "cut-through",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "what-are-they-up-to",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "tooltipfix",
       "category": "visual",
       "method": "modrinth"
@@ -366,6 +351,11 @@
     },
     {
       "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "highlight",
       "category": "visual",
       "method": "modrinth"
     },
@@ -442,23 +432,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "inventory-particles",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "jjelytraswap",
       "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "real-arrow-tip",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "borderless-fullscreen",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -489,26 +464,56 @@
   ],
   "failed": [
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
+      "identifier": "tweakeroo",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "carpet-fixes",
+      "identifier": "minihud",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "litematica",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "lazydfu",
+      "identifier": "badoptimizations",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "highlight",
+      "identifier": "cut-through",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "inventory-particles",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "real-arrow-tip",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
