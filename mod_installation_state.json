@@ -350,6 +350,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "cut-through",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "what-are-they-up-to",
       "category": "cheating",
       "method": "modrinth"
@@ -367,6 +372,11 @@
     {
       "identifier": "particle-rain",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "sound",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -396,6 +406,17 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -441,8 +462,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "inventory-particles",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "jjelytraswap",
       "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "real-arrow-tip",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -452,6 +483,11 @@
     },
     {
       "identifier": "ears",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
     },
@@ -468,49 +504,8 @@
   ],
   "failed": [
     {
-      "identifier": "cut-through",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "sound",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "inventory-particles",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "real-arrow-tip",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "borderless-fullscreen",
       "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "signed-paintings",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     }
