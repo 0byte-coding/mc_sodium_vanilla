@@ -19,7 +19,7 @@ That means you can safely update your Minecraft instance without overwriting you
 
 ## Updating the Modpack
 
-For step-by-step instructions on how to update to a new version, see the [Update Guide](https://github.com/0byte-coding/mc_sodium_vanilla/docs/UPDATING.md).
+For step-by-step instructions on how to update to a new version, see the [Update Guide](https://github.com/0byte-coding/mc_sodium_vanilla/blob/main/docs/UPDATING.md).
 
 ## Tweakeroo Features
 
