@@ -17,6 +17,10 @@ Each Minecraft version has two modpacks: `_safe` and `_full`.
 This modpack does not include any preset configuration files.
 That means you can safely update your Minecraft instance without overwriting your current settings.
 
+## Updating the Modpack
+
+For step-by-step instructions on how to update to a new version, see the [Update Guide](https://github.com/0byte-coding/mc_sodium_vanilla/docs/UPDATING.md).
+
 ## Tweakeroo Features
 
 Tweakeroo is a powerful mod with many useful client-side tweaks that many players don't know about, including freecam, fullbright, hand restock, shulker/bundle/enderchest preview, hold left/right click, autoclicker, zoom, auto tool replacement, tool break warnings, and much more.
