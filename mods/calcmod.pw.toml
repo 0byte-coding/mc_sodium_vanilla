@@ -1,0 +1,13 @@
+name = "CalcMod"
+filename = "calcmod-fabric-1.14.4-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XoHTb2Ap/versions/nD8rQuRY/calcmod-fabric-1.14.4-1.3.0.jar"
+hash-format = "sha512"
+hash = "d63108a8378fc3bb493cafddb6850647b353bea556f7e225ef29db5d28b4e1c4cfa8fe6e380b4bc04f09ca40a0fa6ffb901eabcea194944654fa469cef3d46e2"
+
+[update]
+[update.modrinth]
+mod-id = "XoHTb2Ap"
+version = "nD8rQuRY"
