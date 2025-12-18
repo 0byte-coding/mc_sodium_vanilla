@@ -311,6 +311,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "highlight",
       "category": "visual",
       "method": "modrinth"
@@ -435,7 +440,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-tracker-port",
+          "identifier": "chest-search-bar",
           "method": "modrinth"
         }
       ]
@@ -492,12 +497,6 @@
       "alternatives": []
     },
     {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -511,7 +510,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-search-bar",
+          "identifier": "chest-tracker-port",
           "method": "modrinth"
         }
       ]
