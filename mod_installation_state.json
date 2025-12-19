@@ -321,6 +321,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
@@ -363,6 +368,11 @@
     },
     {
       "identifier": "3dskinlayers",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth"
     },
@@ -487,19 +497,7 @@
       "alternatives": []
     },
     {
-      "identifier": "cave-dust",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
