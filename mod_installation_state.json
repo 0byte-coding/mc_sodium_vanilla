@@ -156,17 +156,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -195,11 +185,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "lambdynamiclights",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "mouse-tweaks",
       "category": "useful",
       "method": "modrinth"
@@ -210,18 +195,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "krypton",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "enchantment-descriptions",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -295,11 +270,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "visual-workbench",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "dynamiccrosshair",
       "category": "visual",
       "method": "modrinth"
@@ -325,11 +295,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "better-third-person",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "replaymod",
       "category": "useful",
       "method": "modrinth"
@@ -347,11 +312,6 @@
     {
       "identifier": "durability-tooltip",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cut-through",
-      "category": "cheating",
       "method": "modrinth"
     },
     {
@@ -385,6 +345,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
@@ -396,17 +361,6 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -438,11 +392,6 @@
     },
     {
       "identifier": "3dskinlayers",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth"
     },
@@ -489,13 +438,72 @@
   ],
   "failed": [
     {
+      "identifier": "memoryleakfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "carpet-fixes",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "lambdynamiclights",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "enchantment-descriptions",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "visual-workbench",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cut-through",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "highlight",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "cave-dust",
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
