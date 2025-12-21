@@ -78,7 +78,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [ ] [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
 - [ ] [Better Third Person](https://modrinth.com/mod/better-third-person)
 - [x] [Make Bubbles Pop](https://modrinth.com/mod/make_bubbles_pop)
-- [ ] [Durability Tooltip](https://modrinth.com/mod/durability-tooltip)
+- [x] [Durability Tooltip](https://modrinth.com/mod/durability-tooltip)
 - [ ] [ToolTipFix](https://modrinth.com/mod/tooltipfix)
 - [ ] [Blur+](https://modrinth.com/mod/blur-plus)
 - [ ] [Particle Rain](https://modrinth.com/mod/particle-rain)
@@ -126,7 +126,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
 - [ ] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
 - [ ] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
-- [ ] [Freecam](https://modrinth.com/mod/freecam)
+- [x] [Freecam](https://modrinth.com/mod/freecam)
 - [ ] [Chest Tracker](https://modrinth.com/mod/chest-tracker)
   - **Alternatives:**
     - [ ] [Chest Tracker (Unofficial port)](https://modrinth.com/mod/chest-tracker-port)
