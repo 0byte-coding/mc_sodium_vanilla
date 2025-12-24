@@ -1,13 +1,13 @@
 name = "LibJF"
-filename = "libjf-3.14.3.jar"
+filename = "libjf-3.15.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WKwQAwke/versions/ZMOELGJg/libjf-3.14.3.jar"
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/7qIjIAHp/libjf-3.15.7.jar"
 hash-format = "sha512"
-hash = "6c648e7a634733b71b978993cadff25e216b49b1a8b6c68a6ee642aa5c72d20a499719bb46be08b2b54f359866b1432da95e80d23b4cfbf169e2f3902827ce29"
+hash = "85d60c20e6f1f4e275ae1a2c5cfc8c3643dde73425d269de981fa5c3e639a8740230f8b843ed01e40760d52a8796330bb26c2e1a509e4d437ed4094a54f440e4"
 
 [update]
 [update.modrinth]
 mod-id = "WKwQAwke"
-version = "ZMOELGJg"
+version = "7qIjIAHp"
