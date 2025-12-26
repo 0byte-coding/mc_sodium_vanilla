@@ -10,16 +10,16 @@ export async function update_readme(installation_state?: ModInstallationState) {
 
   const mod_list_markdown = await get_mod_list_markdown(mod_list, installation_state)
 
-  // Find the "## Mod List" section and replace everything after it
-  const mod_list_header = "## Mod List"
+  // Find the "### Featured Mods" section and replace everything after it
+  const mod_list_header = "### Featured Mods"
   const mod_list_index = readme_content.indexOf(mod_list_header)
 
   if (mod_list_index === -1) {
-    console.error("Could not find '## Mod List' section in README.md")
+    console.error("Could not find '### Featured Mods' section in README.md")
     process.exit(1)
   }
 
-  // Get everything before the mod list section
+  // Get everything before the featured mods section
   const before_mod_list = readme_content.substring(0, mod_list_index)
 
   // Combine and write

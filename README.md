@@ -31,7 +31,11 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 
 ## Mod List
 
-### Optimization
+The modpack installs all available mods from the list defined below for the specific minecraft version, check out the [Official Github Repo](https://github.com/0byte-coding/mc_sodium_vanilla) > under tags for the newest list or a specific version.
+
+### Featured Mods
+
+#### Optimization
 
 - [x] [Fabric API](https://modrinth.com/mod/fabric-api)
 - [x] [Sodium](https://modrinth.com/mod/sodium)
@@ -54,7 +58,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [ ] [LazyDFU](https://modrinth.com/mod/lazydfu)
 - [x] [Let Me Despawn](https://modrinth.com/mod/lmd)
 
-### Visual
+#### Visual
 
 - [x] [Iris Shaders](https://modrinth.com/mod/iris)
 - [x] [Mod Menu](https://modrinth.com/mod/modmenu)
@@ -98,7 +102,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [ ] [Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)](https://modrinth.com/mod/ears)
 - [x] [Signed Paintings](https://modrinth.com/mod/signed-paintings)
 
-### Useful
+#### Useful
 
 - [x] [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat)
 - [x] [Litematica](https://modrinth.com/mod/litematica)
@@ -121,7 +125,7 @@ Issues, suggestions for mod additions, removals, or improvements as well as alte
 - [x] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
 - [x] [Resourcify](https://modrinth.com/mod/resourcify)
 
-### Cheating
+#### Cheating
 
 - [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
 - [ ] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)

@@ -69,7 +69,7 @@ export async function get_mod_list_markdown(mod_list: ModDefinitionWithAlternati
   let markdown = ""
 
   for (const [category, mods] of Object.entries(mods_by_category)) {
-    markdown += `### ${category.charAt(0).toUpperCase() + category.slice(1)}\n\n`
+    markdown += `#### ${category.charAt(0).toUpperCase() + category.slice(1)}\n\n`
     for (const mod of mods) {
       const url = `https://modrinth.com/${mod.project_type}/${mod.identifier}`
 
