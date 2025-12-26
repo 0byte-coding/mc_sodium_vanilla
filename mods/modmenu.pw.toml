@@ -1,13 +1,13 @@
 name = "Mod Menu"
-filename = "modmenu-17.0.0-beta.1.jar"
+filename = "modmenu-1.16.23.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/hGuj7hNc/modmenu-17.0.0-beta.1.jar"
+url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.23/modmenu-1.16.23.jar"
 hash-format = "sha512"
-hash = "bb0878d3ff2ddd9e4c6312d25eee5367b1ed114ea71baa07dbc30e13716f64d0bcebb1fccf37ca42ead0afb92044dccaef66b8c1c5d3946709e309d5d32f1984"
+hash = "c7d28a070319e0019e85fd4fe69cf90eab9ad8350204e4723a00870aba9b98f487113102b10769129abdcffa1c0b796e63719a29137dd642a0ebef42860049f7"
 
 [update]
 [update.modrinth]
 mod-id = "mOgUt4GM"
-version = "hGuj7hNc"
+version = "aShj7736"
