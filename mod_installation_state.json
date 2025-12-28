@@ -81,6 +81,16 @@
       "method": "modrinth"
     },
     {
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "freecam",
       "category": "cheating",
       "method": "modrinth"
@@ -364,18 +374,6 @@
     {
       "identifier": "modernfix",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "xaeros-world-map",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },

@@ -128,8 +128,8 @@ The modpack installs all available mods from the list defined below for the spec
 #### Cheating
 
 - [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
-- [ ] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
-- [ ] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
+- [x] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
+- [x] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
 - [x] [Freecam](https://modrinth.com/mod/freecam)
 - [ ] [Chest Tracker](https://modrinth.com/mod/chest-tracker)
   - **Alternatives:**
