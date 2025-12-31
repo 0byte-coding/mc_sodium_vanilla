@@ -1,13 +1,13 @@
 name = "Particle Rain"
-filename = "particlerain-4.0.0-beta.5+1.21.11-fabric.jar"
+filename = "particle-rain-2.1.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/nrikgvxm/versions/8kdLx5yJ/particlerain-4.0.0-beta.5%2B1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/nrikgvxm/versions/Z5dxPW8C/particle-rain-2.1.5.jar"
 hash-format = "sha512"
-hash = "5dc282a2c451538f8b2bc1d4e8f2d8f43b93c6f708552c80e471a6085537865221a9f01f2fc80a01bead353857c67d17daeb3a3d7c51b6af8d8808c81587bb8f"
+hash = "23ddc0bb489f5fbc323681b979c3312d988c7f06c60d3f8194c37d1374bd009514ef1591c2cd1b566f3a46cd631fe4e995b35214bb1eb35e979d399f8ca8eeb8"
 
 [update]
 [update.modrinth]
 mod-id = "nrikgvxm"
-version = "8kdLx5yJ"
+version = "Z5dxPW8C"
