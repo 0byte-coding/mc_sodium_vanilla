@@ -1,13 +1,13 @@
 name = "In-Game Account Switcher"
-filename = "InGameAccountSwitcher-Fabric-1.16-8.0.1.jar"
+filename = "IAS-Fabric-1.18.2-9.0.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/cudtvDnd/versions/9FC4X1sc/InGameAccountSwitcher-Fabric-1.16-8.0.1.jar"
+url = "https://cdn.modrinth.com/data/cudtvDnd/versions/ypRbcroQ/IAS-Fabric-1.18.2-9.0.4.jar"
 hash-format = "sha512"
-hash = "536f2225311c36cfbd91cec5193484cb8444bb69847f77b77cf4f61197fe440686bdb89b935dbcb7ded7ca8a41ca446da80877cc1bc5d2352dd727d02ee24602"
+hash = "ce1b0020822f59afa3df8ffdc823f9a4c7b0c0aa2bed07e0163544d007ce0db308e9a673da556ef51582f697ce3c78b038109db4871d29fff705b176b0c2a6ef"
 
 [update]
 [update.modrinth]
 mod-id = "cudtvDnd"
-version = "9FC4X1sc"
+version = "ypRbcroQ"
