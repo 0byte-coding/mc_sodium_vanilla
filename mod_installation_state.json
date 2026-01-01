@@ -180,26 +180,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "krypton",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "enchantment-descriptions",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "debugify",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "clumps",
       "category": "optimization",
       "method": "modrinth"
@@ -207,11 +187,6 @@
     {
       "identifier": "presence-footsteps",
       "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "betterf3",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -325,25 +300,9 @@
       "method": "modrinth"
     },
     {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
-    },
-    {
-      "identifier": "rightclickharvest",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
     },
     {
       "identifier": "dripsounds",
@@ -353,11 +312,6 @@
     {
       "identifier": "gamma-utils",
       "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "female-gender",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -411,11 +365,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ears",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
@@ -462,6 +411,36 @@
       "alternatives": []
     },
     {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "krypton",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "enchantment-descriptions",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "debugify",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "betterf3",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
@@ -498,13 +477,37 @@
       "alternatives": []
     },
     {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
+      "identifier": "rightclickharvest",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "female-gender",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ears",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -518,6 +521,17 @@
       "alternatives": [
         {
           "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "rightclickharvest",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "simple-harvesting",
           "method": "modrinth"
         }
       ]
