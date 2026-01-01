@@ -385,16 +385,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cave-dust",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
@@ -462,11 +452,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "inventory-particles",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "jjelytraswap",
       "category": "cheating",
       "method": "modrinth"
@@ -503,6 +488,24 @@
     }
   ],
   "failed": [
+    {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "inventory-particles",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
     {
       "identifier": "borderless-fullscreen",
       "category": "useful",
