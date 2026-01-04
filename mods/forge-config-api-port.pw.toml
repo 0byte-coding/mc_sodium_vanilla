@@ -1,0 +1,13 @@
+name = "Forge Config API Port"
+filename = "ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ohNO6lps/versions/XGKEYlsw/ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar"
+hash-format = "sha512"
+hash = "95b40c2edd1610c26a0e8f6ac980acf403098ada7b4748a9b94bab9d4b2b590955e3e345fa0727299b23eaf27b0811ca6e34305acb95b18c42507101ebfe11cd"
+
+[update]
+[update.modrinth]
+mod-id = "ohNO6lps"
+version = "XGKEYlsw"
