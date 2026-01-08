@@ -56,6 +56,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -104,6 +109,21 @@
       "identifier": "calcmod",
       "category": "useful",
       "method": "modrinth"
+    },
+    {
+      "identifier": "chest-tracker",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "chest-search-bar",
+          "method": "modrinth"
+        }
+      ]
     },
     {
       "identifier": "not-enough-animations",
@@ -180,7 +200,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "krypton",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "debugify",
       "category": "optimization",
       "method": "modrinth"
     },
@@ -192,6 +222,16 @@
     {
       "identifier": "presence-footsteps",
       "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "betterf3",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ebe",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -265,6 +305,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "replaymod",
       "category": "useful",
       "method": "modrinth"
@@ -290,6 +335,16 @@
       "method": "modrinth"
     },
     {
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
@@ -305,6 +360,21 @@
       "method": "modrinth"
     },
     {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
@@ -316,6 +386,17 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -347,11 +428,6 @@
     },
     {
       "identifier": "3dskinlayers",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth"
     },
@@ -408,23 +484,6 @@
   ],
   "failed": [
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "chest-tracker",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-search-bar",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
       "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth",
@@ -437,32 +496,8 @@
       "alternatives": []
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "enchantment-descriptions",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "debugify",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "betterf3",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ebe",
-      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
@@ -473,70 +508,11 @@
       "alternatives": []
     },
     {
-      "identifier": "better-third-person",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "what-are-they-up-to",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "tooltipfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "cave-dust",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "particular",
+      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     }
   ],
-  "alternative_installed": [
-    {
-      "identifier": "chest-tracker",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
-          "method": "modrinth"
-        }
-      ]
-    }
-  ]
+  "alternative_installed": []
 }
