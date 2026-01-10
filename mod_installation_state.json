@@ -11,12 +11,12 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modmenu",
-      "category": "visual",
+      "identifier": "entityculling",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
-      "identifier": "appleskin",
+      "identifier": "modmenu",
       "category": "visual",
       "method": "modrinth"
     },
@@ -41,11 +41,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "dynamic-fps",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth"
@@ -53,6 +48,21 @@
     {
       "identifier": "carpet",
       "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "chat-heads",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "presence-footsteps",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "betterf3",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -76,18 +86,29 @@
       "method": "modrinth"
     },
     {
+      "identifier": "invmove",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
     },
     {
-      "identifier": "gamma-utils",
+      "identifier": "rightclickharvest",
       "category": "cheating",
-      "method": "modrinth"
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
     },
     {
-      "identifier": "pistorder",
-      "category": "useful",
+      "identifier": "dripsounds",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -96,7 +117,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "in-game-account-switcher",
+      "identifier": "resourcify",
       "category": "useful",
       "method": "modrinth"
     }
@@ -111,12 +132,6 @@
     {
       "identifier": "iris",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "entityculling",
-      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
@@ -141,6 +156,12 @@
     {
       "identifier": "sodium-extra",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "appleskin",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -214,6 +235,12 @@
       "alternatives": []
     },
     {
+      "identifier": "dynamic-fps",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "jade",
       "category": "visual",
       "method": "modrinth",
@@ -271,12 +298,6 @@
       "alternatives": []
     },
     {
-      "identifier": "chat-heads",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "modelfix",
       "category": "visual",
       "method": "modrinth",
@@ -303,18 +324,6 @@
     {
       "identifier": "clumps",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "presence-footsteps",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "betterf3",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -403,12 +412,6 @@
       "alternatives": []
     },
     {
-      "identifier": "invmove",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "make_bubbles_pop",
       "category": "visual",
       "method": "modrinth",
@@ -475,17 +478,6 @@
       "alternatives": []
     },
     {
-      "identifier": "rightclickharvest",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -497,14 +489,20 @@
       ]
     },
     {
-      "identifier": "dripsounds",
-      "category": "visual",
+      "identifier": "gamma-utils",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
     {
       "identifier": "female-gender",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "pistorder",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -569,7 +567,7 @@
       "alternatives": []
     },
     {
-      "identifier": "resourcify",
+      "identifier": "in-game-account-switcher",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
