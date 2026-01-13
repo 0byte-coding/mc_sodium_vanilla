@@ -50,7 +50,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [More Culling](https://modrinth.com/mod/moreculling)
 - [ ] [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
 - [x] [Krypton](https://modrinth.com/mod/krypton)
-- [ ] [Debugify](https://modrinth.com/mod/debugify)
+- [x] [Debugify](https://modrinth.com/mod/debugify)
 - [x] [Clumps](https://modrinth.com/mod/clumps)
 - [ ] [Enhanced Block Entities](https://modrinth.com/mod/ebe)
 - [x] [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric)

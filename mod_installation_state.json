@@ -185,6 +185,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "debugify",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "clumps",
       "category": "optimization",
       "method": "modrinth"
@@ -450,12 +455,6 @@
     {
       "identifier": "enchantment-descriptions",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "debugify",
-      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
