@@ -1,13 +1,13 @@
 name = "Concurrent Chunk Management Engine (Fabric)"
-filename = "c2me-fabric-mc1.21.3-0.3.0.0.0.jar"
+filename = "c2me-fabric-mc1.21.3-0.3.1+alpha.0.44.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/VSNURh3q/versions/heTjNANx/c2me-fabric-mc1.21.3-0.3.0.0.0.jar"
+url = "https://cdn.modrinth.com/data/VSNURh3q/versions/tbi5EOUm/c2me-fabric-mc1.21.3-0.3.1%2Balpha.0.44.jar"
 hash-format = "sha512"
-hash = "c0c5a6990d88795a9d3d465d6dbb44f61af2b04f0290c0806c75620584016e46f2f1bdd07a038bae0f42be19d1c8f98be0ba845b852bf9f3b575ae6d517c4618"
+hash = "d749fa18da89a79e2ca8d50393750d0ce219ac1c619b894ff0940450f4bdb60d2b075bf3d06f920cef43e6020e5d2454859f4309b21ee1749aee2903ab0e9b5e"
 
 [update]
 [update.modrinth]
 mod-id = "VSNURh3q"
-version = "heTjNANx"
+version = "tbi5EOUm"
