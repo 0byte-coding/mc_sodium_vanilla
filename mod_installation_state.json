@@ -21,6 +21,16 @@
       "method": "modrinth"
     },
     {
+      "identifier": "entityculling",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ferrite-core",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "modmenu",
       "category": "visual",
       "method": "modrinth"
@@ -71,8 +81,23 @@
       "method": "modrinth"
     },
     {
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "freecam",
       "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "distanthorizons",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -81,22 +106,12 @@
       "method": "modrinth"
     },
     {
-      "identifier": "chest-tracker",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "chest-search-bar",
-          "method": "modrinth"
-        }
-      ]
+      "identifier": "not-enough-animations",
+      "category": "visual",
+      "method": "modrinth"
     },
     {
-      "identifier": "not-enough-animations",
+      "identifier": "continuity",
       "category": "visual",
       "method": "modrinth"
     },
@@ -126,12 +141,27 @@
       "method": "modrinth"
     },
     {
+      "identifier": "sound-physics-remastered",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "lambdynamiclights",
       "category": "visual",
       "method": "modrinth"
     },
     {
+      "identifier": "mouse-tweaks",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "chat-heads",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "modelfix",
       "category": "visual",
       "method": "modrinth"
     },
@@ -143,6 +173,11 @@
     {
       "identifier": "enchantment-descriptions",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "debugify",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -161,8 +196,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ebe",
-      "category": "optimization",
+      "identifier": "inventory-profiles-next",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "shulkerboxtooltip",
+      "category": "cheating",
       "method": "modrinth"
     },
     {
@@ -181,6 +221,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "ambientsounds",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "badoptimizations",
       "category": "optimization",
       "method": "modrinth"
@@ -196,6 +241,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "visual-workbench",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "dynamiccrosshair",
       "category": "visual",
       "method": "modrinth"
@@ -203,6 +253,11 @@
     {
       "identifier": "rrls",
       "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "better-mount-hud",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -236,6 +291,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "cut-through",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
@@ -247,6 +307,21 @@
     },
     {
       "identifier": "sound",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -287,6 +362,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "3dskinlayers",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "simple-armor-hud",
       "category": "visual",
       "method": "modrinth"
@@ -317,8 +397,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "ears",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "signed-paintings",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -329,46 +419,21 @@
   ],
   "failed": [
     {
-      "identifier": "entityculling",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ferrite-core",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "modernfix",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "xaeros-world-map",
+      "identifier": "chest-tracker",
       "category": "cheating",
       "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "distanthorizons",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "continuity",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
+      "alternatives": [
+        {
+          "identifier": "chest-search-bar",
+          "method": "modrinth"
+        }
+      ]
     },
     {
       "identifier": "memoryleakfix",
@@ -398,68 +463,14 @@
       ]
     },
     {
-      "identifier": "sound-physics-remastered",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "mouse-tweaks",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "debugify",
+      "identifier": "ebe",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "inventory-profiles-next",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "shulkerboxtooltip",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ambientsounds",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "visual-workbench",
-      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
       "identifier": "lazydfu",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "better-mount-hud",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "cut-through",
-      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -476,42 +487,13 @@
       "alternatives": []
     },
     {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "3dskinlayers",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -521,21 +503,20 @@
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
-    },
-    {
-      "identifier": "ears",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
     }
   ],
   "alternative_installed": [
+    {
+      "identifier": "chest-tracker",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        }
+      ]
+    },
     {
       "identifier": "jei",
       "category": "cheating",
@@ -543,6 +524,17 @@
       "alternatives": [
         {
           "identifier": "rei",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
