@@ -56,22 +56,12 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "simple-voice-chat",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "tweakeroo",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "minihud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "litematica",
       "category": "useful",
       "method": "modrinth"
     },
@@ -106,6 +96,21 @@
       "method": "modrinth"
     },
     {
+      "identifier": "chest-tracker",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "chest-search-bar",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
       "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth"
@@ -136,7 +141,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "memoryleakfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "carpet",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -180,8 +195,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "krypton",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "enchantment-descriptions",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -202,6 +227,11 @@
     {
       "identifier": "betterf3",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ebe",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -235,11 +265,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "badoptimizations",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "yosbr",
       "category": "useful",
       "method": "modrinth"
@@ -260,6 +285,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "lazydfu",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "rrls",
       "category": "useful",
       "method": "modrinth"
@@ -272,6 +302,11 @@
     {
       "identifier": "lmd",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "better-third-person",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -295,8 +330,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "cut-through",
-      "category": "cheating",
+      "identifier": "tooltipfix",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -315,6 +350,21 @@
       "method": "modrinth"
     },
     {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
@@ -326,6 +376,17 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -371,23 +432,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "inventory-particles",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "jjelytraswap",
       "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "real-arrow-tip",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "borderless-fullscreen",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -418,61 +464,32 @@
   ],
   "failed": [
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "chest-tracker",
+      "identifier": "tweakeroo",
       "category": "cheating",
       "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-search-bar",
-          "method": "modrinth"
-        }
-      ]
+      "alternatives": []
     },
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
+      "identifier": "minihud",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "carpet-fixes",
+      "identifier": "litematica",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "enchantment-descriptions",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ebe",
+      "identifier": "badoptimizations",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "lazydfu",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "better-third-person",
-      "category": "visual",
+      "identifier": "cut-through",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -483,58 +500,23 @@
       "alternatives": []
     },
     {
-      "identifier": "tooltipfix",
+      "identifier": "inventory-particles",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "show-me-your-skin",
+      "identifier": "real-arrow-tip",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "cave-dust",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
   ],
-  "alternative_installed": [
-    {
-      "identifier": "chest-tracker",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
-          "method": "modrinth"
-        }
-      ]
-    }
-  ]
+  "alternative_installed": []
 }
