@@ -61,7 +61,7 @@ The modpack installs all available mods from the list defined below for the spec
 #### Visual
 
 - [x] [Iris Shaders](https://modrinth.com/mod/iris)
-- [ ] [Mod Menu](https://modrinth.com/mod/modmenu)
+- [x] [Mod Menu](https://modrinth.com/mod/modmenu)
 - [x] [AppleSkin](https://modrinth.com/mod/appleskin)
 - [x] [MiniHUD](https://modrinth.com/mod/minihud)
 - [x] [Zoomify](https://modrinth.com/mod/zoomify)
