@@ -1,13 +1,13 @@
 name = "Litematica"
-filename = "litematica-fabric-1.18.1-0.10.4.jar"
+filename = "litematica-fabric-1.20.1-0.15.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/bEpr0Arc/versions/TVPrZtV3/litematica-fabric-1.18.1-0.10.4.jar"
+url = "https://cdn.modrinth.com/data/bEpr0Arc/versions/1ZTpW1lr/litematica-fabric-1.20.1-0.15.4.jar"
 hash-format = "sha512"
-hash = "a5370db99c671ef7d702a81720f5013d6ca664c2a45441f6e8e78f97796d3859487037348ef185697149437e412751ba7cc5201f4a37d3d715c86c578125413b"
+hash = "3cf1f2a16997e5a1dcda37b2626595f37873a39e33c254af1a7eda986aa13be74449d56fe706db7f158ed1a047271a48fa705091e5c71e3b0aa28d0d53c7cb01"
 
 [update]
 [update.modrinth]
 mod-id = "bEpr0Arc"
-version = "TVPrZtV3"
+version = "1ZTpW1lr"
