@@ -1,13 +1,13 @@
 name = "Sounds"
-filename = "sounds-2.4.16+edge+1.21.8+fabric.jar"
+filename = "sounds-2.4.20+edge+1.21.10-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/A97vuGtI/sounds-2.4.16%2Bedge%2B1.21.8%2Bfabric.jar"
+url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/HE60rITD/sounds-2.4.20%2Bedge%2B1.21.10-fabric.jar"
 hash-format = "sha512"
-hash = "dddb3758bba92717af29ea9d0a481e1eaa7b4c93c5b5a676835e84fb1cec9efab86deb62148a16776e58ceddb7780ea517845eb05c1ff463a12203eb15e59402"
+hash = "a57b2b4529eaa4a135fbde157948e78f4b056f69fa6aa860d48939f3f2e26048b07ead2bef76537b587a8a232776dbe144b871df5ad327392ad597527d3080c0"
 
 [update]
 [update.modrinth]
 mod-id = "ZouiUX7t"
-version = "A97vuGtI"
+version = "HE60rITD"
