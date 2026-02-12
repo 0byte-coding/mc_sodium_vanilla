@@ -156,17 +156,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -302,11 +292,6 @@
     {
       "identifier": "dynamiccrosshair",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "lazydfu",
-      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -477,6 +462,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "clickthrough+",
       "category": "cheating",
       "method": "modrinth"
@@ -504,8 +494,20 @@
   ],
   "failed": [
     {
-      "identifier": "borderless-fullscreen",
+      "identifier": "memoryleakfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "carpet-fixes",
       "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "lazydfu",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     }
