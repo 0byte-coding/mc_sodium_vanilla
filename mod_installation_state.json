@@ -311,12 +311,12 @@
       "method": "modrinth"
     },
     {
-      "identifier": "highlight",
+      "identifier": "show-me-your-skin",
       "category": "visual",
       "method": "modrinth"
     },
     {
-      "identifier": "cave-dust",
+      "identifier": "highlight",
       "category": "visual",
       "method": "modrinth"
     },
@@ -363,11 +363,6 @@
     },
     {
       "identifier": "3dskinlayers",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth"
     },
@@ -435,7 +430,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-tracker-port",
+          "identifier": "chest-search-bar",
           "method": "modrinth"
         }
       ]
@@ -492,13 +487,19 @@
       "alternatives": []
     },
     {
-      "identifier": "show-me-your-skin",
+      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
       "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -511,7 +512,7 @@
       "method": "modrinth",
       "alternatives": [
         {
-          "identifier": "chest-search-bar",
+          "identifier": "chest-tracker-port",
           "method": "modrinth"
         }
       ]
