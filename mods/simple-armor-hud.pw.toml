@@ -1,13 +1,13 @@
 name = "Simple Armor Hud"
-filename = "simple-armor-hud-1.21-1.5.0.jar"
+filename = "simple-armor-hud-1.21.6-1.5.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/tJflAtvJ/versions/DNqmRdIA/simple-armor-hud-1.21-1.5.0.jar"
+url = "https://cdn.modrinth.com/data/tJflAtvJ/versions/fearDrme/simple-armor-hud-1.21.6-1.5.1.jar"
 hash-format = "sha512"
-hash = "2e1bf77797d6e7c96a181d4666d5af9944f2acf2723ea9607232f70f21380e9d8ad5a590c27cff39110c3fdcbd9106aad803cb8a409ad4976cd7f0945fe6dbd6"
+hash = "b797dabeb7893ba80e7e18bc5d161628169d71220269ad3dc9c6578e5054cca0bfc232c0c75de0cfe89eacef1b532e3290be0f7b7dc0e1d6c078db5f68e5bb94"
 
 [update]
 [update.modrinth]
 mod-id = "tJflAtvJ"
-version = "DNqmRdIA"
+version = "fearDrme"

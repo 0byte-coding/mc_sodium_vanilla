@@ -1,13 +1,13 @@
 name = "Better Fullscreen"
-filename = "BetterFullscreen-v2.3.0-mc1.21.1.jar"
+filename = "BorderlessFullscreen-v2.2.1-mc1.21.6.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/UIexcMP1/versions/rc5aJrDs/BetterFullscreen-v2.3.0-mc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/UIexcMP1/versions/DYz146sd/BorderlessFullscreen-v2.2.1-mc1.21.6.jar"
 hash-format = "sha512"
-hash = "52efab2c06f67a80c63dcc25b19be0741d3127158638f5fed1839f572144971184b66d853da868c51bfec1a7fd15549b8f9cdc4b065183dc93dd787349cbf4e6"
+hash = "201d6c4b22bc747de3fa5545260ffa1494e21a51e5177fe38df4a47cc84be555ab4e88c4719d8bf9891b38cfb3147b850f0d15e3fbf6bfeffb0324b0099da7f9"
 
 [update]
 [update.modrinth]
 mod-id = "UIexcMP1"
-version = "rc5aJrDs"
+version = "DYz146sd"
