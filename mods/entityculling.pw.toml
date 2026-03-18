@@ -1,13 +1,13 @@
 name = "Entity Culling"
-filename = "entityculling-fabric-1.7.3-mc1.19.3.jar"
+filename = "entityculling-fabric-1.9.5-mc1.19.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/NNAgCjsB/versions/IMngHgbZ/entityculling-fabric-1.7.3-mc1.19.3.jar"
+url = "https://cdn.modrinth.com/data/NNAgCjsB/versions/kMMyJFc8/entityculling-fabric-1.9.5-mc1.19.4.jar"
 hash-format = "sha512"
-hash = "e6254f39972b4f9f4b02151a5bbc80077b06e2b2f510f0fa45f37c5a650a843a8c50fbcb0a98a77a78525cf43ac7cf1c016692e245f63ec70ae112d608d306a5"
+hash = "a12e14ac413004617e518a7db8f85b7b06ca2497522d049327b0045b8f57dac74d0989ce5f5cf8f1c2acff4b4be5e444f964888587fdf8a440eadba99b2b32f6"
 
 [update]
 [update.modrinth]
 mod-id = "NNAgCjsB"
-version = "IMngHgbZ"
+version = "kMMyJFc8"
