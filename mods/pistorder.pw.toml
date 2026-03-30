@@ -1,0 +1,13 @@
+name = "Pistorder"
+filename = "pistorder-v1.6.13-mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lpin1bEg/versions/qOISGEG1/pistorder-v1.6.13-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "64f3bb94a47102f63017a12dbcc0d41f81aa7860511406bb852f8babe1ba2be9877cecdf415c310a16410d31d6fbfb18aed7657cab31bce2cc1c617ec0279eaa"
+
+[update]
+[update.modrinth]
+mod-id = "lpin1bEg"
+version = "qOISGEG1"
