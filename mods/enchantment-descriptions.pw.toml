@@ -1,0 +1,13 @@
+name = "Enchantment Descriptions"
+filename = "enchdesc-fabric-1.21.9-21.9.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UVtY3ZAC/versions/cpajv569/enchdesc-fabric-1.21.9-21.9.2.jar"
+hash-format = "sha512"
+hash = "5cc233164c02be4fe4c940f8d47ae82be4ec9c71293bd934e337f5ca8db71cde47507b0e017f5168d1993c476216da5e075f9f8216a73dc32e9f4a47b732eac6"
+
+[update]
+[update.modrinth]
+mod-id = "UVtY3ZAC"
+version = "cpajv569"
