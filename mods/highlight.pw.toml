@@ -1,0 +1,13 @@
+name = "Highlight"
+filename = "highlight-fabric-1.20.2-2.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vz96hXMh/versions/Dun8GvAw/highlight-fabric-1.20.2-2.2.0.jar"
+hash-format = "sha512"
+hash = "efae921104eb3b42fc7098802543c0cb941e1983f4cd5eeb89e323a5b20626af8cf807c8bf5daa95153312c8181fb3e43b0dc38ae14f378f6361e305d666f426"
+
+[update]
+[update.modrinth]
+mod-id = "Vz96hXMh"
+version = "Dun8GvAw"
