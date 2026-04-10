@@ -1,0 +1,13 @@
+name = "CoroUtil"
+filename = "coroutil-fabric-1.16.5-1.3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rLLJ1OZM/versions/lJq1RQnC/coroutil-fabric-1.16.5-1.3.6.jar"
+hash-format = "sha512"
+hash = "8caff63bc9b5de120c4b01bbc5032a3db350145b49ad25baa227b6ce5878d609094847d4253b9bbb900643455aad8dc9dd872f3f807402efd17e25435acf9ba8"
+
+[update]
+[update.modrinth]
+mod-id = "rLLJ1OZM"
+version = "lJq1RQnC"
