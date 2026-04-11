@@ -11,22 +11,12 @@
       "method": "modrinth"
     },
     {
-      "identifier": "cloth-config",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "iris",
       "category": "visual",
       "method": "modrinth"
     },
     {
       "identifier": "entityculling",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ferrite-core",
       "category": "optimization",
       "method": "modrinth"
     },
@@ -51,27 +41,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "appleskin",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "simple-voice-chat",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "tweakeroo",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "minihud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "litematica",
       "category": "useful",
       "method": "modrinth"
     },
@@ -86,11 +56,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "not-enough-animations",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "continuity",
       "category": "visual",
       "method": "modrinth"
@@ -101,18 +66,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "jade",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "no-chat-reports",
       "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "moreculling",
-      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -145,28 +100,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "mouse-tweaks",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "chat-heads",
       "category": "visual",
       "method": "modrinth"
     },
     {
-      "identifier": "clumps",
+      "identifier": "debugify",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "shulkerboxtooltip",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "visuality",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -190,27 +130,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "rrls",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "better-mount-hud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "lmd",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "blur-plus",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "particle-rain",
       "category": "visual",
       "method": "modrinth"
     },
@@ -230,11 +150,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "respackopts",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "3dskinlayers",
       "category": "visual",
       "method": "modrinth"
@@ -242,16 +157,6 @@
     {
       "identifier": "inventory-particles",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "real-arrow-tip",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "borderless-fullscreen",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -267,8 +172,44 @@
   ],
   "failed": [
     {
+      "identifier": "cloth-config",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ferrite-core",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "appleskin",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "modernfix",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "tweakeroo",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "minihud",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "litematica",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -302,10 +243,32 @@
       "method": "modrinth",
       "alternatives": [
         {
+          "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        },
+        {
           "identifier": "chest-search-bar",
           "method": "modrinth"
         }
       ]
+    },
+    {
+      "identifier": "not-enough-animations",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "jade",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "moreculling",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
     },
     {
       "identifier": "memoryleakfix",
@@ -321,6 +284,12 @@
     },
     {
       "identifier": "carpet-fixes",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "mouse-tweaks",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
@@ -344,7 +313,7 @@
       "alternatives": []
     },
     {
-      "identifier": "debugify",
+      "identifier": "clumps",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
@@ -374,6 +343,18 @@
       "alternatives": []
     },
     {
+      "identifier": "shulkerboxtooltip",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "visuality",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "ambientsounds",
       "category": "useful",
       "method": "modrinth",
@@ -399,6 +380,18 @@
     },
     {
       "identifier": "lazydfu",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "rrls",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "lmd",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
@@ -447,6 +440,18 @@
     },
     {
       "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "blur-plus",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "particle-rain",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -510,6 +515,12 @@
       "alternatives": []
     },
     {
+      "identifier": "respackopts",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth",
@@ -524,6 +535,18 @@
     {
       "identifier": "jjelytraswap",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "real-arrow-tip",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -546,17 +569,5 @@
       "alternatives": []
     }
   ],
-  "alternative_installed": [
-    {
-      "identifier": "chest-tracker",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        }
-      ]
-    }
-  ]
+  "alternative_installed": []
 }
