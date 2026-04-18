@@ -11,6 +11,11 @@ hash = "899afb0d320d908e33c09c85507fcd1f27e07fe196af8606541d81847f835276"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "645a0ceee2e12147c2f266b75a9c3e1dd22937a1730c17fc81cdfacbfd5e0e1b"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "2d3b1944bc7916b8e57460d7eb342c73566e15393ddb6483c71f2336bab6200c"
 metafile = true
@@ -26,18 +31,8 @@ hash = "156e8688835a92ff6f1a199b77c0f9a16f3d5b15fd9c311cd7dd8a5b1b4d8b4d"
 metafile = true
 
 [[files]]
-file = "mods/blur-plus.pw.toml"
-hash = "3636c7432344dbccdbcdc595e82cec09d0090aeb365fe8b81cc37892f70332bf"
-metafile = true
-
-[[files]]
-file = "mods/borderless-fullscreen.pw.toml"
-hash = "32fcb251b8a5690e74bf73bb400c0dbc3dc1e799562f95ac3de6f74c2f7ee5eb"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "88564dd444864a32710007583bf715a361e94ca72c99517ff5b98ef24d4649b4"
+hash = "b7b5d17a9d618a5819c2ae0b0d25f2ff1fde4ada6beb14d4cc5221162a1be0b6"
 metafile = true
 
 [[files]]
@@ -52,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/chest-tracker-port.pw.toml"
-hash = "38265017aa53a34be5ac71bd9ade63a6fadac320714c87773c2390891aee7da2"
+hash = "8cdaf7df31982e2f20533f26eb106879da3f0b638e2e29b5bfc157db5914fa8e"
 metafile = true
 
 [[files]]
@@ -66,18 +61,23 @@ hash = "9d87690aab9b299e25bc37c3c55bbf433d706c0f222e7c17ce72a77035dc84ed"
 metafile = true
 
 [[files]]
-file = "mods/cloth-config.pw.toml"
-hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
-metafile = true
-
-[[files]]
 file = "mods/clumps.pw.toml"
-hash = "b8901028709d1730c45e031b2f1bb8fbed1460281e387d0e2b0764e49d1f95c0"
+hash = "5b76acfd3274e8b3ac95ba027725303763cc27e60c352ab4f7b58563d0f0f6a7"
 metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "c7e5c4ae7f25c1954a2327f5dd1edece3ba9dc07039d39bc9beb435e4a18bf82"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "9fb1d76cb4249839151dbfa8ba41cb5f6021f5c48912d33651f7888a95ea586f"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "78773495609b64dd539a2db03395128f206b75f3fd48922e803213fb5698e69f"
 metafile = true
 
 [[files]]
@@ -118,11 +118,6 @@ metafile = true
 [[files]]
 file = "mods/female-gender.pw.toml"
 hash = "d196e9c99c18c8a11443c4fb504859d15dd6a342b168a99fb07c67779dcbf414"
-metafile = true
-
-[[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
 
 [[files]]
@@ -187,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "30bf6855010558013f475625c377510383edef549aafaacacd6f99a418cfb5fd"
+hash = "18e0ba646659bc50a858729cfeff255a76c7702e5065ee56ce03e9553b430e67"
 metafile = true
 
 [[files]]
@@ -213,11 +208,6 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "a3b2043845ab8f258b02e6cefe35e20f836ccc1e30acd6758fc98a772be87828"
-metafile = true
-
-[[files]]
-file = "mods/moreculling.pw.toml"
-hash = "567b3b5c08e5860de765b30e6a73e2bb1a4c63f725165c4113219269ce1b4c1d"
 metafile = true
 
 [[files]]
