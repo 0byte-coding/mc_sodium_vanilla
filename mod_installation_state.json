@@ -76,15 +76,9 @@
       "method": "modrinth"
     },
     {
-      "identifier": "rightclickharvest",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "simple-harvesting",
-          "method": "modrinth"
-        }
-      ]
+      "identifier": "blur-plus",
+      "category": "visual",
+      "method": "modrinth"
     },
     {
       "identifier": "gamma-utils",
@@ -445,12 +439,6 @@
       "alternatives": []
     },
     {
-      "identifier": "blur-plus",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particle-rain",
       "category": "visual",
       "method": "modrinth",
@@ -485,6 +473,17 @@
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
+    },
+    {
+      "identifier": "rightclickharvest",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
     },
     {
       "identifier": "particular",
