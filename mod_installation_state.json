@@ -86,11 +86,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "calcmod",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth"
@@ -200,11 +195,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ambientsounds",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "badoptimizations",
       "category": "optimization",
       "method": "modrinth"
@@ -310,11 +300,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ears",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
@@ -347,6 +332,12 @@
     {
       "identifier": "distanthorizons",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "calcmod",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -406,6 +397,12 @@
     {
       "identifier": "ebe",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ambientsounds",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -496,7 +493,12 @@
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
-      "alternatives": []
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
+          "method": "modrinth"
+        }
+      ]
     },
     {
       "identifier": "dripsounds",
@@ -523,6 +525,12 @@
       "alternatives": []
     },
     {
+      "identifier": "ears",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "in-game-account-switcher",
       "category": "useful",
       "method": "modrinth",
@@ -537,17 +545,6 @@
       "alternatives": [
         {
           "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
