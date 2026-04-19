@@ -11,22 +11,12 @@
       "method": "modrinth"
     },
     {
-      "identifier": "cloth-config",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "iris",
       "category": "visual",
       "method": "modrinth"
     },
     {
       "identifier": "entityculling",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ferrite-core",
       "category": "optimization",
       "method": "modrinth"
     },
@@ -116,11 +106,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "moreculling",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "jei",
       "category": "cheating",
       "method": "modrinth",
@@ -165,6 +150,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "debugify",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "clumps",
       "category": "optimization",
       "method": "modrinth"
@@ -172,6 +162,11 @@
     {
       "identifier": "presence-footsteps",
       "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "betterf3",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -197,6 +192,11 @@
     {
       "identifier": "c2me-fabric",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ambientsounds",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -236,11 +236,6 @@
     },
     {
       "identifier": "make_bubbles_pop",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
     },
@@ -295,11 +290,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "borderless-fullscreen",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "clickthrough+",
       "category": "cheating",
       "method": "modrinth"
@@ -316,6 +306,18 @@
     }
   ],
   "failed": [
+    {
+      "identifier": "cloth-config",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ferrite-core",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
     {
       "identifier": "modernfix",
       "category": "optimization",
@@ -352,6 +354,12 @@
       ]
     },
     {
+      "identifier": "moreculling",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth",
@@ -382,26 +390,8 @@
       "alternatives": []
     },
     {
-      "identifier": "debugify",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "betterf3",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "ebe",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ambientsounds",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -455,6 +445,12 @@
     },
     {
       "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -515,6 +511,12 @@
     {
       "identifier": "jjelytraswap",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
