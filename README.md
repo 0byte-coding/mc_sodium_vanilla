@@ -50,7 +50,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [More Culling](https://modrinth.com/mod/moreculling)
 - [ ] [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
 - [x] [Krypton](https://modrinth.com/mod/krypton)
-- [ ] [Debugify](https://modrinth.com/mod/debugify)
+- [x] [Debugify](https://modrinth.com/mod/debugify)
 - [x] [Clumps](https://modrinth.com/mod/clumps)
 - [ ] [Enhanced Block Entities](https://modrinth.com/mod/ebe)
 - [x] [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric)
@@ -88,7 +88,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [Particle Rain](https://modrinth.com/mod/particle-rain)
 - [x] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
 - [ ] [Highlight](https://modrinth.com/mod/highlight)
-- [ ] [Cave Dust](https://modrinth.com/mod/cave-dust)
+- [x] [Cave Dust](https://modrinth.com/mod/cave-dust)
 - [ ] [Particular ✨](https://modrinth.com/mod/particular)
   - **Alternatives:**
     - [x] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
@@ -113,7 +113,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)
 - [x] [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks)
 - [x] [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
-- [ ] [AmbientSounds](https://modrinth.com/mod/ambientsounds)
+- [x] [AmbientSounds](https://modrinth.com/mod/ambientsounds)
 - [ ] [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
 - [x] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
@@ -121,15 +121,15 @@ The modpack installs all available mods from the list defined below for the spec
 - [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
 - [x] [Pistorder](https://modrinth.com/mod/pistorder)
 - [x] [Respackopts](https://modrinth.com/mod/respackopts)
-- [x] [Borderless Fullscreen](https://modrinth.com/mod/borderless-fullscreen)
+- [ ] [Borderless Fullscreen](https://modrinth.com/mod/borderless-fullscreen)
 - [ ] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
 - [x] [Resourcify](https://modrinth.com/mod/resourcify)
 
 #### Cheating
 
 - [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
-- [ ] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
-- [ ] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
+- [x] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
+- [x] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
 - [x] [Freecam](https://modrinth.com/mod/freecam)
 - [ ] [Chest Tracker](https://modrinth.com/mod/chest-tracker)
   - **Alternatives:**

@@ -11,6 +11,11 @@ hash = "84964d9b2cd01717124dc627e008cdca778f7970509f04127945f9a5191fb463"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "645a0ceee2e12147c2f266b75a9c3e1dd22937a1730c17fc81cdfacbfd5e0e1b"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "2d3b1944bc7916b8e57460d7eb342c73566e15393ddb6483c71f2336bab6200c"
 metafile = true
@@ -18,6 +23,11 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
+metafile = true
+
+[[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "482a4ddb41d69715f72fd0e894b30b1cd30872196b915671c41e073831e63d8a"
 metafile = true
 
 [[files]]
@@ -36,18 +46,18 @@ hash = "3636c7432344dbccdbcdc595e82cec09d0090aeb365fe8b81cc37892f70332bf"
 metafile = true
 
 [[files]]
-file = "mods/borderless-fullscreen.pw.toml"
-hash = "32fcb251b8a5690e74bf73bb400c0dbc3dc1e799562f95ac3de6f74c2f7ee5eb"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "88564dd444864a32710007583bf715a361e94ca72c99517ff5b98ef24d4649b4"
+hash = "b7b5d17a9d618a5819c2ae0b0d25f2ff1fde4ada6beb14d4cc5221162a1be0b6"
 metafile = true
 
 [[files]]
 file = "mods/capes.pw.toml"
 hash = "5979da4f06033b5fd04d935c33e6bf3b6124dfcd23a413763fff9e37c7103e77"
+metafile = true
+
+[[files]]
+file = "mods/cave-dust.pw.toml"
+hash = "da7595cd34dd6dfca2ad10ce38110d27c7b257aea2966a5afb0b84a98a234da5"
 metafile = true
 
 [[files]]
@@ -57,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/chest-tracker-port.pw.toml"
-hash = "38265017aa53a34be5ac71bd9ade63a6fadac320714c87773c2390891aee7da2"
+hash = "8cdaf7df31982e2f20533f26eb106879da3f0b638e2e29b5bfc157db5914fa8e"
 metafile = true
 
 [[files]]
@@ -77,12 +87,22 @@ metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "b8901028709d1730c45e031b2f1bb8fbed1460281e387d0e2b0764e49d1f95c0"
+hash = "5b76acfd3274e8b3ac95ba027725303763cc27e60c352ab4f7b58563d0f0f6a7"
 metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "c7e5c4ae7f25c1954a2327f5dd1edece3ba9dc07039d39bc9beb435e4a18bf82"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "9fb1d76cb4249839151dbfa8ba41cb5f6021f5c48912d33651f7888a95ea586f"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "78773495609b64dd539a2db03395128f206b75f3fd48922e803213fb5698e69f"
 metafile = true
 
 [[files]]
@@ -373,6 +393,16 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "70810061d41b8eb952f99ef365ba26d04ae6e08875da2adfe66d9a6b337128f2"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "acd39ee795cc2f8beb4ce74d6d3a3397b243700264c24aa3a4e00176edf5e91c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "d0adfdccae161834f8148749eec0cdef8047d34d042443ad7e24653268da948f"
 metafile = true
 
 [[files]]
