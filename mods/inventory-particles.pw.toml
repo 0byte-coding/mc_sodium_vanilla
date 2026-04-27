@@ -1,13 +1,13 @@
 name = "Inventory Particles"
-filename = "InventoryParticles-1.5.0+1.21.5+fabric.jar"
+filename = "InventoryParticles-1.4.0+1.21.6+fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/XYnKrsxH/versions/q79ifkYa/InventoryParticles-1.5.0%2B1.21.5%2Bfabric.jar"
+url = "https://cdn.modrinth.com/data/XYnKrsxH/versions/hInodyBy/InventoryParticles-1.4.0%2B1.21.6%2Bfabric.jar"
 hash-format = "sha512"
-hash = "2bf70a06e7a76b3b54d585b0af8ab2422168a6db7486f807a59a3482593ebeeaf2f686dd82cffcceb6a9ec4527d5053403b1ad4814a8ec94a51618f5eec0896a"
+hash = "cd45d9b20deead01404a0629338eead7509d636438744d4a1a71bc6b5c18aff1e5589998b57e3ff10ddd659e7f4e02ef0965c9455966be78091bd348bb5253cd"
 
 [update]
 [update.modrinth]
 mod-id = "XYnKrsxH"
-version = "q79ifkYa"
+version = "hInodyBy"
