@@ -101,6 +101,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "calcmod",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth"
@@ -128,6 +133,11 @@
     {
       "identifier": "moreculling",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "carpet",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -235,7 +245,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "yosbr",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "capes",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "visual-workbench",
       "category": "visual",
       "method": "modrinth"
     },
@@ -265,7 +285,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "invmove",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "make_bubbles_pop",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "durability-tooltip",
       "category": "visual",
       "method": "modrinth"
     },
@@ -295,7 +325,23 @@
       "method": "modrinth"
     },
     {
-      "identifier": "cave-dust",
+      "identifier": "notenoughcrashes",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "rightclickharvest",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "dripsounds",
       "category": "visual",
       "method": "modrinth"
     },
@@ -340,6 +386,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "jjelytraswap",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "real-arrow-tip",
       "category": "visual",
       "method": "modrinth"
@@ -355,8 +406,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "ears",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "signed-paintings",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -369,12 +430,6 @@
     {
       "identifier": "modernfix",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "calcmod",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -392,12 +447,6 @@
     {
       "identifier": "memoryleakfix",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "carpet",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -420,18 +469,6 @@
       "alternatives": []
     },
     {
-      "identifier": "yosbr",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "visual-workbench",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth",
@@ -439,18 +476,6 @@
     },
     {
       "identifier": "better-third-person",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "invmove",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "durability-tooltip",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -474,44 +499,14 @@
       "alternatives": []
     },
     {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "rightclickharvest",
-      "category": "cheating",
+      "identifier": "cave-dust",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
       "identifier": "particular",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "jjelytraswap",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ears",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
@@ -524,17 +519,6 @@
       "alternatives": [
         {
           "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "rightclickharvest",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "simple-harvesting",
           "method": "modrinth"
         }
       ]
