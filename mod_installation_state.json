@@ -91,11 +91,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "calcmod",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth"
@@ -212,11 +207,6 @@
     {
       "identifier": "c2me-fabric",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ambientsounds",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -345,11 +335,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ears",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
@@ -376,6 +361,12 @@
     {
       "identifier": "xaeros-minimap",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "calcmod",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -423,6 +414,12 @@
     {
       "identifier": "ebe",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ambientsounds",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -507,6 +504,12 @@
     {
       "identifier": "jjelytraswap",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ears",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
