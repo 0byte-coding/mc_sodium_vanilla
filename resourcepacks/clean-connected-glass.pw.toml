@@ -1,0 +1,13 @@
+name = "Clean Connected Glass"
+filename = "Clean Connected Glass [1.20-1.21.11].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dIyWZMgP/versions/lBvugoTQ/Clean%20Connected%20Glass%20%5B1.20-1.21.11%5D.zip"
+hash-format = "sha512"
+hash = "aa0de4cc398be7a7e0d91d47b729fc25ba3d0d2851a3a51ec97141ccd6ad213ff0bb236aec1d3c39e3e5596923522040de5d2a4c3cd5daa6b36643adb2c9d977"
+
+[update]
+[update.modrinth]
+mod-id = "dIyWZMgP"
+version = "lBvugoTQ"
