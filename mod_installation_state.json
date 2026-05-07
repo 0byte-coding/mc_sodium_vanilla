@@ -81,16 +81,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "xaeros-world-map",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "freecam",
       "category": "cheating",
       "method": "modrinth"
@@ -98,6 +88,11 @@
     {
       "identifier": "distanthorizons",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "calcmod",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -177,11 +172,6 @@
     {
       "identifier": "enchantment-descriptions",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "debugify",
-      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -300,11 +290,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "cave-dust",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "rightclickharvest",
       "category": "cheating",
       "method": "modrinth",
@@ -381,11 +366,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "resourcify",
       "category": "useful",
       "method": "modrinth"
@@ -399,8 +379,14 @@
       "alternatives": []
     },
     {
-      "identifier": "calcmod",
-      "category": "useful",
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -436,6 +422,12 @@
     {
       "identifier": "modelfix",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "debugify",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
@@ -494,6 +486,12 @@
       "alternatives": []
     },
     {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth",
@@ -514,6 +512,12 @@
     {
       "identifier": "jjelytraswap",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
