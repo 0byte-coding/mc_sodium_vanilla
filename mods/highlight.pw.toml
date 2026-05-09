@@ -1,13 +1,13 @@
 name = "Highlight"
-filename = "highlight-fabric-1.20.5-2.5.1.jar"
+filename = "highlight-fabric-1.21-3.0.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Vz96hXMh/versions/wMYcIfAx/highlight-fabric-1.20.5-2.5.1.jar"
+url = "https://cdn.modrinth.com/data/Vz96hXMh/versions/O0nda3pt/highlight-fabric-1.21-3.0.0.jar"
 hash-format = "sha512"
-hash = "730f8391ab19703630a7abb4f05f94c51e0eeea436716b59112f6b9f1275994b4e436de63d8f34f0995038c32e4a39f09616462a0c1cb599401ab37b32881c92"
+hash = "bca053d6bfe0c0326cb502181d50021473577e3145db5f604d16d79abab29c14489291742f2438ee7b7a7ee42787e3074809a89fac92bfa4812d175512a74b84"
 
 [update]
 [update.modrinth]
 mod-id = "Vz96hXMh"
-version = "wMYcIfAx"
+version = "O0nda3pt"
