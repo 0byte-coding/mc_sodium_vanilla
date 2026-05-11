@@ -91,11 +91,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "calcmod",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth"
@@ -212,11 +207,6 @@
     {
       "identifier": "c2me-fabric",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ambientsounds",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -391,6 +381,12 @@
       "alternatives": []
     },
     {
+      "identifier": "calcmod",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "chest-tracker",
       "category": "cheating",
       "method": "modrinth",
@@ -434,6 +430,12 @@
     {
       "identifier": "ebe",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ambientsounds",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
