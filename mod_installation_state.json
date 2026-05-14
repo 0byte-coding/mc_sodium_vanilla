@@ -156,19 +156,28 @@
       "method": "modrinth"
     },
     {
-      "identifier": "memoryleakfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "carpet",
       "category": "useful",
       "method": "modrinth"
     },
     {
-      "identifier": "carpet-fixes",
-      "category": "useful",
-      "method": "modrinth"
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "rei",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "emi",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "eiv",
+          "method": "modrinth"
+        }
+      ]
     },
     {
       "identifier": "sound-physics-remastered",
@@ -286,11 +295,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "lazydfu",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "rrls",
       "category": "useful",
       "method": "modrinth"
@@ -331,6 +335,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "cut-through",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "what-are-they-up-to",
       "category": "cheating",
       "method": "modrinth"
@@ -343,6 +352,16 @@
     {
       "identifier": "blur-plus",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "particle-rain",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "sound",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -372,6 +391,17 @@
       "alternatives": [
         {
           "identifier": "simple-harvesting",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "particular",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "particular-reforged",
           "method": "modrinth"
         }
       ]
@@ -412,8 +442,28 @@
       "method": "modrinth"
     },
     {
+      "identifier": "simple-armor-hud",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "inventory-particles",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "jjelytraswap",
       "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "real-arrow-tip",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "borderless-fullscreen",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -423,6 +473,11 @@
     },
     {
       "identifier": "ears",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
     },
@@ -439,91 +494,23 @@
   ],
   "failed": [
     {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "emi",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "eiv",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "cut-through",
-      "category": "cheating",
+      "identifier": "memoryleakfix",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "sound",
+      "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "particular",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "particular-reforged",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "simple-armor-hud",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "inventory-particles",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "real-arrow-tip",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "borderless-fullscreen",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "signed-paintings",
-      "category": "visual",
+      "identifier": "lazydfu",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     }
   ],
-  "alternative_installed": [
-    {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "rei",
-          "method": "modrinth"
-        }
-      ]
-    }
-  ]
+  "alternative_installed": []
 }
