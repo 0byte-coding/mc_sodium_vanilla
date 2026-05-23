@@ -136,11 +136,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "jei",
       "category": "cheating",
       "method": "modrinth",
@@ -245,11 +240,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "yosbr",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "capes",
       "category": "visual",
       "method": "modrinth"
@@ -285,17 +275,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "invmove",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "make_bubbles_pop",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "durability-tooltip",
       "category": "visual",
       "method": "modrinth"
     },
@@ -325,8 +305,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
+      "identifier": "cave-dust",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -339,11 +319,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth"
     },
     {
       "identifier": "gamma-utils",
@@ -383,11 +358,6 @@
     {
       "identifier": "inventory-particles",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "jjelytraswap",
-      "category": "cheating",
       "method": "modrinth"
     },
     {
@@ -451,6 +421,12 @@
       "alternatives": []
     },
     {
+      "identifier": "carpet",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "carpet-fixes",
       "category": "useful",
       "method": "modrinth",
@@ -469,6 +445,12 @@
       "alternatives": []
     },
     {
+      "identifier": "yosbr",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth",
@@ -476,6 +458,18 @@
     },
     {
       "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "invmove",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "durability-tooltip",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -499,14 +493,26 @@
       "alternatives": []
     },
     {
-      "identifier": "cave-dust",
-      "category": "visual",
+      "identifier": "notenoughcrashes",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
       "identifier": "particular",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "dripsounds",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "jjelytraswap",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     }
