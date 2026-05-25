@@ -1,13 +1,13 @@
 name = "JJElytraSwap"
-filename = "JJElytraSwap-1.91.jar"
+filename = "JJElytraSwap-1.7.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/CanU29Ke/versions/Prqp7xxw/JJElytraSwap-1.91.jar"
+url = "https://cdn.modrinth.com/data/CanU29Ke/versions/sOrhupSn/JJElytraSwap-1.7.1.jar"
 hash-format = "sha512"
-hash = "d73cf816671dda58dd9d7ea596781bc56e8e08ff75ac73ea9bae48eaef207b1b51bdcb86813581a7045b0438d273407877645036eee95e50d406b6ddea7e46e0"
+hash = "40ee1c305f4ce04b9c5dbe27dadccc71ac5f936825675e5a7ef847256ae3f17558248efd7db8bf4538fa12f7d2cbabc5b54d0abaa09d00f0a47754f7933b5ce7"
 
 [update]
 [update.modrinth]
 mod-id = "CanU29Ke"
-version = "Prqp7xxw"
+version = "sOrhupSn"
