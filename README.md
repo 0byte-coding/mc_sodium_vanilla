@@ -113,7 +113,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)
 - [x] [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks)
 - [x] [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
-- [x] [AmbientSounds](https://modrinth.com/mod/ambientsounds)
+- [ ] [AmbientSounds](https://modrinth.com/mod/ambientsounds)
 - [ ] [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
 - [x] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
