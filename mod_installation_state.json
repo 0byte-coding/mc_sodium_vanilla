@@ -141,6 +141,25 @@
       "method": "modrinth"
     },
     {
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "rei",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "emi",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "eiv",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
       "identifier": "sound-physics-remastered",
       "category": "useful",
       "method": "modrinth"
@@ -266,11 +285,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "better-third-person",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "replaymod",
       "category": "useful",
       "method": "modrinth"
@@ -311,17 +325,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth"
     },
@@ -458,21 +462,6 @@
       "alternatives": []
     },
     {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "emi",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "eiv",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
       "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
@@ -485,6 +474,12 @@
       "alternatives": []
     },
     {
+      "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "what-are-they-up-to",
       "category": "cheating",
       "method": "modrinth",
@@ -492,6 +487,18 @@
     },
     {
       "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -511,17 +518,6 @@
       "alternatives": [
         {
           "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "rei",
           "method": "modrinth"
         }
       ]
