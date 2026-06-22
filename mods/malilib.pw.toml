@@ -1,13 +1,13 @@
 name = "MaLiLib"
-filename = "malilib-fabric-26.2-0.29.0.jar"
+filename = "malilib-fabric-1.14.4-0.10.0-dev.20+arne.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/GcWjdA9I/versions/cQrrLPtk/malilib-fabric-26.2-0.29.0.jar"
+url = "https://cdn.modrinth.com/data/GcWjdA9I/versions/ROauLEoP/malilib-fabric-1.14.4-0.10.0-dev.20%2Barne.2.jar"
 hash-format = "sha512"
-hash = "07445f81260765ab8933899ac84a10e368a11b4c2f60baaaf63564ec09446e03adbe01bdbeb9085fb11b097fd098df285964315257ffa354cf5b20dfdaac572c"
+hash = "2009969a437376ce07f1a59ed217ce35e95e7652010f6fe5363843fa7dcc0f931af8d54f19a29a130086c8c57ec50db03419830abf002f59a917ad6f47ad5316"
 
 [update]
 [update.modrinth]
 mod-id = "GcWjdA9I"
-version = "cQrrLPtk"
+version = "ROauLEoP"
