@@ -180,11 +180,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "krypton",
       "category": "optimization",
       "method": "modrinth"
@@ -325,7 +320,7 @@
       "method": "modrinth"
     },
     {
-      "identifier": "highlight",
+      "identifier": "show-me-your-skin",
       "category": "visual",
       "method": "modrinth"
     },
@@ -462,6 +457,12 @@
       "alternatives": []
     },
     {
+      "identifier": "modelfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
@@ -492,7 +493,7 @@
       "alternatives": []
     },
     {
-      "identifier": "show-me-your-skin",
+      "identifier": "highlight",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
