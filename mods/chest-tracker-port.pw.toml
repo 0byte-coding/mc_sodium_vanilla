@@ -1,13 +1,13 @@
 name = "Chest Tracker (Unofficial port)"
-filename = "chesttracker-2.8.2+1.21.8.jar"
+filename = "chesttracker-2.8.2+1.21.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/VC2NohMN/versions/KirIWr7k/chesttracker-2.8.2%2B1.21.8.jar"
+url = "https://cdn.modrinth.com/data/VC2NohMN/versions/aL8p7PbC/chesttracker-2.8.2%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "91c7f78c18ca3a82663b7efb1021672f94912795d78f0d4560ca212559f2d25ca1262bd6e1ecefcec04d739d690de8c8c96a92de40021a7a118343b02a259562"
+hash = "92ebc49b4d76466f8947470f34a2b398d5d72aa5c42096c95e258d1ae92bcf4ef135783e1c93d33053ae8b2ec9af2291e68f34067cb3e7ef51273f8810bb213a"
 
 [update]
 [update.modrinth]
 mod-id = "VC2NohMN"
-version = "KirIWr7k"
+version = "aL8p7PbC"
