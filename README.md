@@ -50,7 +50,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [More Culling](https://modrinth.com/mod/moreculling)
 - [ ] [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
 - [x] [Krypton](https://modrinth.com/mod/krypton)
-- [x] [Debugify](https://modrinth.com/mod/debugify)
+- [ ] [Debugify](https://modrinth.com/mod/debugify)
 - [x] [Clumps](https://modrinth.com/mod/clumps)
 - [ ] [Enhanced Block Entities](https://modrinth.com/mod/ebe)
 - [x] [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric)
@@ -92,7 +92,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [ ] [Particular ✨](https://modrinth.com/mod/particular)
   - **Alternatives:**
     - [x] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
-- [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
+- [ ] [Drip Sounds](https://modrinth.com/mod/dripsounds)
 - [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 - [x] [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 - [x] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
@@ -118,18 +118,18 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [x] [Sounds](https://modrinth.com/mod/sound)
-- [x] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
+- [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
 - [x] [Pistorder](https://modrinth.com/mod/pistorder)
 - [x] [Respackopts](https://modrinth.com/mod/respackopts)
 - [x] [Borderless Fullscreen](https://modrinth.com/mod/borderless-fullscreen)
-- [x] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
+- [ ] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
 - [x] [Resourcify](https://modrinth.com/mod/resourcify)
 
 #### Cheating
 
 - [x] [Tweakeroo](https://modrinth.com/mod/tweakeroo)
-- [x] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
-- [x] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
+- [ ] [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
+- [ ] [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
 - [x] [Freecam](https://modrinth.com/mod/freecam)
 - [ ] [Chest Tracker](https://modrinth.com/mod/chest-tracker)
   - **Alternatives:**
@@ -143,6 +143,6 @@ The modpack installs all available mods from the list defined below for the spec
 - [ ] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
 - [x] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
 - [x] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
-- [x] [JJElytraSwap](https://modrinth.com/mod/jjelytraswap)
+- [ ] [JJElytraSwap](https://modrinth.com/mod/jjelytraswap)
 - [x] [ClickThrough Plus](https://modrinth.com/mod/clickthrough+)
 
