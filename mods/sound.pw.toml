@@ -1,13 +1,13 @@
 name = "Sounds"
-filename = "sounds-2.5.0+edge+26.2-fabric.jar"
+filename = "sounds-2.4.22+lts+1.21.1-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/ksT9nLib/sounds-2.5.0%2Bedge%2B26.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/ZpG2rY0c/sounds-2.4.22%2Blts%2B1.21.1-fabric.jar"
 hash-format = "sha512"
-hash = "844202c93f5587ff5240ebb4f6646fc47b2d749d81fb0291f6bedb28ff762b7567bf7516a6dc6eb064ae52f20e2bbba2a7bd79d4dac704d586554cefd8e9897a"
+hash = "275ef4b691ce62b1f22ba7baadfaef65c57ebe774c54450e8ec8ab1ef934f039a4ef0cc8d054386dd8be572c73333ef811e39c9228b2d091eb2afa7bc4e91e74"
 
 [update]
 [update.modrinth]
 mod-id = "ZouiUX7t"
-version = "ksT9nLib"
+version = "ZpG2rY0c"
