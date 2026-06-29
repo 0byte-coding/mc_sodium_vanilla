@@ -81,16 +81,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "xaeros-world-map",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "freecam",
       "category": "cheating",
       "method": "modrinth"
@@ -187,11 +177,6 @@
     {
       "identifier": "enchantment-descriptions",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "debugify",
-      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -325,11 +310,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "rightclickharvest",
       "category": "cheating",
       "method": "modrinth",
@@ -339,11 +319,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth"
     },
     {
       "identifier": "gamma-utils",
@@ -386,11 +361,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "jjelytraswap",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "real-arrow-tip",
       "category": "visual",
       "method": "modrinth"
@@ -416,11 +386,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "resourcify",
       "category": "useful",
       "method": "modrinth"
@@ -430,6 +395,18 @@
     {
       "identifier": "modernfix",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -459,6 +436,12 @@
     {
       "identifier": "modelfix",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "debugify",
+      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
@@ -505,8 +488,32 @@
       "alternatives": []
     },
     {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "particular",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "dripsounds",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "jjelytraswap",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
