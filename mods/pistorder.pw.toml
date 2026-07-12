@@ -1,13 +1,13 @@
 name = "Pistorder"
-filename = "pistorder-v1.6.15-mc26.2.jar"
+filename = "pistorder-v1.6.15-mc1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/lpin1bEg/versions/SokaTUaS/pistorder-v1.6.15-mc26.2.jar"
+url = "https://cdn.modrinth.com/data/lpin1bEg/versions/ak3SuwN3/pistorder-v1.6.15-mc1.20.1.jar"
 hash-format = "sha512"
-hash = "5273b6c2d9365df6a0d86ac1ca8a18b861e99df96f6eafa81c73e444499cea49446cf9342f22d22219006a26e5d0a65addaf90c66f32ec49628bb95baad37a2c"
+hash = "cc20e17c3567a95a0b9baab42034520cc7ea77997696f35553a5a3941d5badfa86c4a1165198b010f7b7fac61dd45e1756a166a2dbdd4614db932feb5901619a"
 
 [update]
 [update.modrinth]
 mod-id = "lpin1bEg"
-version = "SokaTUaS"
+version = "ak3SuwN3"
