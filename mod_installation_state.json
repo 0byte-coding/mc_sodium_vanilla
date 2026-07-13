@@ -180,11 +180,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "krypton",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "enchantment-descriptions",
       "category": "visual",
       "method": "modrinth"
@@ -242,11 +237,6 @@
     {
       "identifier": "badoptimizations",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "yosbr",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -310,23 +300,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "sound",
       "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cave-dust",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -401,11 +376,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ears",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
@@ -458,8 +428,20 @@
       "alternatives": []
     },
     {
+      "identifier": "krypton",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "ebe",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "yosbr",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -488,7 +470,25 @@
       "alternatives": []
     },
     {
+      "identifier": "particle-rain",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "highlight",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -508,6 +508,12 @@
     {
       "identifier": "jjelytraswap",
       "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ears",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     }
