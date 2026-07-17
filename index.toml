@@ -11,11 +11,6 @@ hash = "84964d9b2cd01717124dc627e008cdca778f7970509f04127945f9a5191fb463"
 metafile = true
 
 [[files]]
-file = "mods/ambientsounds.pw.toml"
-hash = "071565be53ea0b0ec02b1d6d95c7dc92f7df629407c969fec011724f752bccec"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "2d3b1944bc7916b8e57460d7eb342c73566e15393ddb6483c71f2336bab6200c"
 metafile = true
@@ -23,11 +18,6 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
-metafile = true
-
-[[files]]
-file = "mods/baguettelib.pw.toml"
-hash = "68574ed19520a40422f38d9ffcef68bbf870ec0fa2f8751b487ba776fc6c887e"
 metafile = true
 
 [[files]]
@@ -42,17 +32,17 @@ metafile = true
 
 [[files]]
 file = "mods/blur-plus.pw.toml"
-hash = "5a3b1ceb3b56949b9ff397277558cf336e9fde08395d8cbcc7effd70ae0c2f1b"
+hash = "dd558c0a3a5317d461589337cc04f33527e2191ede4dbd680ab9df594aad5e62"
 metafile = true
 
 [[files]]
 file = "mods/borderless-fullscreen.pw.toml"
-hash = "614c501b287a2c2676e5308d84f952b9546d9739c7d50f58874248550f9a2da8"
+hash = "32fcb251b8a5690e74bf73bb400c0dbc3dc1e799562f95ac3de6f74c2f7ee5eb"
 metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "fbb95f1f234b60ae745ba25e059b91ec84a100490df1bbed2bd023c920c1446e"
+hash = "88564dd444864a32710007583bf715a361e94ca72c99517ff5b98ef24d4649b4"
 metafile = true
 
 [[files]]
@@ -77,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/chest-tracker-port.pw.toml"
-hash = "9ab2b89c00a9eba73cb1e10016eaceba80aafcfd0cef405a6874be94ef3b781c"
+hash = "65a7f783f0eb3ae6539e9874a1c14e6b5695c67f3cc35245b8d7a8d04d576e32"
 metafile = true
 
 [[files]]
@@ -97,17 +87,12 @@ metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "94e45b32e216ff297f1abb00019b6bb8ee6a7787e682996e32307fb2e18a37ea"
+hash = "b8901028709d1730c45e031b2f1bb8fbed1460281e387d0e2b0764e49d1f95c0"
 metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "c7e5c4ae7f25c1954a2327f5dd1edece3ba9dc07039d39bc9beb435e4a18bf82"
-metafile = true
-
-[[files]]
-file = "mods/creativecore.pw.toml"
-hash = "543b83fa84e5fd8691a313b497605be745ba47a8433afee664a136879d52e8e1"
 metafile = true
 
 [[files]]
@@ -392,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "2aea2968c0302317b824a4f3c6d6863aba3da5aa275a4b098c0abe0fff5d8493"
+hash = "f0b8a7bece987755b2d54eca26ac561369501250e4afad9c9e30685c9b5c8880"
 metafile = true
 
 [[files]]
