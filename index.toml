@@ -11,6 +11,11 @@ hash = "84964d9b2cd01717124dc627e008cdca778f7970509f04127945f9a5191fb463"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "97280c6f029ca84101dc38eb6bafbb7e615e3e0780bc766e0848b2eb0b577202"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "785e74169e884a0535517140796a8448a831abf7f7dfa29cf6326b178c0dcf48"
 metafile = true
@@ -18,6 +23,11 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
+metafile = true
+
+[[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "c51d2f3f669eb227aad3e4009253db17b08a0693edc2a119af6fd98f720fc28b"
 metafile = true
 
 [[files]]
@@ -37,12 +47,12 @@ metafile = true
 
 [[files]]
 file = "mods/borderless-fullscreen.pw.toml"
-hash = "32fcb251b8a5690e74bf73bb400c0dbc3dc1e799562f95ac3de6f74c2f7ee5eb"
+hash = "77a8391ff08715675bff97947c6984291e62f3a1afefcfe285eb67a7cb13d49b"
 metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "88564dd444864a32710007583bf715a361e94ca72c99517ff5b98ef24d4649b4"
+hash = "032ed9d0cfe4b7b964a56d149a5d2487f6a77d5a5a2e47857bc25400a0619903"
 metafile = true
 
 [[files]]
@@ -61,13 +71,18 @@ hash = "fed6e68eacfd81206e9058b6f5532f3f3feb7bf682ae435b4828c68101784a03"
 metafile = true
 
 [[files]]
+file = "mods/cave-dust.pw.toml"
+hash = "da7595cd34dd6dfca2ad10ce38110d27c7b257aea2966a5afb0b84a98a234da5"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "6e746361934be98d7b3856f85d4984a611611dbacbecbcefc14fe12b97c81339"
 metafile = true
 
 [[files]]
 file = "mods/chest-tracker-port.pw.toml"
-hash = "3717f10dad1927d7ef75b9708917539f428328682554bdd24c22aa3b0d37b802"
+hash = "f73fe489f7f7f58c9db4e33cba561e631183d339e300448a1c6f7d1246bcdd1c"
 metafile = true
 
 [[files]]
@@ -87,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "b8901028709d1730c45e031b2f1bb8fbed1460281e387d0e2b0764e49d1f95c0"
+hash = "5b76acfd3274e8b3ac95ba027725303763cc27e60c352ab4f7b58563d0f0f6a7"
 metafile = true
 
 [[files]]
@@ -96,8 +111,18 @@ hash = "c7e5c4ae7f25c1954a2327f5dd1edece3ba9dc07039d39bc9beb435e4a18bf82"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "cab944a3439623906d9f24c12a77aa7209e8f730544179844222e72d9976ea78"
+metafile = true
+
+[[files]]
 file = "mods/cut-through.pw.toml"
 hash = "fa2fa13862386e218469a08f1135e7de12f4e575e2213e7951c90c53641959da"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "78773495609b64dd539a2db03395128f206b75f3fd48922e803213fb5698e69f"
 metafile = true
 
 [[files]]
@@ -183,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "59d8a7808f69deae5bc1c17ed2db6c28cb231398681f6f7902ae7e92da229e1a"
+metafile = true
+
+[[files]]
+file = "mods/in-game-account-switcher.pw.toml"
+hash = "70605d8942dc8a687f5777e506502abf3083369e2946c0bfe1ae729e641c0723"
 metafile = true
 
 [[files]]
@@ -306,6 +336,11 @@ hash = "2aa8b3bfbb96aeff6579224f3438a17831b7f3bf2a6edd986a7dc09525547bc0"
 metafile = true
 
 [[files]]
+file = "mods/notenoughcrashes.pw.toml"
+hash = "783e85f650abcf97bdc9b18d50d6d7fb90d2aa792e2367394a926ca1add934d7"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "2df6e71ac01b886ff496669c5cd6d8c89ca358c655ca4983487d09e6b7d2728c"
 metafile = true
@@ -362,7 +397,7 @@ metafile = true
 
 [[files]]
 file = "mods/respackopts.pw.toml"
-hash = "31ad2138b2ffe18315ea39517ea32e0e1f8351ea7f1d57242f5ea8d418aad219"
+hash = "a2fea653e27b983ceaf3d52e9e272c45cdd20ee3a6aa8e1bc4f45343b2b0aa4c"
 metafile = true
 
 [[files]]
@@ -402,12 +437,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "546965f1ab52fc464c51e36c52305fef231837c22454d22447b8423e379502cd"
+hash = "76f0c3b0f97c781fab964ec383b5031d780814e63abe7c456354187deaafaae2"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "722007a08065b27337e39edbbdb6a34067bbbe523f36a968d9861b9714144368"
+hash = "c75f5e9a285cf6195065ba85e73081990f990de6efc7e2262a6eafe12d3dc277"
 metafile = true
 
 [[files]]
