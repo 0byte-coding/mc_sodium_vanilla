@@ -1,13 +1,13 @@
 name = "Remove Reloading Screen"
-filename = "rrls-5.2.7+mc.26.2.jar"
+filename = "rrls-4.0.6.1+mc1.20.1-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZP7xHXtw/versions/MDNaKmgK/rrls-5.2.7%2Bmc.26.2.jar"
+url = "https://cdn.modrinth.com/data/ZP7xHXtw/versions/VHNE9K3D/rrls-4.0.6.1%2Bmc1.20.1-fabric.jar"
 hash-format = "sha512"
-hash = "a3540ad60af1ee2f274057f306d52a00d7bff2b37922a52db62e821e0e6d69b3fd73a13616dda343e21c75e60c53cda5bf314f8c58b5354285b70bd8d6c91cb6"
+hash = "713a2c044a767f15edca518bff03ddb974ff15832fc8f7e3b059a906f27fd8e3c5684053ee086db1a449925a879272d000c75a9c53d0380a348743d3020481ee"
 
 [update]
 [update.modrinth]
 mod-id = "ZP7xHXtw"
-version = "MDNaKmgK"
+version = "VHNE9K3D"
