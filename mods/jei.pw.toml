@@ -1,13 +1,13 @@
 name = "Just Enough Items (JEI)"
-filename = "jei-1.20.1-fabric-15.21.0.140.jar"
+filename = "jei-1.21.1-fabric-19.39.0.372.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/6AVwLr10/jei-1.20.1-fabric-15.21.0.140.jar"
+url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/NLrbFQDk/jei-1.21.1-fabric-19.39.0.372.jar"
 hash-format = "sha512"
-hash = "931d0a4fa66dca90b418d1d9f381e77dcc114872b47365fa71b64778fe3f5f210bb8cd1588853fd0570f27da9ec2332db92e203d27caaeaa42c38fdb178c2509"
+hash = "3fc2bc434ef2b0fee3c0a47415c3c0af9e6eb6b38a6a3357d8f8dc4110d3de068e34ae07e9c4120250e905dd1dda8a621db08570a67cda71bb78ec3ba35ae04d"
 
 [update]
 [update.modrinth]
 mod-id = "u6dRKJwZ"
-version = "6AVwLr10"
+version = "NLrbFQDk"
