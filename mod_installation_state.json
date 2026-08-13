@@ -16,7 +16,17 @@
       "method": "modrinth"
     },
     {
+      "identifier": "iris",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "entityculling",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ferrite-core",
       "category": "optimization",
       "method": "modrinth"
     },
@@ -43,6 +53,11 @@
     {
       "identifier": "modernfix",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "simple-voice-chat",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -101,6 +116,11 @@
       ]
     },
     {
+      "identifier": "not-enough-animations",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "dynamic-fps",
       "category": "optimization",
       "method": "modrinth"
@@ -118,6 +138,11 @@
     {
       "identifier": "lambdynamiclights",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "mouse-tweaks",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -156,6 +181,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "shulkerboxtooltip",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "fallingleaves",
       "category": "visual",
       "method": "modrinth"
@@ -167,6 +197,16 @@
     },
     {
       "identifier": "lazydfu",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "rrls",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "lmd",
       "category": "optimization",
       "method": "modrinth"
     },
@@ -186,8 +226,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "blur-plus",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -207,6 +257,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "gamma-utils",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
       "identifier": "female-gender",
       "category": "visual",
       "method": "modrinth"
@@ -222,8 +277,18 @@
       "method": "modrinth"
     },
     {
+      "identifier": "3dskinlayers",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "ears",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -234,37 +299,13 @@
   ],
   "failed": [
     {
-      "identifier": "iris",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ferrite-core",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "immediatelyfast",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "simple-voice-chat",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "zoomify",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -321,12 +362,6 @@
       "alternatives": []
     },
     {
-      "identifier": "mouse-tweaks",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "modelfix",
       "category": "visual",
       "method": "modrinth",
@@ -341,12 +376,6 @@
     {
       "identifier": "clumps",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "shulkerboxtooltip",
-      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -393,20 +422,8 @@
       "alternatives": []
     },
     {
-      "identifier": "rrls",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "better-mount-hud",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "lmd",
-      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
@@ -424,12 +441,6 @@
     },
     {
       "identifier": "cut-through",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "what-are-they-up-to",
       "category": "cheating",
       "method": "modrinth",
       "alternatives": []
@@ -471,12 +482,6 @@
       "alternatives": []
     },
     {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -486,18 +491,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "gamma-utils",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "3dskinlayers",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
     },
     {
       "identifier": "stylish-effects",
@@ -544,12 +537,6 @@
     {
       "identifier": "signed-paintings",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
