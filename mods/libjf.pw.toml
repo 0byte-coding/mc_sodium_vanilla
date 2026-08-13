@@ -1,0 +1,13 @@
+name = "LibJF"
+filename = "libjf-2.9.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/2.9.2/libjf-2.9.2.jar"
+hash-format = "sha512"
+hash = "e2829a6d1ee8023d4389ae1e630ea431027e6b627f4a0a4429ffd715d284f62deda5b24a2f3f11b56902d7d1e529b5fd4ae07aa7498ef93f909348c5ca847cbb"
+
+[update]
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "k7ICilIW"
