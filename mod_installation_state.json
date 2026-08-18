@@ -11,6 +11,21 @@
       "method": "modrinth"
     },
     {
+      "identifier": "tweakeroo",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "minihud",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "litematica",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "calcmod",
       "category": "useful",
       "method": "modrinth"
@@ -110,24 +125,6 @@
     },
     {
       "identifier": "simple-voice-chat",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "tweakeroo",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "minihud",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "litematica",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
