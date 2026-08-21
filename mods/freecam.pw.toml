@@ -1,13 +1,13 @@
 name = "Freecam"
-filename = "freecam-fabric-1.4.1-beta.3+mc26.2.jar"
+filename = "freecam-fabric-1.3.0+mc1.21.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/XeEZ3fK2/versions/pps2kBUB/freecam-fabric-1.4.1-beta.3%2Bmc26.2.jar"
+url = "https://cdn.modrinth.com/data/XeEZ3fK2/versions/Cg10zLnR/freecam-fabric-1.3.0%2Bmc1.21.jar"
 hash-format = "sha512"
-hash = "406ea218edd39899c3dc27d194ee83b0fad52d1da006fe00a294210ac01c4104f36736b88dc9fab1a85bebc74ea0d459dad89dc0a29429dd7b56fa8155fa3a6f"
+hash = "3a53e518cf4457f238a7f5b63b4f8fbd04cffb6a4bac7b7a57792990f434c155ecfc17fedef29db8f3f4ff7f51ff76ad3f4a3b062bdf73d23f91a11361d4429c"
 
 [update]
 [update.modrinth]
 mod-id = "XeEZ3fK2"
-version = "pps2kBUB"
+version = "Cg10zLnR"
