@@ -245,11 +245,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "yosbr",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "capes",
       "category": "visual",
       "method": "modrinth"
@@ -310,11 +305,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "sound",
       "category": "useful",
       "method": "modrinth"
@@ -326,11 +316,6 @@
     },
     {
       "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth"
     },
@@ -469,6 +454,12 @@
       "alternatives": []
     },
     {
+      "identifier": "yosbr",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth",
@@ -488,6 +479,18 @@
     },
     {
       "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "particle-rain",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
