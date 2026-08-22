@@ -1,13 +1,13 @@
 name = "Continuity"
-filename = "continuity-3.0.0+1.19.4.jar"
+filename = "continuity-3.0.0-beta.2+1.20.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/1IjD5062/versions/kHdjiepB/continuity-3.0.0%2B1.19.4.jar"
+url = "https://cdn.modrinth.com/data/1IjD5062/versions/ImUFj5Gl/continuity-3.0.0-beta.2%2B1.20.jar"
 hash-format = "sha512"
-hash = "7d86c790aa0b93a39a2849c8437c38e79489df3c249c40527003b4eaf2d30690084c44d96eb36bc924412a9de874b24899fd49cbb584f79c776e477e20539244"
+hash = "516ace2e6f11ee8a7559d4519350cf00743d17ad6170c18886f9cd45c89900e86a6cd4e0ba67877657387d0a91704b6e57584a228d5c74889f6e84fd38857f5d"
 
 [update]
 [update.modrinth]
 mod-id = "1IjD5062"
-version = "kHdjiepB"
+version = "ImUFj5Gl"
