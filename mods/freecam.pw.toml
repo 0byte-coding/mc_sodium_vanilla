@@ -1,0 +1,13 @@
+name = "Freecam"
+filename = "freecam-fabric-1.4.1-rc.1+mc1.17.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XeEZ3fK2/versions/QaTR74Du/freecam-fabric-1.4.1-rc.1%2Bmc1.17.1.jar"
+hash-format = "sha512"
+hash = "4f44d4a4b19a36c224cdceaf83c799de1aa32854394863582cab12a9a4bd238fd6424b218360362a011e47c0587ea2d3155b209ba61056d4a0adb09965357cbe"
+
+[update]
+[update.modrinth]
+mod-id = "XeEZ3fK2"
+version = "QaTR74Du"
