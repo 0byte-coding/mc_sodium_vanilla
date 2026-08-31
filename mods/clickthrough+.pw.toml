@@ -1,13 +1,13 @@
 name = "ClickThrough Plus"
-filename = "clickthrough-plus-3.6.5+26.1.2-fabric.jar"
+filename = "clickthrough-plus-fabric-3.5.0+1.19.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/fJi8nm80/versions/JMmN2bhs/clickthrough-plus-3.6.5%2B26.1.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/fJi8nm80/versions/r3wnIXJV/clickthrough-plus-fabric-3.5.0%2B1.19.2.jar"
 hash-format = "sha512"
-hash = "264f21a9b17b887498f4f156099295caece8febe9daefe75f27177b55b6eb52980d44f96dca231ed730f4b5af1a56c293f590a8efafb92b2d4f4f200d384018c"
+hash = "c54a5ee35062b275cd802da58eb965b0792eda6aa89f79d6c9299408376666f26313576c94255566360e3cb65953607b6f2c09719f889afa33138e84acc74cf7"
 
 [update]
 [update.modrinth]
 mod-id = "fJi8nm80"
-version = "JMmN2bhs"
+version = "r3wnIXJV"
