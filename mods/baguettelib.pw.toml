@@ -1,0 +1,13 @@
+name = "BaguetteLib"
+filename = "baguettelib-26.2-Fabric-2.0.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/OfKzpbRU/versions/dqvmJFYA/baguettelib-26.2-Fabric-2.0.5.jar"
+hash-format = "sha512"
+hash = "e05247925d8fce6a9b615ffce1897844987aad025bc6f5d9eb0a3060785e17439655cbcd3f908505b37406d0be44124be4c8ea9eea32b38f380166e69a9b7a61"
+
+[update]
+[update.modrinth]
+mod-id = "OfKzpbRU"
+version = "dqvmJFYA"
