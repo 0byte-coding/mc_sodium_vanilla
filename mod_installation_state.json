@@ -190,6 +190,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "debugify",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "clumps",
       "category": "optimization",
       "method": "modrinth"
@@ -227,6 +232,11 @@
     {
       "identifier": "c2me-fabric",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ambientsounds",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -320,6 +330,16 @@
       "method": "modrinth"
     },
     {
+      "identifier": "cave-dust",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "rightclickharvest",
       "category": "cheating",
       "method": "modrinth",
@@ -396,6 +416,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "resourcify",
       "category": "useful",
       "method": "modrinth"
@@ -438,20 +463,8 @@
       "alternatives": []
     },
     {
-      "identifier": "debugify",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "ebe",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ambientsounds",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -480,18 +493,6 @@
       "alternatives": []
     },
     {
-      "identifier": "cave-dust",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -506,12 +507,6 @@
     {
       "identifier": "jjelytraswap",
       "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
