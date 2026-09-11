@@ -245,11 +245,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "yosbr",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "capes",
       "category": "visual",
       "method": "modrinth"
@@ -326,11 +321,6 @@
     },
     {
       "identifier": "highlight",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth"
     },
@@ -469,6 +459,12 @@
       "alternatives": []
     },
     {
+      "identifier": "yosbr",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth",
@@ -488,6 +484,12 @@
     },
     {
       "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "cave-dust",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
