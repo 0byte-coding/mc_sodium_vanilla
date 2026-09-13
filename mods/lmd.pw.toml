@@ -1,13 +1,13 @@
 name = "Let Me Despawn"
-filename = "letmedespawn-fabric-26.2-1.26.9.1.jar"
+filename = "letmedespawn-1.20.x-fabric-1.5.0.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/vE2FN5qn/versions/UgYCue3W/letmedespawn-fabric-26.2-1.26.9.1.jar"
+url = "https://cdn.modrinth.com/data/vE2FN5qn/versions/rOkgwJ12/letmedespawn-1.20.x-fabric-1.5.0.jar"
 hash-format = "sha512"
-hash = "d0109a3ad466664e769cb5cd54006012ac04eff69f855e94d58f0218a1db303480de02ba6cb5d9d7bf9044d4a69a1283ca4e805825cecc1855571452b19f2eb6"
+hash = "9cd165f407e16445d70d3ba916df732e41b769384a133b08291d400fed20c3f1a00a225e81b693542e914917e10ab5b7dc1c9ca62c5c596f76453fdcf010ff41"
 
 [update]
 [update.modrinth]
 mod-id = "vE2FN5qn"
-version = "UgYCue3W"
+version = "rOkgwJ12"
