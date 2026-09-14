@@ -1,0 +1,13 @@
+name = "MezzConfig"
+filename = "mezz_config-1.21.1-fabric-0.5.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7tEfOcA7/versions/ATwiLF21/mezz_config-1.21.1-fabric-0.5.7.jar"
+hash-format = "sha512"
+hash = "08893cbe3eccf08de3248663891e337fb128f267c8c344ad340b09cbc4a0095c368e98d0e6e60f6dbd02b2c6ab8ea6359f90eb5a2c80f440d96cdf7456b17331"
+
+[update]
+[update.modrinth]
+mod-id = "7tEfOcA7"
+version = "ATwiLF21"
