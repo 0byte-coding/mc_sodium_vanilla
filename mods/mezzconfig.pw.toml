@@ -1,0 +1,13 @@
+name = "MezzConfig"
+filename = "mezz_config-1.21.1-fabric-0.5.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7tEfOcA7/versions/C6wYbfO7/mezz_config-1.21.1-fabric-0.5.8.jar"
+hash-format = "sha512"
+hash = "b6ce26e8003401eb1d8b919c95912c038363ee804ab601bbfb39ecd8add8d0429398ee4c99ed1ca4e392968f9a8015bd4c9f8243db7b84fd0d001db5b39f19d9"
+
+[update]
+[update.modrinth]
+mod-id = "7tEfOcA7"
+version = "C6wYbfO7"
