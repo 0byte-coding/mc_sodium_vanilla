@@ -21,6 +21,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "entityculling",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "ferrite-core",
       "category": "optimization",
       "method": "modrinth"
@@ -36,11 +41,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "immediatelyfast",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "sodium-extra",
       "category": "optimization",
       "method": "modrinth"
@@ -51,7 +51,27 @@
       "method": "modrinth"
     },
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "simple-voice-chat",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "tweakeroo",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "minihud",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "litematica",
       "category": "useful",
       "method": "modrinth"
     },
@@ -81,7 +101,22 @@
       "method": "modrinth"
     },
     {
-      "identifier": "continuity",
+      "identifier": "chest-tracker",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "chest-tracker-port",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "chest-search-bar",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "not-enough-animations",
       "category": "visual",
       "method": "modrinth"
     },
@@ -91,41 +126,12 @@
       "method": "modrinth"
     },
     {
-      "identifier": "jade",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "moreculling",
+      "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth"
     },
     {
       "identifier": "carpet",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "rei",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "emi",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "eiv",
-          "method": "modrinth"
-        }
-      ]
-    },
-    {
-      "identifier": "sound-physics-remastered",
       "category": "useful",
       "method": "modrinth"
     },
@@ -145,13 +151,33 @@
       "method": "modrinth"
     },
     {
-      "identifier": "clumps",
+      "identifier": "krypton",
       "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "enchantment-descriptions",
+      "category": "visual",
       "method": "modrinth"
     },
     {
       "identifier": "presence-footsteps",
       "category": "useful",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "betterf3",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "ebe",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "inventory-profiles-next",
+      "category": "cheating",
       "method": "modrinth"
     },
     {
@@ -165,28 +191,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "c2me-fabric",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "ambientsounds",
+      "identifier": "yosbr",
       "category": "useful",
       "method": "modrinth"
     },
     {
-      "identifier": "badoptimizations",
+      "identifier": "lazydfu",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "capes",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "dynamiccrosshair",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -200,22 +211,32 @@
       "method": "modrinth"
     },
     {
+      "identifier": "better-third-person",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "replaymod",
+      "category": "useful",
+      "method": "modrinth"
+    },
+    {
       "identifier": "invmove",
       "category": "cheating",
       "method": "modrinth"
     },
     {
-      "identifier": "make_bubbles_pop",
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
     },
     {
-      "identifier": "durability-tooltip",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "sound",
+      "identifier": "notenoughcrashes",
       "category": "useful",
       "method": "modrinth"
     },
@@ -231,6 +252,11 @@
       ]
     },
     {
+      "identifier": "dripsounds",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "gamma-utils",
       "category": "cheating",
       "method": "modrinth"
@@ -238,6 +264,11 @@
     {
       "identifier": "female-gender",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "pistorder",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -251,23 +282,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "real-arrow-tip",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "borderless-fullscreen",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "clickthrough+",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "ears",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -278,32 +299,8 @@
   ],
   "failed": [
     {
-      "identifier": "entityculling",
+      "identifier": "immediatelyfast",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "tweakeroo",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "minihud",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "litematica",
-      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -314,22 +311,13 @@
       "alternatives": []
     },
     {
-      "identifier": "chest-tracker",
-      "category": "cheating",
+      "identifier": "continuity",
+      "category": "visual",
       "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "chest-tracker-port",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "chest-search-bar",
-          "method": "modrinth"
-        }
-      ]
+      "alternatives": []
     },
     {
-      "identifier": "not-enough-animations",
+      "identifier": "jade",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -341,7 +329,7 @@
       "alternatives": []
     },
     {
-      "identifier": "memoryleakfix",
+      "identifier": "moreculling",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
@@ -353,19 +341,28 @@
       "alternatives": []
     },
     {
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "emi",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "eiv",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
+      "identifier": "sound-physics-remastered",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "modelfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "krypton",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "enchantment-descriptions",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -377,20 +374,8 @@
       "alternatives": []
     },
     {
-      "identifier": "betterf3",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "ebe",
+      "identifier": "clumps",
       "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "inventory-profiles-next",
-      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -401,8 +386,26 @@
       "alternatives": []
     },
     {
-      "identifier": "yosbr",
+      "identifier": "c2me-fabric",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ambientsounds",
       "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "badoptimizations",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "capes",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -413,8 +416,8 @@
       "alternatives": []
     },
     {
-      "identifier": "lazydfu",
-      "category": "optimization",
+      "identifier": "dynamiccrosshair",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
@@ -425,25 +428,19 @@
       "alternatives": []
     },
     {
-      "identifier": "better-third-person",
+      "identifier": "make_bubbles_pop",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "replaymod",
-      "category": "useful",
+      "identifier": "durability-tooltip",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
       "identifier": "cut-through",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "what-are-they-up-to",
       "category": "cheating",
       "method": "modrinth",
       "alternatives": []
@@ -455,14 +452,14 @@
       "alternatives": []
     },
     {
-      "identifier": "blur-plus",
+      "identifier": "particle-rain",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
+      "identifier": "sound",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -485,12 +482,6 @@
       "alternatives": []
     },
     {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "particular",
       "category": "visual",
       "method": "modrinth",
@@ -500,18 +491,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "pistorder",
-      "category": "useful",
-      "method": "modrinth",
-      "alternatives": []
     },
     {
       "identifier": "stylish-effects",
@@ -538,17 +517,41 @@
       "alternatives": []
     },
     {
-      "identifier": "signed-paintings",
+      "identifier": "real-arrow-tip",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "in-game-account-switcher",
+      "identifier": "borderless-fullscreen",
       "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "clickthrough+",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "signed-paintings",
+      "category": "visual",
       "method": "modrinth",
       "alternatives": []
     }
   ],
-  "alternative_installed": []
+  "alternative_installed": [
+    {
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "rei",
+          "method": "modrinth"
+        }
+      ]
+    }
+  ]
 }
