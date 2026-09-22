@@ -1,13 +1,13 @@
 name = "JamLib"
-filename = "jamlib-fabric-1.20.2-1.0.3+1.20.2.jar"
+filename = "jamlib-fabric-1.0.9+1.20.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/IYY9Siz8/versions/9AcFVekR/jamlib-fabric-1.20.2-1.0.3%2B1.20.2.jar"
+url = "https://cdn.modrinth.com/data/IYY9Siz8/versions/aIRj8MPw/jamlib-fabric-1.0.9%2B1.20.4.jar"
 hash-format = "sha512"
-hash = "f9be070cd3bf8262106638f731a53cf9b20275bcee1a387269bc263634b8e91ee5de71359c203de084ed2340ef1bc7ba5161ba24ab047f19a8de43a6f607c27f"
+hash = "7ead228781ad6a72d5491744069ad68de1f603fa0e722931070839d8e8f645239db5d15f763c5110bdd7e064bcf9645e0dbd207ea3caf116eef059698242d411"
 
 [update]
 [update.modrinth]
 mod-id = "IYY9Siz8"
-version = "9AcFVekR"
+version = "aIRj8MPw"
