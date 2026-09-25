@@ -190,11 +190,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "debugify",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "clumps",
       "category": "optimization",
       "method": "modrinth"
@@ -330,11 +325,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "rightclickharvest",
       "category": "cheating",
       "method": "modrinth",
@@ -344,11 +334,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "dripsounds",
-      "category": "visual",
-      "method": "modrinth"
     },
     {
       "identifier": "gamma-utils",
@@ -391,11 +376,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "jjelytraswap",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "real-arrow-tip",
       "category": "visual",
       "method": "modrinth"
@@ -418,11 +398,6 @@
     {
       "identifier": "signed-paintings",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -468,6 +443,12 @@
       "alternatives": []
     },
     {
+      "identifier": "debugify",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
@@ -504,8 +485,32 @@
       "alternatives": []
     },
     {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "particular",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "dripsounds",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "jjelytraswap",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
