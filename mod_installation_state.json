@@ -230,11 +230,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ambientsounds",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "badoptimizations",
       "category": "optimization",
       "method": "modrinth"
@@ -451,6 +446,12 @@
     {
       "identifier": "ebe",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ambientsounds",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
