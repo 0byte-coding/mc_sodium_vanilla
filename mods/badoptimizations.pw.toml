@@ -1,13 +1,13 @@
 name = "BadOptimizations"
-filename = "BadOptimizations-2.4.1-26.3-fabric.jar"
+filename = "BadOptimizations-2.3.3-1.21.9-21.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/Sp0ctspw/BadOptimizations-2.4.1-26.3-fabric.jar"
+url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/6uGJM3JZ/BadOptimizations-2.3.3-1.21.9-21.10.jar"
 hash-format = "sha512"
-hash = "048a0979807afb96bae7801b7445746c985081bb55fab9b80b286036234a9869cc84f83c40ab77a2600b7e06ad44178ee17935b706b751c9b38f87ebc6e180f8"
+hash = "537ac9bbf9674e6bca4a984bf6638e3912f8426889645485d3903a4af2a1681f4bf117677a4abd5f6bda0ed1700ac7adf83ba84194c66f09fed7849e7bd1e6dc"
 
 [update]
 [update.modrinth]
 mod-id = "g96Z4WVZ"
-version = "Sp0ctspw"
+version = "6uGJM3JZ"

@@ -1,13 +1,13 @@
 name = "Cut Through"
-filename = "cutthrough-v26.3.0-mc26.3.x+fabric.jar"
+filename = "CutThrough-v21.9.0+mc1.21.9-Fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Dk6su9JN/versions/PCWjwufI/cutthrough-v26.3.0-mc26.3.x%2Bfabric.jar"
+url = "https://cdn.modrinth.com/data/Dk6su9JN/versions/56UQLsHg/CutThrough-v21.9.0%2Bmc1.21.9-Fabric.jar"
 hash-format = "sha512"
-hash = "74b20ba20cca86f6cdec9d99a8495e37afff28f1bcbb47a7e1642bcee58f673e6d8b56f3271325c340dfa37c0ad5e555004fab95b29db6f68dca872bd9d21e8f"
+hash = "063db7965d12ea5ac24d87a2f204e9b975e150f4537dde185f1ad9ec4d2b856d264737add73987077d77a25b9fafdc340fc2d16ac816034c42d3c9bfb159f355"
 
 [update]
 [update.modrinth]
 mod-id = "Dk6su9JN"
-version = "PCWjwufI"
+version = "56UQLsHg"
