@@ -1,13 +1,13 @@
 name = "LibJF"
-filename = "libjf-3.19.12.jar"
+filename = "libjf-26.1.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WKwQAwke/versions/nrxuA7sO/libjf-3.19.12.jar"
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/X6T6G2ad/libjf-26.1.4.jar"
 hash-format = "sha512"
-hash = "ab441123a02af8a6ff59ed71145255c5a528240daa59579ee354681b9ee60aa745cdaaeeedcc323111433d4a9c78051b7b7086ff663f56a4d0a13f856bb9f0e5"
+hash = "6b5458cd500db620afc7cf87ff778bf3b457fbc3327c3607b9ea77a1919d8f35055e3d1875c598a4dc4265e44d950682666876e15399b5f62d669792075b4fda"
 
 [update]
 [update.modrinth]
 mod-id = "WKwQAwke"
-version = "nrxuA7sO"
+version = "X6T6G2ad"

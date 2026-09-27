@@ -88,11 +88,11 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [Particle Rain](https://modrinth.com/mod/particle-rain)
 - [x] [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin)
 - [x] [Highlight](https://modrinth.com/mod/highlight)
-- [ ] [Cave Dust](https://modrinth.com/mod/cave-dust)
+- [x] [Cave Dust](https://modrinth.com/mod/cave-dust)
 - [ ] [Particular ✨](https://modrinth.com/mod/particular)
   - **Alternatives:**
     - [x] [Particular ✨ Reforged](https://modrinth.com/mod/particular-reforged)
-- [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
+- [ ] [Drip Sounds](https://modrinth.com/mod/dripsounds)
 - [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 - [x] [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 - [x] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
@@ -143,6 +143,6 @@ The modpack installs all available mods from the list defined below for the spec
 - [ ] [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
 - [x] [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
 - [x] [Gamma Utils (Fullbright)](https://modrinth.com/mod/gamma-utils)
-- [x] [JJElytraSwap](https://modrinth.com/mod/jjelytraswap)
+- [ ] [JJElytraSwap](https://modrinth.com/mod/jjelytraswap)
 - [x] [ClickThrough Plus](https://modrinth.com/mod/clickthrough+)
 
