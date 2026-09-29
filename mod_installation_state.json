@@ -365,6 +365,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "particle-rain",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "show-me-your-skin",
       "category": "visual",
       "method": "modrinth"
@@ -431,6 +436,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "simple-armor-hud",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "jjelytraswap",
       "category": "cheating",
       "method": "modrinth"
@@ -464,12 +474,6 @@
       "alternatives": []
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "sound",
       "category": "useful",
       "method": "modrinth",
@@ -485,12 +489,6 @@
           "method": "modrinth"
         }
       ]
-    },
-    {
-      "identifier": "simple-armor-hud",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
     },
     {
       "identifier": "inventory-particles",
