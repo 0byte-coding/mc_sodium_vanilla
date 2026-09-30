@@ -1,13 +1,13 @@
 name = "Pistorder"
-filename = "pistorder-mc1.19-v1.5.0-fabric.jar"
+filename = "pistorder-v1.6.15-mc1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/lpin1bEg/versions/mc1.19-v1.5.0/pistorder-mc1.19-v1.5.0-fabric.jar"
+url = "https://cdn.modrinth.com/data/lpin1bEg/versions/ak3SuwN3/pistorder-v1.6.15-mc1.20.1.jar"
 hash-format = "sha512"
-hash = "abddc5bfa4f0131c42118444823f10bc572b199cd5e6d17f64f52ff15ca649ee957f681d7248434e3a0ee0b35654414556ce67ee4a951b051ab772f7f3b0450e"
+hash = "cc20e17c3567a95a0b9baab42034520cc7ea77997696f35553a5a3941d5badfa86c4a1165198b010f7b7fac61dd45e1756a166a2dbdd4614db932feb5901619a"
 
 [update]
 [update.modrinth]
 mod-id = "lpin1bEg"
-version = "X4yUBymy"
+version = "ak3SuwN3"
