@@ -1,13 +1,13 @@
 name = "MezzConfig"
-filename = "mezz_config-1.20.1-fabric-0.6.6.jar"
+filename = "mezz_config-1.21.1-fabric-0.6.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7tEfOcA7/versions/JLFEENZB/mezz_config-1.20.1-fabric-0.6.6.jar"
+url = "https://cdn.modrinth.com/data/7tEfOcA7/versions/tG7wbWRM/mezz_config-1.21.1-fabric-0.6.6.jar"
 hash-format = "sha512"
-hash = "70239d17a9834d89f755ced446162e297d7a99f2b7df9a392de506405687bca73dd4b81b6a7a32f4ec4654e22a699f21e96a19bb8c53032bb96872b4cd49674a"
+hash = "1b332195a8da15cfe510ceaf3e8c0bdf7cc932fc399d452096395e81469e19285164ceaa1e51cf3c6e11bbc5029f7b30a326039efa445a0b72f8408fc90a36a9"
 
 [update]
 [update.modrinth]
 mod-id = "7tEfOcA7"
-version = "JLFEENZB"
+version = "tG7wbWRM"
