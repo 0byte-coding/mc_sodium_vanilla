@@ -205,11 +205,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "betterf3",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "inventory-profiles-next",
       "category": "cheating",
       "method": "modrinth"
@@ -270,18 +265,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "better-mount-hud",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "lmd",
       "category": "optimization",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "replaymod",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -310,23 +295,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "sound",
       "category": "useful",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "highlight",
-      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -356,11 +326,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "pistorder",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "respackopts",
       "category": "useful",
       "method": "modrinth"
@@ -372,11 +337,6 @@
     },
     {
       "identifier": "stylish-effects",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "simple-armor-hud",
       "category": "visual",
       "method": "modrinth"
     },
@@ -463,6 +423,12 @@
       "alternatives": []
     },
     {
+      "identifier": "betterf3",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "ebe",
       "category": "optimization",
       "method": "modrinth",
@@ -475,8 +441,20 @@
       "alternatives": []
     },
     {
+      "identifier": "better-mount-hud",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "better-third-person",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "replaymod",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
@@ -488,6 +466,24 @@
     },
     {
       "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "particle-rain",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "highlight",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -506,6 +502,18 @@
     },
     {
       "identifier": "dripsounds",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "pistorder",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "simple-armor-hud",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
