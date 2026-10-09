@@ -311,6 +311,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "highlight",
       "category": "visual",
       "method": "modrinth"
@@ -487,12 +492,6 @@
     },
     {
       "identifier": "tooltipfix",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "show-me-your-skin",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
