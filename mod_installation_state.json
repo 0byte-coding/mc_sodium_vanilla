@@ -56,11 +56,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -350,17 +345,17 @@
       "method": "modrinth"
     },
     {
-      "identifier": "what-are-they-up-to",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "tooltipfix",
       "category": "visual",
       "method": "modrinth"
     },
     {
       "identifier": "blur-plus",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "particle-rain",
       "category": "visual",
       "method": "modrinth"
     },
@@ -449,14 +444,15 @@
       "identifier": "in-game-account-switcher",
       "category": "useful",
       "method": "modrinth"
-    },
-    {
-      "identifier": "resourcify",
-      "category": "useful",
-      "method": "modrinth"
     }
   ],
   "failed": [
+    {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
     {
       "identifier": "cut-through",
       "category": "cheating",
@@ -464,8 +460,8 @@
       "alternatives": []
     },
     {
-      "identifier": "particle-rain",
-      "category": "visual",
+      "identifier": "what-are-they-up-to",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -513,6 +509,12 @@
     {
       "identifier": "signed-paintings",
       "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "resourcify",
+      "category": "useful",
       "method": "modrinth",
       "alternatives": []
     }
