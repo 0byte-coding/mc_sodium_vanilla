@@ -31,6 +31,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "dynamic-fps",
+      "category": "optimization",
+      "method": "modrinth"
+    },
+    {
       "identifier": "inventory-profiles-next",
       "category": "cheating",
       "method": "modrinth"
@@ -183,12 +188,6 @@
     {
       "identifier": "continuity",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "dynamic-fps",
-      "category": "optimization",
       "method": "modrinth",
       "alternatives": []
     },
