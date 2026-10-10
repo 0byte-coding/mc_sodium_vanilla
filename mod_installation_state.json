@@ -51,11 +51,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "simple-voice-chat",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "tweakeroo",
       "category": "cheating",
       "method": "modrinth"
@@ -71,18 +66,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "xaeros-world-map",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "xaeros-minimap",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "freecam",
-      "category": "cheating",
+      "identifier": "zoomify",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -126,8 +111,8 @@
       "method": "modrinth"
     },
     {
-      "identifier": "jade",
-      "category": "visual",
+      "identifier": "moreculling",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -161,11 +146,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "krypton",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "enchantment-descriptions",
       "category": "visual",
       "method": "modrinth"
@@ -196,11 +176,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "shulkerboxtooltip",
-      "category": "cheating",
-      "method": "modrinth"
-    },
-    {
       "identifier": "visuality",
       "category": "visual",
       "method": "modrinth"
@@ -226,6 +201,11 @@
       "method": "modrinth"
     },
     {
+      "identifier": "dynamiccrosshair",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth"
@@ -233,6 +213,11 @@
     {
       "identifier": "better-mount-hud",
       "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "lmd",
+      "category": "optimization",
       "method": "modrinth"
     },
     {
@@ -247,6 +232,11 @@
     },
     {
       "identifier": "make_bubbles_pop",
+      "category": "visual",
+      "method": "modrinth"
+    },
+    {
+      "identifier": "durability-tooltip",
       "category": "visual",
       "method": "modrinth"
     },
@@ -287,11 +277,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "pistorder",
-      "category": "useful",
-      "method": "modrinth"
-    },
-    {
       "identifier": "respackopts",
       "category": "useful",
       "method": "modrinth"
@@ -302,13 +287,13 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ears",
-      "category": "visual",
+      "identifier": "jjelytraswap",
+      "category": "cheating",
       "method": "modrinth"
     },
     {
-      "identifier": "in-game-account-switcher",
-      "category": "useful",
+      "identifier": "ears",
+      "category": "visual",
       "method": "modrinth"
     },
     {
@@ -331,7 +316,31 @@
       "alternatives": []
     },
     {
-      "identifier": "zoomify",
+      "identifier": "simple-voice-chat",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "xaeros-world-map",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "xaeros-minimap",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "freecam",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "jade",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -343,16 +352,14 @@
       "alternatives": []
     },
     {
-      "identifier": "moreculling",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "jei",
       "category": "cheating",
       "method": "modrinth",
       "alternatives": [
+        {
+          "identifier": "rei",
+          "method": "modrinth"
+        },
         {
           "identifier": "emi",
           "method": "modrinth"
@@ -376,8 +383,20 @@
       "alternatives": []
     },
     {
+      "identifier": "krypton",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "debugify",
       "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "shulkerboxtooltip",
+      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -400,31 +419,13 @@
       "alternatives": []
     },
     {
-      "identifier": "dynamiccrosshair",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "rrls",
       "category": "useful",
       "method": "modrinth",
       "alternatives": []
     },
     {
-      "identifier": "lmd",
-      "category": "optimization",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
       "identifier": "better-third-person",
-      "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "durability-tooltip",
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
@@ -489,6 +490,12 @@
       "alternatives": []
     },
     {
+      "identifier": "pistorder",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "stylish-effects",
       "category": "visual",
       "method": "modrinth",
@@ -503,12 +510,6 @@
     {
       "identifier": "inventory-particles",
       "category": "visual",
-      "method": "modrinth",
-      "alternatives": []
-    },
-    {
-      "identifier": "jjelytraswap",
-      "category": "cheating",
       "method": "modrinth",
       "alternatives": []
     },
@@ -535,19 +536,13 @@
       "category": "visual",
       "method": "modrinth",
       "alternatives": []
+    },
+    {
+      "identifier": "in-game-account-switcher",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
     }
   ],
-  "alternative_installed": [
-    {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "rei",
-          "method": "modrinth"
-        }
-      ]
-    }
-  ]
+  "alternative_installed": []
 }

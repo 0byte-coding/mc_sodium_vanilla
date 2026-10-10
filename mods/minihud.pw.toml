@@ -1,13 +1,13 @@
 name = "MiniHUD"
-filename = "minihud-fabric-1.17.1-0.20.0-beaconoverlay.1.jar"
+filename = "minihud-fabric-1.18.0-0.19.0-dev.20211204.230657.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/UMxybHE8/versions/vcPjqvMp/minihud-fabric-1.17.1-0.20.0-beaconoverlay.1.jar"
+url = "https://cdn.modrinth.com/data/UMxybHE8/versions/hf0kOG77/minihud-fabric-1.18.0-0.19.0-dev.20211204.230657.jar"
 hash-format = "sha512"
-hash = "8c74b9a0784e8d9c127829aa564adbfcfe259113c1be9ab0127bfd0ffb1ee37ad2f90770bf8f5c228486498c3557f977fe1893d8b00487f4a59f622b1a55890e"
+hash = "cea8d20cc331388d3014f8a44b656e3e5e28c8b0a16d6d727ae8f2620849bd13dd32a8994cfd45cc79f658a5317b9c1eba06c7458d93375e4e902337a0ecb22b"
 
 [update]
 [update.modrinth]
 mod-id = "UMxybHE8"
-version = "vcPjqvMp"
+version = "hf0kOG77"
