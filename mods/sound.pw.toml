@@ -1,13 +1,13 @@
 name = "Sounds"
-filename = "sounds-2.6.0+26.1.2-fabric.jar"
+filename = "sounds-2.5.1+edge+26.2-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/MapuhewT/sounds-2.6.0%2B26.1.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/kv2RxMQu/sounds-2.5.1%2Bedge%2B26.2-fabric.jar"
 hash-format = "sha512"
-hash = "071f6396a8cc4dc618ddaf73ca904a7dddd2e0386ecef7850c22f1602d6b623cdfffe2fe94a33123387c9d0426e1e9ef4b5a9e1f24772c11848ca5e9373cc438"
+hash = "7563d48eea3c195b516130359199ec981826bf1c1aa757b23f5e6f1aca7afb27a5992ac2f37231f9101c5ccb0d13b737a9af37c47169846f826e0b0243188311"
 
 [update]
 [update.modrinth]
 mod-id = "ZouiUX7t"
-version = "MapuhewT"
+version = "kv2RxMQu"
