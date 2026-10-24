@@ -1,13 +1,13 @@
 name = "Mod Menu"
-filename = "modmenu-7.2.2.jar"
+filename = "modmenu-17.0.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/lEkperf6/modmenu-7.2.2.jar"
+url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/cLkYaVuL/modmenu-17.0.1.jar"
 hash-format = "sha512"
-hash = "9a7837e04bb34376611b207a3b20e5fe1c82a4822b42929d5b410809ec4b88ff3cac8821c4568f880775bafa3c079dfc7800f8471356a4046248b12607e855eb"
+hash = "cb68cc39c8da66d05a1d2054a0e7b62144881e0cdb5fd681bc4f337b1313fafac394246f4e0aa0c4b6343db9e9750250a00c1bb72689b762da685ce1ccfee51f"
 
 [update]
 [update.modrinth]
 mod-id = "mOgUt4GM"
-version = "lEkperf6"
+version = "cLkYaVuL"
