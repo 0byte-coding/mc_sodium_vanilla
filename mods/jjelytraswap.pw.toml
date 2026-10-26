@@ -1,13 +1,13 @@
 name = "JJElytraSwap"
-filename = "jjelytraswap-fabric-2.4.0+26.3-dev.jar"
+filename = "JJElytraSwap-1.7.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/CanU29Ke/versions/vjn3REO5/jjelytraswap-fabric-2.4.0%2B26.3-dev.jar"
+url = "https://cdn.modrinth.com/data/CanU29Ke/versions/sOrhupSn/JJElytraSwap-1.7.1.jar"
 hash-format = "sha512"
-hash = "a336d0298c74690f0a904365a7643e9bf6012e88b1765bb17cfa9d8b23e079fa54736d70c44939cfdf699412656387099711ededf470aed704d581ed50636af5"
+hash = "40ee1c305f4ce04b9c5dbe27dadccc71ac5f936825675e5a7ef847256ae3f17558248efd7db8bf4538fa12f7d2cbabc5b54d0abaa09d00f0a47754f7933b5ce7"
 
 [update]
 [update.modrinth]
 mod-id = "CanU29Ke"
-version = "vjn3REO5"
+version = "sOrhupSn"
