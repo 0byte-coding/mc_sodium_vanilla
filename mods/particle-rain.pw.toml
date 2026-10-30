@@ -1,0 +1,13 @@
+name = "Particle Rain"
+filename = "particlerain-4.0.2+1.20.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nrikgvxm/versions/dVNsolpH/particlerain-4.0.2%2B1.20.1-fabric.jar"
+hash-format = "sha512"
+hash = "30d1ca965c4e32c97b61808538baf38aa81c0142f17fcbeb2b67c899c0ee504891660a6208af35c843b1d2ca16fdfcad7999aa11da7abbaec31a958afd3074f0"
+
+[update]
+[update.modrinth]
+mod-id = "nrikgvxm"
+version = "dVNsolpH"
