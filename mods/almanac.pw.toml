@@ -1,0 +1,13 @@
+name = "Almanac"
+filename = "almanac-fabric-1.20.1-1.26.10.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gi02250Z/versions/lEyrsGa4/almanac-fabric-1.20.1-1.26.10.3.jar"
+hash-format = "sha512"
+hash = "11d1acbee0ab0f16ad227a8f5b1ba0a19fc5e5b9e05b7a3b6c23fc234c3a2f0e31e9b4491e34a0ed414fbe60b3700f14b706c5d0ba291d493a94b49323bc8c72"
+
+[update]
+[update.modrinth]
+mod-id = "Gi02250Z"
+version = "lEyrsGa4"
