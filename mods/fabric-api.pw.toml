@@ -1,13 +1,13 @@
 name = "Fabric API"
-filename = "fabric-api-0.136.1+1.21.8.jar"
+filename = "fabric-api-0.138.4+1.21.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/P7dR8mSH/versions/g58ofrov/fabric-api-0.136.1%2B1.21.8.jar"
+url = "https://cdn.modrinth.com/data/P7dR8mSH/versions/tV4Gc0Zo/fabric-api-0.138.4%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "eb1a6b5fc9912c68409493f10f43c3b61adda1d789ede9c83b16d0a95a2eb96bd630472866e163960479eb1b4d1196d09ade5aadc9da62624e800640c706c4a9"
+hash = "5e64c53391dfd1c059777d671c52be17a4e27a29d9bd7340ea9e3f55ce7a770b38db0a15e0966e981ee8c1b9372fb89543a278521624689268acebb85bd5c6e9"
 
 [update]
 [update.modrinth]
 mod-id = "P7dR8mSH"
-version = "g58ofrov"
+version = "tV4Gc0Zo"
