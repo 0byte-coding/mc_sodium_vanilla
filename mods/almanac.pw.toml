@@ -1,13 +1,13 @@
 name = "Almanac"
-filename = "almanac-fabric-1.21.1-1.26.11.1.jar"
+filename = "Almanac-1.21.1-2-fabric-1.5.2.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/Gi02250Z/versions/ta4FXNC7/almanac-fabric-1.21.1-1.26.11.1.jar"
+url = "https://cdn.modrinth.com/data/Gi02250Z/versions/hUgNmeCO/Almanac-1.21.1-2-fabric-1.5.2.jar"
 hash-format = "sha512"
-hash = "09258f109ede85696f61d12c022fc3ce802bb530ae274648853b6ff30286efdaa95db6a549853272c239ee6647f696f7d38aff8bce26bb96454dbfde7f977906"
+hash = "811e3a7172b2e4da98f21d0fba2674a0d9b141c82f78717e7578acc90611dfed7a7756d3514a3484f0393cd6f8829c2d728495544fa7c14eed93577aa08d9a90"
 
 [update]
 [update.modrinth]
 mod-id = "Gi02250Z"
-version = "ta4FXNC7"
+version = "hUgNmeCO"
