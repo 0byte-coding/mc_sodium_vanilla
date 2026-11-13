@@ -95,7 +95,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [Drip Sounds](https://modrinth.com/mod/dripsounds)
 - [x] [Female Gender Mod](https://modrinth.com/mod/female-gender)
 - [x] [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
-- [ ] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
+- [x] [Stylish Effects](https://modrinth.com/mod/stylish-effects)
 - [x] [Simple Armor Hud](https://modrinth.com/mod/simple-armor-hud)
 - [x] [Inventory Particles](https://modrinth.com/mod/inventory-particles)
 - [x] [Real Arrow Tip](https://modrinth.com/mod/real-arrow-tip)
