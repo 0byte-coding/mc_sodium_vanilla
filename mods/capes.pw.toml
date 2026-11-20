@@ -1,13 +1,13 @@
 name = "Capes"
-filename = "capes-1.5.4+1.21.2-fabric.jar"
+filename = "capes-1.5.10+1.21.9-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/89Wsn8GD/versions/mkf1dFwO/capes-1.5.4%2B1.21.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/89Wsn8GD/versions/qagjZeWX/capes-1.5.10%2B1.21.9-fabric.jar"
 hash-format = "sha512"
-hash = "31c2cc5e3ad68884dc9dde34e4844e810b22fcbe3a2b786f6fb769e5d1b32041c9045ac35c537285c86cca9de69957a025b0286a7e29b49076fe0b6c88179120"
+hash = "64ea3b436423849bcd44da2f6d3584c910c9182f66d3cd2917e378b265397f900eae251949237031b833c6abdec1e72527357d05ac07c171ef2fed7c3277253f"
 
 [update]
 [update.modrinth]
 mod-id = "89Wsn8GD"
-version = "mkf1dFwO"
+version = "qagjZeWX"
