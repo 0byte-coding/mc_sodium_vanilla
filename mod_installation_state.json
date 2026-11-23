@@ -56,11 +56,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "modernfix",
-      "category": "optimization",
-      "method": "modrinth"
-    },
-    {
       "identifier": "simple-voice-chat",
       "category": "useful",
       "method": "modrinth"
@@ -159,25 +154,6 @@
       "identifier": "carpet",
       "category": "useful",
       "method": "modrinth"
-    },
-    {
-      "identifier": "jei",
-      "category": "cheating",
-      "method": "modrinth",
-      "alternatives": [
-        {
-          "identifier": "rei",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "emi",
-          "method": "modrinth"
-        },
-        {
-          "identifier": "eiv",
-          "method": "modrinth"
-        }
-      ]
     },
     {
       "identifier": "sound-physics-remastered",
@@ -345,11 +321,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "tooltipfix",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "blur-plus",
       "category": "visual",
       "method": "modrinth"
@@ -365,11 +336,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "show-me-your-skin",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "highlight",
       "category": "visual",
       "method": "modrinth"
@@ -377,11 +343,6 @@
     {
       "identifier": "cave-dust",
       "category": "visual",
-      "method": "modrinth"
-    },
-    {
-      "identifier": "notenoughcrashes",
-      "category": "useful",
       "method": "modrinth"
     },
     {
@@ -472,11 +433,6 @@
       "method": "modrinth"
     },
     {
-      "identifier": "ears",
-      "category": "visual",
-      "method": "modrinth"
-    },
-    {
       "identifier": "signed-paintings",
       "category": "visual",
       "method": "modrinth"
@@ -494,6 +450,12 @@
   ],
   "failed": [
     {
+      "identifier": "modernfix",
+      "category": "optimization",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
       "identifier": "memoryleakfix",
       "category": "optimization",
       "method": "modrinth",
@@ -506,11 +468,62 @@
       "alternatives": []
     },
     {
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "emi",
+          "method": "modrinth"
+        },
+        {
+          "identifier": "eiv",
+          "method": "modrinth"
+        }
+      ]
+    },
+    {
       "identifier": "lazydfu",
       "category": "optimization",
       "method": "modrinth",
       "alternatives": []
+    },
+    {
+      "identifier": "tooltipfix",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "show-me-your-skin",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "notenoughcrashes",
+      "category": "useful",
+      "method": "modrinth",
+      "alternatives": []
+    },
+    {
+      "identifier": "ears",
+      "category": "visual",
+      "method": "modrinth",
+      "alternatives": []
     }
   ],
-  "alternative_installed": []
+  "alternative_installed": [
+    {
+      "identifier": "jei",
+      "category": "cheating",
+      "method": "modrinth",
+      "alternatives": [
+        {
+          "identifier": "rei",
+          "method": "modrinth"
+        }
+      ]
+    }
+  ]
 }
