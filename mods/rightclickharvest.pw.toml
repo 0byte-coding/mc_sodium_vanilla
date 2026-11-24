@@ -1,13 +1,13 @@
 name = "RightClickHarvest"
-filename = "rightclickharvest-fabric-4.5.3+1.21.3.jar"
+filename = "rightclickharvest-fabric-4.7.2-26.3.x.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/Cnejf5xM/versions/rr78jydH/rightclickharvest-fabric-4.5.3%2B1.21.3.jar"
+url = "https://cdn.modrinth.com/data/Cnejf5xM/versions/UDkHxLtI/rightclickharvest-fabric-4.7.2-26.3.x.jar"
 hash-format = "sha512"
-hash = "ca3de0d080ab92fba679fa5c8787aa1deef696472698bb1696b9b14c6a27b3c603f631d6832522b4d2dc0240238a4f79e2ae4bf4e3bb068b9d48564a85b2614f"
+hash = "1e835494b4ca6911283b8b64406be8d0bea61450d2f5d50f683c671fe6698247ab6fee8fdf746eceaef0b2de2f5d5cdab49a29be433eeb6021c8be7282bac2dd"
 
 [update]
 [update.modrinth]
 mod-id = "Cnejf5xM"
-version = "rr78jydH"
+version = "UDkHxLtI"
