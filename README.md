@@ -50,7 +50,7 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [More Culling](https://modrinth.com/mod/moreculling)
 - [ ] [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
 - [x] [Krypton](https://modrinth.com/mod/krypton)
-- [x] [Debugify](https://modrinth.com/mod/debugify)
+- [ ] [Debugify](https://modrinth.com/mod/debugify)
 - [x] [Clumps](https://modrinth.com/mod/clumps)
 - [ ] [Enhanced Block Entities](https://modrinth.com/mod/ebe)
 - [x] [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric)
@@ -118,11 +118,11 @@ The modpack installs all available mods from the list defined below for the spec
 - [x] [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [x] [ReplayMod](https://modrinth.com/mod/replaymod)
 - [x] [Sounds](https://modrinth.com/mod/sound)
-- [x] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
+- [ ] [Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
 - [x] [Pistorder](https://modrinth.com/mod/pistorder)
 - [x] [Respackopts](https://modrinth.com/mod/respackopts)
 - [x] [Borderless Fullscreen](https://modrinth.com/mod/borderless-fullscreen)
-- [x] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
+- [ ] [In-Game Account Switcher](https://modrinth.com/mod/in-game-account-switcher)
 - [x] [Resourcify](https://modrinth.com/mod/resourcify)
 
 #### Cheating
